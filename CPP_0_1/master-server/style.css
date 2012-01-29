@@ -1,0 +1,15 @@
+body {
+	font-family: BitStream Vera Sans, Helvetica, Verdana, Arial, Tahoma, sans-serif;
+}
+td.goodping {
+	background-color: green;
+}
+td.averageping {
+	background-color: yellow;
+}
+td.badping {
+	background-color: red;
+}
+table {
+	border-collapse: collapse;
+}

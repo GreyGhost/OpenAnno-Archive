@@ -1,0 +1,4 @@
+all: MasterClient.cpp MasterCommon.cpp MasterClientMain.cpp MasterClient.h MasterCommon.h
+	g++ -o masterclient MasterClient.cpp MasterCommon.cpp MasterClientMain.cpp -L../src/lib/raknet -lraknet -I../src/lib/raknet -lpthread
+all-localhost: MasterClient.cpp MasterCommon.cpp MasterClientMain.cpp MasterClient.h MasterCommon.h
+	g++ -o masterclient-l -DHOST_LOCALHOST MasterClient.cpp MasterCommon.cpp MasterClientMain.cpp -L../src/lib/raknet -lraknet -I../src/lib/raknet -lpthread

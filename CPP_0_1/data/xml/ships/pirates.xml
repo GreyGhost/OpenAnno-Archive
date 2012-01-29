@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<tile name="pirates">
+	<image directions="all" variation="0">pirates0.png</image>
+	<image directions="all" variation="1">pirates1.png</image>
+	<image directions="all" variation="2">pirates2.png</image>
+	<image directions="all" variation="3">pirates3.png</image>
+	<image directions="all" variation="4">pirates4.png</image>
+	<image directions="all" variation="5">pirates5.png</image>
+	<image directions="all" variation="6">pirates6.png</image>
+	<image directions="all" variation="7">pirates7.png</image>
+</tile>

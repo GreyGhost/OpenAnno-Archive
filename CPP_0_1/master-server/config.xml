@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+	<database>
+		<host>localhost</host>
+		<user>root</user>
+		<password>blablub</password>
+		<database>openanno</database>
+	</database>
+	<network>
+		<maximum-connections>30</maximum-connections>
+		<port>60000</port>
+		<thread-sleep-time>50</thread-sleep-time>
+	</network>
+</config>

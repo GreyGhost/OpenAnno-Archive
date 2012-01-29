@@ -1,0 +1,18 @@
+Das OpenAnno-Projekt ist der Versuch, einen Open-Source-Clone des bekannten Strategiespieles "Anno 1602" von Max Design und Sunflowers zu erstellen. Wichtige Ziele sind die freie Lizenz, Kompatibilität mit verschiedenen Platformen wie Linux, Windows und MacOS X (sowie Exoten wie die X-Box 360 oder GP2X), Netzwerk-Support und ein modernes, effizientes Design, das zwar hardwareschonend ist, jedoch gut aussieht.
+
+Für detaillierte Informationen zum Kompilieren lesen Sie bitte die Datei LIESMICH-INSTALLATION. Falls Sie Vorschläge zu OpenAnno haben oder sich über zukünftige Features informieren möchten, lesen sie bitte die Datei LIESMICH-HILFE. Weitere Informationen zu diesem Projekt erhalten Sie auf http://www.openanno.org.
+
+Falls Sie Probleme während des Testens von OpenAnno haben, melden Sie diese bitte in unserem Bug-Tracker
+https://sourceforge.net/tracker/?group_id=143268&atid=755357
+oder in unserem Forum
+http://openanno.org/forum/
+
+Zusätzlich können Sie auch einen der Entwickler kontaktieren (siehe: AUTHORS).
+
+Wir empfehlen Ihnen zusätzlich, mit den Werten in folgender Datei zu experimentieren: data/xml/config.xml.
+
+Ein Blick in unser Wiki
+http://www.openanno.org/wiki/index.php/Hauptseite
+kann ebenfalls hilfreich sein.
+
+Bitte beachten Sie, das sich OpenAnno in einem sehr frühen Entwicklungsstadium befindet und deshalb völlig unspielbar ist.

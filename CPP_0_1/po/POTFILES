@@ -1,0 +1,5 @@
+	../src/gui/singledialog.cpp \
+	../src/gui/startscreen.cpp \
+	../src/gui/configdialog.cpp \
+	../src/gui/multidialog.cpp \
+	../src/openanno.cpp

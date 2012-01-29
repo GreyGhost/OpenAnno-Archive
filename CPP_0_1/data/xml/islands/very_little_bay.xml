@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<island cols="5" rows="5" clime="tropical">
+	<terrain>
+		<row value="1">
+			<col value="1"><tile height="1" angle="0" slope="plane" texture="water" type="grassland"/></col>
+			<col value="2"><tile height="1" angle="0" slope="plane" texture="water" type="grassland"/></col>
+			<col value="3"><tile height="1" angle="0" slope="plane" texture="water" type="grassland"/></col>
+			<col value="4"><tile height="1" angle="0" slope="plane" texture="water" type="grassland"/></col>
+			<col value="5"><tile height="1" angle="0" slope="plane" texture="water" type="grassland"/></col>
+		</row>
+		<row value="2">
+			<col value="1"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="2"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="3"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="4"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="5"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+		</row>
+		<row value="3">
+			<col value="1"><tile height="1" angle="0" slope="plane" texture="water" type="grassland"/></col>
+			<col value="2"><tile height="1" angle="0" slope="plane" texture="water" type="grassland"/></col>
+			<col value="3"><tile height="1" angle="0" slope="plane" texture="water" type="grassland"/></col>
+			<col value="4"><tile height="1" angle="0" slope="plane" texture="water" type="grassland"/></col>
+			<col value="5"><tile height="1" angle="0" slope="plane" texture="water" type="grassland"/></col>
+		</row>
+		<row value="4">
+			<col value="1"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="2"><tile height="1" angle="0" slope="plane" texture="water" type="grassland"/></col>
+			<col value="3"><tile height="1" angle="0" slope="plane" texture="water" type="grassland"/></col>
+			<col value="4"><tile height="1" angle="0" slope="plane" texture="water" type="grassland"/></col>
+			<col value="5"><tile height="1" angle="0" slope="plane" texture="water" type="grassland"/></col>
+		</row>
+		<row value="5">
+			<col value="1"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="2"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="3"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="4"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="5"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+		</row>
+	</terrain>
+</island>

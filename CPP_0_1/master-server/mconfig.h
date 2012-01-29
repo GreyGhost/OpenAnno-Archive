@@ -1,0 +1,2 @@
+#define SERVER_INTERFACE "0.0.0.0"
+#define SERVER_PORT 60000

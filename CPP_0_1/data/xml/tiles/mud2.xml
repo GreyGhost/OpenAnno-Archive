@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<tile fertility="2" type="grassland" name="Mud2">
+	<slope type="plane">
+		<rotation angle="0">
+			<frame duration="1" image="mud_8.png"/>
+		</rotation>
+		<rotation angle="90">
+			<frame duration="1" image="mud_3.png"/>
+		</rotation>
+		<rotation angle="180">
+			<frame duration="1" image="mud_4.png"/>
+		</rotation>
+		<rotation angle="270">
+			<frame duration="1" image="mud_7.png"/>
+		</rotation>
+	</slope>
+</tile>

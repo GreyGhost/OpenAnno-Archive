@@ -1,0 +1,2231 @@
+# depslib dependency file v1.0
+1158166448 /home/lars/development/openanno/src/entity.cpp
+	"entity.h"
+	"entityManager.h"
+
+1169410837 /home/lars/development/openanno/src/entity.h
+	<string>
+
+1169410837 /home/lars/development/openanno/src/entityManager.h
+	<hash_map>
+	<ext/hash_map>
+	<map>
+	<vector>
+	<string>
+
+1158177793 /home/lars/development/openanno/src/entityManager.cpp
+	"entityManager.h"
+	"entity.h"
+
+1153876316 /home/lars/development/openanno/src/font.cpp
+	"font.h"
+	<SDL/SDL_ttf.h>
+	<iostream>
+	<string>
+
+1154191234 /home/lars/development/openanno/src/font.h
+	<windows.h>
+	<SDL/SDL_ttf.h>
+	<string>
+	"texture.h"
+	"color.h"
+	"rect.h"
+
+1154191234 /home/lars/development/openanno/src/texture.h
+	<windows.h>
+	<SDL/SDL.h>
+	<GL/gl.h>
+	<string>
+	"io/resource.h"
+
+1170864056 /home/lars/development/openanno/src/io/resource.h
+	<SDL_rwops.h>
+	<SDL/SDL_rwops.h>
+	"../entity.h"
+
+1154191234 /home/lars/development/openanno/src/color.h
+
+1153870048 /home/lars/development/openanno/src/rect.h
+
+1156778047 /home/lars/development/openanno/src/gamestate.cpp
+	"gamestate.h"
+	"openanno.h"
+
+1170170685 /home/lars/development/openanno/src/gamestate.h
+
+1170966786 /home/lars/development/openanno/src/openanno.h
+	<stack>
+	"video/videosystem.h"
+	"gui/startscreen.h"
+	"entity.h"
+	"gamestate.h"
+	"audio/audioSystem.h"
+	"jukebox.h"
+
+1154191234 /home/lars/development/openanno/src/screen.h
+	"surface.h"
+	"color.h"
+	"font.h"
+
+1154191234 /home/lars/development/openanno/src/surface.h
+	"texture.h"
+
+1170170627 /home/lars/development/openanno/src/gui/startscreen.h
+	<stack>
+	"video/videosystem.h"
+	"video/surface.h"
+	"gui/widget.h"
+	"gui/menu.h"
+	"gui/events/eventcommand.h"
+	"gui/checkbox.h"
+	"gui/slider.h"
+	"gui/statictext.h"
+	"gui/selector.h"
+	"gui/editbox.h"
+	"gui/dialog.h"
+	"gamestate.h"
+	"gui/singledialog.h"
+	"gui/multidialog.h"
+	"gui/configdialog.h"
+	"gui/teamdialog.h"
+	"gui/searchgames.h"
+	"gui/newgamedialog.h"
+	"gui/logindialog.h"
+	"gui/registerdialog.h"
+
+1170964736 /home/lars/development/openanno/src/gui/widget.h
+	<list>
+	<map>
+	"video/videosystem.h"
+	"events/event.h"
+
+1169410831 /home/lars/development/openanno/src/gui/events/event.h
+
+1169410834 /home/lars/development/openanno/src/gui/menu.h
+	<string>
+	"video/videosystem.h"
+	"video/surface.h"
+	"gui/widget.h"
+	"gui/events/eventmousemove.h"
+	"gui/events/eventmouseclick.h"
+	"dialog.h"
+
+1169410831 /home/lars/development/openanno/src/gui/events/eventmousemove.h
+	"event.h"
+
+1169410831 /home/lars/development/openanno/src/gui/events/eventmouseclick.h
+	"event.h"
+
+1169410831 /home/lars/development/openanno/src/gui/events/eventcommand.h
+	"event.h"
+
+1169410834 /home/lars/development/openanno/src/gui/checkbox.h
+	<string>
+	"video/videosystem.h"
+	"video/surface.h"
+	"gui/events/eventmouseclick.h"
+	"commandwidget.h"
+
+1169410834 /home/lars/development/openanno/src/gui/slider.h
+	<string>
+	"video/videosystem.h"
+	"video/surface.h"
+	"gui/commandwidget.h"
+	"gui/events/eventmouseclick.h"
+	"gui/events/eventmousemove.h"
+	<sstream>
+
+1169410834 /home/lars/development/openanno/src/gui/statictext.h
+	<string>
+	"gui/widget.h"
+	"video/videosystem.h"
+
+1169993313 /home/lars/development/openanno/src/gui/selector.h
+	<string>
+	<vector>
+	"video/surface.h"
+	"video/videosystem.h"
+	"gui/commandwidget.h"
+	"gui/events/eventmouseclick.h"
+
+1169410834 /home/lars/development/openanno/src/gui/editbox.h
+	<string>
+	"video/videosystem.h"
+	"gui/commandwidget.h"
+	"gui/events/eventkey.h"
+	"gui/events/eventmouseout.h"
+	"gui/events/eventmouseover.h"
+	"gui/events/eventtick.h"
+
+1169410831 /home/lars/development/openanno/src/gui/events/eventkey.h
+	"event.h"
+
+1157122225 /home/lars/development/openanno/src/gui/checkbox.cpp
+	"checkbox.h"
+	"widgetmanager.h"
+	"events/eventcommand.h"
+
+1153744868 /home/lars/development/openanno/src/gui/eventmanager.h
+	<map>
+	<list>
+	"events/event.h"
+	<assert.h>
+	"widget.h"
+
+1156778033 /home/lars/development/openanno/src/gui/dialog.cpp
+	"dialog.h"
+
+1157660862 /home/lars/development/openanno/src/gui/editbox.cpp
+	"editbox.h"
+	"widgetmanager.h"
+	"gui/events/eventkey.h"
+	<iostream>
+
+1154022785 /home/lars/development/openanno/src/gui/eventmanager.cpp
+	<assert.h>
+	"eventmanager.h"
+	"widget.h"
+	"events/eventmousemove.h"
+	"events/eventmouseclick.h"
+	"events/eventkey.h"
+
+1156778032 /home/lars/development/openanno/src/gui/events/event.cpp
+	"event.h"
+	"gui/widget.h"
+
+1156778032 /home/lars/development/openanno/src/gui/events/eventcommand.cpp
+	"eventcommand.h"
+
+1158068530 /home/lars/development/openanno/src/gui/events/eventkey.cpp
+	"eventkey.h"
+	<SDL.h>
+	<SDL/SDL.h>
+
+1156778032 /home/lars/development/openanno/src/gui/events/eventmouseclick.cpp
+	"eventmouseclick.h"
+	"../widget.h"
+
+1156778032 /home/lars/development/openanno/src/gui/events/eventmousemove.cpp
+	"eventmousemove.h"
+	"../widgetmanager.h"
+	"../widget.h"
+
+1156778033 /home/lars/development/openanno/src/gui/menu.cpp
+	"menu.h"
+	<assert.h>
+	<iostream>
+	"widgetmanager.h"
+	"events/eventmousemove.h"
+	"events/eventmouseclick.h"
+	"events/eventcommand.h"
+
+1157122225 /home/lars/development/openanno/src/gui/selector.cpp
+	"selector.h"
+	"widgetmanager.h"
+
+1157233707 /home/lars/development/openanno/src/gui/slider.cpp
+	"slider.h"
+	"widgetmanager.h"
+
+1159537753 /home/lars/development/openanno/src/gui/startscreen.cpp
+	<sstream>
+	"startscreen.h"
+	"events/eventmousemove.h"
+	"gui/widgetmanager.h"
+	"openanno.h"
+	"configuration.h"
+	"audio/audioSystem.h"
+	"gettext.h"
+	"ingame.h"
+
+1156778033 /home/lars/development/openanno/src/gui/statictext.cpp
+	"statictext.h"
+	"widgetmanager.h"
+
+1156778033 /home/lars/development/openanno/src/gui/widget.cpp
+	"widgetmanager.h"
+	"widget.h"
+
+1156778046 /home/lars/development/openanno/src/io/resource.cpp
+	"resource.h"
+	<assert.h>
+	<iostream>
+
+1157655057 /home/lars/development/openanno/src/io/resourceManager.cpp
+	<iostream>
+	"resourceManager.h"
+	"resource.h"
+	"resourceLoader.h"
+
+1169410837 /home/lars/development/openanno/src/io/resourceManager.h
+	<map>
+	<vector>
+	"resource.h"
+	"refptr.h"
+
+1169410837 /home/lars/development/openanno/src/io/resourceLoader.h
+	"resource.h"
+
+1158069676 /home/lars/development/openanno/src/openanno.cpp
+	"configInclude.h"
+	"gettext.h"
+	<windows.h>
+	<shlobj.h>
+	<tchar.h>
+	"config.h"
+	<SDL.h>
+	<SDL_image.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<iostream>
+	<stdlib.h>
+	"video/opengl/openglvideosystem.h"
+	"video/sdl/sdlvideosystem.h"
+	"openanno.h"
+	"gui/startscreen.h"
+	"io/resourceManager.h"
+	"io/resourceLoader.h"
+	"scripting/scriptBinding.h"
+	"scripting/script.h"
+	"gui/widgetmanager.h"
+	"gui/events/eventmousemove.h"
+	"gui/events/eventmouseclick.h"
+	"configuration.h"
+	"audio/sdl/sdlAudioSystem.h"
+	"audio/sdl/sdlMusic.h"
+	<physfs.h>
+	<exception>
+	"sprite/sprite.h"
+
+1156778047 /home/lars/development/openanno/src/configInclude.h
+	"config.h"
+
+1159631474 /home/lars/development/openanno/src/config.h
+
+1159698532 /home/lars/development/openanno/src/scripting/scriptBinding.h
+	"scriptingManager.h"
+	"methodArguments.h"
+	"class.h"
+	"luaScriptSystem.h"
+	"../openanno.h"
+
+1156778042 /home/lars/development/openanno/src/scripting/scriptingManager.h
+	<map>
+	<string>
+
+1156778042 /home/lars/development/openanno/src/scripting/methodArguments.h
+	"method.h"
+	"value.h"
+
+1156778042 /home/lars/development/openanno/src/scripting/method.h
+	"value.h"
+
+1156778042 /home/lars/development/openanno/src/scripting/value.h
+
+1156778042 /home/lars/development/openanno/src/scripting/class.h
+	<map>
+	<string>
+	"method.h"
+
+1156778042 /home/lars/development/openanno/src/scripting/luaScriptSystem.h
+	<vector>
+	<lua/lua.h>
+	<lua/lauxlib.h>
+	<lua/lualib.h>
+	<lua.h>
+	<lauxlib.h>
+	<lualib.h>
+
+1156778042 /home/lars/development/openanno/src/scripting/script.h
+	"../io/resource.h"
+
+1153876282 /home/lars/development/openanno/src/screen.cpp
+	<windows.h>
+	<SDL/SDL.h>
+	<GL/gl.h>
+	<iostream>
+	"screen.h"
+	"color.h"
+
+1156778042 /home/lars/development/openanno/src/scripting/class.cpp
+	"class.h"
+
+1156778042 /home/lars/development/openanno/src/scripting/luaScriptSystem.cpp
+	<iostream>
+	"luaScriptSystem.h"
+	"method.h"
+	"methodArguments.h"
+	"scriptingManager.h"
+	"class.h"
+	"../entityManager.h"
+	"../entity.h"
+
+1156778042 /home/lars/development/openanno/src/scripting/method.cpp
+	"method.h"
+
+1157649636 /home/lars/development/openanno/src/scripting/script.cpp
+	<fstream>
+	"script.h"
+	"scriptingManager.h"
+	"luaScriptSystem.h"
+	<physfs.h>
+
+1156778042 /home/lars/development/openanno/src/scripting/scriptingManager.cpp
+	"scriptingManager.h"
+	"class.h"
+	"luaScriptSystem.h"
+
+1153772302 /home/lars/development/openanno/src/surface.cpp
+	"surface.h"
+	"screen.h"
+	"io/resourceManager.h"
+
+1153843939 /home/lars/development/openanno/src/texture.cpp
+	"texture.h"
+	<assert.h>
+	<GL/gl.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<string>
+	<iostream>
+
+1156778045 /home/lars/development/openanno/src/lib/tinyxml/tinystr.cpp
+	"tinystr.h"
+
+1169410827 /home/lars/development/openanno/src/lib/tinyxml/tinystr.h
+	<assert.h>
+	<string.h>
+
+1159537753 /home/lars/development/openanno/src/lib/tinyxml/tinyxml.cpp
+	<ctype.h>
+	"tinyxml.h"
+	<sstream>
+	<iostream>
+
+1169410827 /home/lars/development/openanno/src/lib/tinyxml/tinyxml.h
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<physfs.h>
+	<string>
+	<iostream>
+	"tinystr.h"
+
+1156778045 /home/lars/development/openanno/src/lib/tinyxml/tinyxmlerror.cpp
+	"tinyxml.h"
+
+1156778045 /home/lars/development/openanno/src/lib/tinyxml/tinyxmlparser.cpp
+	"tinyxml.h"
+	<ctype.h>
+	<stddef.h>
+	<windows.h>
+
+1158093410 /home/lars/development/openanno/src/configuration.cpp
+	"configuration.h"
+	<sstream>
+
+1169410837 /home/lars/development/openanno/src/configuration.h
+	<string>
+	<map>
+	"lib/tinyxml/tinyxml.h"
+	"physfs.h"
+
+1169410837 /home/lars/development/openanno/src//configuration.h
+	<string>
+	<map>
+	"lib/tinyxml/tinyxml.h"
+	"physfs.h"
+
+1169410827 /home/lars/development/openanno/src//lib/tinyxml/tinyxml.h
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<physfs.h>
+	<string>
+	<iostream>
+	"tinystr.h"
+
+1169410827 /home/lars/development/openanno/src//lib/tinyxml/tinystr.h
+	<assert.h>
+	<string.h>
+
+1153876316 /home/lars/development/openanno/src/video/font.cpp
+	"font.h"
+	<SDL/SDL_ttf.h>
+	<iostream>
+	<string>
+
+1154213763 /home/lars/development/openanno/src/video/font.h
+	<windows.h>
+	<SDL/SDL_ttf.h>
+	<string>
+	"video/color.h"
+	"rect.h"
+
+1153843939 /home/lars/development/openanno/src/video/texture.h
+	<windows.h>
+	<SDL/SDL.h>
+	<GL/gl.h>
+	<string>
+	"io/resource.h"
+
+1170864056 /home/lars/development/openanno/src//io/resource.h
+	<SDL_rwops.h>
+	<SDL/SDL_rwops.h>
+	"../entity.h"
+
+1169410837 /home/lars/development/openanno/src//entity.h
+	<string>
+
+1154098319 /home/lars/development/openanno/src/video/color.h
+
+1169410837 /home/lars/development/openanno/src//rect.h
+
+1154194731 /home/lars/development/openanno/src/video/screen.cpp
+	"video/screen.h"
+
+1156102504 /home/lars/development/openanno/src/video/screen.h
+	"video/surface.h"
+	"video/color.h"
+	"video/font.h"
+	<vector>
+
+1156778046 /home/lars/development/openanno/src/video/surface.h
+	"io/resource.h"
+
+1153772302 /home/lars/development/openanno/src/video/surface.cpp
+	"surface.h"
+	"screen.h"
+	"io/resourceManager.h"
+
+1169410837 /home/lars/development/openanno/src//io/resourceManager.h
+	<map>
+	<vector>
+	"resource.h"
+	"refptr.h"
+
+1153843939 /home/lars/development/openanno/src/video/texture.cpp
+	"texture.h"
+	<assert.h>
+	<GL/gl.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<string>
+	<iostream>
+
+1154211920 /home/lars/development/openanno/src/video/opengl/font.cpp
+	<SDL/SDL_ttf.h>
+	<iostream>
+	<string>
+	"font.h"
+
+1154210882 /home/lars/development/openanno/src/video/opengl/font.h
+	<windows.h>
+	<SDL/SDL_ttf.h>
+	<string>
+	"texture.h"
+	"../font.h"
+
+1158068529 /home/lars/development/openanno/src/video/opengl/texture.h
+	<windows.h>
+	<SDL.h>
+	<SDL/SDL.h>
+	<GL/gl.h>
+	<string>
+	"io/resource.h"
+
+1154211639 /home/lars/development/openanno/src/video/opengl/screen.cpp
+	<windows.h>
+	<SDL/SDL.h>
+	<GL/gl.h>
+	<iostream>
+	"video/opengl/screen.h"
+	"video/color.h"
+	"video/opengl/surface.h"
+	"io/resourceManager.h"
+
+1154211720 /home/lars/development/openanno/src//video/opengl/screen.h
+	"video/screen.h"
+	"video/opengl/surface.h"
+	"video/color.h"
+	"video/opengl/font.h"
+
+1156102504 /home/lars/development/openanno/src//video/screen.h
+	"video/surface.h"
+	"video/color.h"
+	"video/font.h"
+	<vector>
+
+1169410828 /home/lars/development/openanno/src//video/surface.h
+	"io/resource.h"
+	"io/refptr.h"
+
+1153843939 /home/lars/development/openanno/src//video/texture.h
+	<windows.h>
+	<SDL/SDL.h>
+	<GL/gl.h>
+	<string>
+	"io/resource.h"
+
+1169410828 /home/lars/development/openanno/src//video/color.h
+
+1169410828 /home/lars/development/openanno/src//video/font.h
+	<string>
+	"video/color.h"
+	"rect.h"
+
+1154194155 /home/lars/development/openanno/src//video/opengl/surface.h
+	"video/opengl/texture.h"
+	"video/surface.h"
+
+1158068529 /home/lars/development/openanno/src//video/opengl/texture.h
+	<windows.h>
+	<SDL.h>
+	<SDL/SDL.h>
+	<GL/gl.h>
+	<string>
+	"io/resource.h"
+
+1154210882 /home/lars/development/openanno/src//video/opengl/font.h
+	<windows.h>
+	<SDL/SDL_ttf.h>
+	<string>
+	"texture.h"
+	"../font.h"
+
+1154194309 /home/lars/development/openanno/src/video/opengl/surface.cpp
+	<iostream>
+	<SDL/SDL_image.h>
+	"video/opengl/surface.h"
+	"video/opengl/screen.h"
+	"io/resourceManager.h"
+
+1154192437 /home/lars/development/openanno/src/video/opengl/surface.h
+	"video/opengl/texture.h"
+	"video/surface.h"
+
+1154211720 /home/lars/development/openanno/src/video/opengl/screen.h
+	"video/screen.h"
+	"video/opengl/surface.h"
+	"video/color.h"
+	"video/opengl/font.h"
+
+1158068529 /home/lars/development/openanno/src/video/opengl/texture.cpp
+	"texture.h"
+	<assert.h>
+	<GL/gl.h>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<string>
+	<iostream>
+
+1170964736 /home/lars/development/openanno/src//gui/widget.h
+	<list>
+	<map>
+	"video/videosystem.h"
+	"events/event.h"
+
+1169410831 /home/lars/development/openanno/src//gui/events/event.h
+
+1169410834 /home/lars/development/openanno/src//gui/menu.h
+	<string>
+	"video/videosystem.h"
+	"video/surface.h"
+	"gui/widget.h"
+	"gui/events/eventmousemove.h"
+	"gui/events/eventmouseclick.h"
+	"dialog.h"
+
+1171197732 /home/lars/development/openanno/src//gui/events/eventmousemove.h
+	"event.h"
+
+1169410831 /home/lars/development/openanno/src//gui/events/eventmouseclick.h
+	"event.h"
+
+1169410831 /home/lars/development/openanno/src//gui/events/eventcommand.h
+	"event.h"
+
+1169410834 /home/lars/development/openanno/src//gui/checkbox.h
+	<string>
+	"video/videosystem.h"
+	"video/surface.h"
+	"gui/events/eventmouseclick.h"
+	"commandwidget.h"
+
+1169410834 /home/lars/development/openanno/src//gui/slider.h
+	<string>
+	"video/videosystem.h"
+	"video/surface.h"
+	"gui/commandwidget.h"
+	"gui/events/eventmouseclick.h"
+	"gui/events/eventmousemove.h"
+	<sstream>
+
+1169410834 /home/lars/development/openanno/src//gui/statictext.h
+	<string>
+	"gui/widget.h"
+	"video/videosystem.h"
+
+1169993313 /home/lars/development/openanno/src//gui/selector.h
+	<string>
+	<vector>
+	"video/surface.h"
+	"video/videosystem.h"
+	"gui/commandwidget.h"
+	"gui/events/eventmouseclick.h"
+
+1169410834 /home/lars/development/openanno/src//gui/editbox.h
+	<string>
+	"video/videosystem.h"
+	"gui/commandwidget.h"
+	"gui/events/eventkey.h"
+	"gui/events/eventmouseout.h"
+	"gui/events/eventmouseover.h"
+	"gui/events/eventtick.h"
+
+1169410831 /home/lars/development/openanno/src//gui/events/eventkey.h
+	"event.h"
+
+1170170685 /home/lars/development/openanno/src//gamestate.h
+
+1154213733 /home/lars/development/openanno/src/video/sdl/font.cpp
+	<SDL/SDL_ttf.h>
+	<iostream>
+	<string>
+	"font.h"
+	"screen.h"
+
+1154213000 /home/lars/development/openanno/src/video/sdl/font.h
+	<windows.h>
+	<SDL/SDL_ttf.h>
+	<string>
+	"video/font.h"
+
+1154213076 /home/lars/development/openanno/src/video/sdl/screen.cpp
+	<windows.h>
+	<SDL/SDL.h>
+	<GL/gl.h>
+	<iostream>
+	"screen.h"
+	"surface.h"
+	"video/color.h"
+	"io/resourceManager.h"
+
+1154211902 /home/lars/development/openanno/src/video/sdl/screen.h
+	"video/screen.h"
+	"surface.h"
+	"video/color.h"
+	"font.h"
+
+1154200111 /home/lars/development/openanno/src/video/sdl/surface.h
+	"video/opengl/texture.h"
+	"video/surface.h"
+
+1154200276 /home/lars/development/openanno/src/video/sdl/surface.cpp
+	<iostream>
+	<SDL/SDL_image.h>
+	"surface.h"
+	"screen.h"
+	"io/resourceManager.h"
+
+1154470085 /home/lars/development/openanno/src/video/opengl/openglscreen.h
+	"video/screen.h"
+	"video/opengl/openglsurface.h"
+	"video/color.h"
+	"video/opengl/openglfont.h"
+	<vector>
+	<set>
+
+1156778045 /home/lars/development/openanno/src//video/opengl/openglsurface.h
+	"video/opengl/texture.h"
+	"video/surface.h"
+
+1158068529 /home/lars/development/openanno/src//video/opengl/openglfont.h
+	<windows.h>
+	<SDL_ttf.h>
+	<SDL/SDL_ttf.h>
+	<string>
+	"texture.h"
+	"video/font.h"
+
+1158068529 /home/lars/development/openanno/src/video/sdl/sdlfont.cpp
+	<iostream>
+	<string>
+	"video/sdl/sdlfont.h"
+	"video/sdl/sdlvideosystem.h"
+
+1158068528 /home/lars/development/openanno/src/video/sdl/sdlfont.h
+	<windows.h>
+	<SDL_ttf.h>
+	<SDL/SDL_ttf.h>
+	<string>
+	"video/font.h"
+
+1156102505 /home/lars/development/openanno/src/video/sdl/sdlscreen.h
+	"video/screen.h"
+	"sdlsurface.h"
+	"video/color.h"
+	"sdlfont.h"
+
+1158068528 /home/lars/development/openanno/src/video/sdl/sdlsurface.h
+	"video/surface.h"
+	<SDL_image.h>
+	<SDL/SDL_image.h>
+
+1156094969 /home/lars/development/openanno/src/video/sdl/sdlscreen.cpp
+	<windows.h>
+	<SDL/SDL.h>
+	<iostream>
+	"sdlscreen.h"
+	"sdlsurface.h"
+	"video/color.h"
+	"io/resourceManager.h"
+	"io/resourceLoader.h"
+
+1157655175 /home/lars/development/openanno/src/video/sdl/sdlsurface.cpp
+	<iostream>
+	"video/sdl/sdlsurface.h"
+	"video/sdl/sdlvideosystem.h"
+	"io/resourceManager.h"
+
+1169410834 /home/lars/development/openanno/src/gui/dialog.h
+	<string>
+	"video/videosystem.h"
+	"video/surface.h"
+	"gui/commandwidget.h"
+
+1170001113 /home/lars/development/openanno/src//openanno.h
+	<stack>
+	"video/videosystem.h"
+	"gui/startscreen.h"
+	"entity.h"
+	"gamestate.h"
+	"audio/audioSystem.h"
+	"jukebox.h"
+
+1170170627 /home/lars/development/openanno/src//gui/startscreen.h
+	<stack>
+	"video/videosystem.h"
+	"video/surface.h"
+	"gui/widget.h"
+	"gui/menu.h"
+	"gui/events/eventcommand.h"
+	"gui/checkbox.h"
+	"gui/slider.h"
+	"gui/statictext.h"
+	"gui/selector.h"
+	"gui/editbox.h"
+	"gui/dialog.h"
+	"gamestate.h"
+	"gui/singledialog.h"
+	"gui/multidialog.h"
+	"gui/configdialog.h"
+	"gui/teamdialog.h"
+	"gui/searchgames.h"
+	"gui/newgamedialog.h"
+	"gui/logindialog.h"
+	"gui/registerdialog.h"
+
+1169410834 /home/lars/development/openanno/src//gui/dialog.h
+	<string>
+	"video/videosystem.h"
+	"video/surface.h"
+	"gui/commandwidget.h"
+
+1154355396 /home/lars/development/openanno/src/gui/optionsdialog.cpp
+	"optionsdialog.h"
+	"statictext.h"
+	"editbox.h"
+	"checkbox.h"
+	"slider.h"
+	"configuration.h"
+
+1154354818 /home/lars/development/openanno/src/gui/optionsdialog.h
+	<string>
+	"dialog.h"
+	"editbox.h"
+	"slider.h"
+	"checkbox.h"
+	"selector.h"
+
+1158173556 /home/lars/development/openanno/src/video/opengl/openglfont.cpp
+	<iostream>
+	<string>
+	<SDL_ttf.h>
+	<SDL/SDL_ttf.h>
+	"video/opengl/openglfont.h"
+	"video/sdl/sdlvideosystem.h"
+
+1156778045 /home/lars/development/openanno/src/video/opengl/openglfont.h
+	<windows.h>
+	<SDL/SDL_ttf.h>
+	<string>
+	"texture.h"
+	"video/font.h"
+
+1158068529 /home/lars/development/openanno/src/video/opengl/openglsurface.cpp
+	<iostream>
+	<SDL_image.h>
+	<SDL/SDL_image.h>
+	"video/opengl/openglsurface.h"
+	"video/opengl/openglvideosystem.h"
+	"video/sdl/sdlvideosystem.h"
+	"io/resourceManager.h"
+
+1156102501 /home/lars/development/openanno/src//video/opengl/openglscreen.h
+	"video/screen.h"
+	"video/opengl/openglsurface.h"
+	"video/color.h"
+	"video/opengl/openglfont.h"
+	<vector>
+	<set>
+
+1155673607 /home/lars/development/openanno/src/video/opengl/openglscreen.cpp
+	<windows.h>
+	<SDL/SDL.h>
+	<GL/gl.h>
+	<iostream>
+	"video/opengl/openglscreen.h"
+	"video/color.h"
+	"video/opengl/openglsurface.h"
+	"io/resourceManager.h"
+	"io/resourceLoader.h"
+
+1158089454 /home/lars/development/openanno/src/gui/configdialog.cpp
+	"gettext.h"
+	"configdialog.h"
+	"statictext.h"
+	"editbox.h"
+	"checkbox.h"
+	"slider.h"
+	"configuration.h"
+	"widgetmanager.h"
+	<sstream>
+	<stdlib.h>
+	<iostream>
+	<physfs.h>
+	"audio/audioSystem.h"
+
+1169410834 /home/lars/development/openanno/src/gui/configdialog.h
+	<string>
+	"dialog.h"
+	"editbox.h"
+	"slider.h"
+	"checkbox.h"
+	"selector.h"
+	"imagebutton.h"
+	"gui/events/eventcommand.h"
+
+1169410834 /home/lars/development/openanno/src//gui/commandwidget.h
+	<string>
+	"video/videosystem.h"
+	"video/surface.h"
+	"gui/widget.h"
+
+1169410834 /home/lars/development/openanno/src/gui/commandwidget.h
+	<string>
+	"video/videosystem.h"
+	"video/surface.h"
+	"gui/widget.h"
+
+1156778033 /home/lars/development/openanno/src/gui/commandwidget.cpp
+	"commandwidget.h"
+	"widgetmanager.h"
+	"gui/events/eventcommand.h"
+
+1157661217 /home/lars/development/openanno/src/gui/imagebutton.cpp
+	"imagebutton.h"
+	"widgetmanager.h"
+
+1169410834 /home/lars/development/openanno/src/gui/imagebutton.h
+	<string>
+	"video/videosystem.h"
+	"video/surface.h"
+	"gui/commandwidget.h"
+	"gui/events/eventmouseclick.h"
+	"gui/events/eventmouseover.h"
+	"gui/events/eventmouseout.h"
+
+1170188021 /home/lars/development/openanno/src/gui/widgetmanager.h
+	<map>
+	<list>
+	<assert.h>
+	<SDL.h>
+	<SDL/SDL.h>
+	"events/event.h"
+	"widget.h"
+
+1157661212 /home/lars/development/openanno/src/gui/widgetmanager.cpp
+	<assert.h>
+	"widgetmanager.h"
+	"widget.h"
+	"events/eventmousemove.h"
+	"events/eventmouseclick.h"
+	"events/eventkey.h"
+
+1169410837 /home/lars/development/openanno/src//io/resourceLoader.h
+	"resource.h"
+
+1159537753 /home/lars/development/openanno/src/gui/selectbox.cpp
+	"selectbox.h"
+	"scrollbar.h"
+	"gui/widgetmanager.h"
+	<math.h>
+	<stdlib.h>
+	<iostream>
+
+1169410834 /home/lars/development/openanno/src/gui/selectbox.h
+	<string>
+	<vector>
+	"video/surface.h"
+	"video/videosystem.h"
+	"gui/selector.h"
+	"gui/events/eventmouseclick.h"
+	"gui/scrollbar.h"
+	"gui/events/eventcommand.h"
+
+1159537753 /home/lars/development/openanno/src/gui/scrollbar.cpp
+	"scrollbar.h"
+	"widgetmanager.h"
+
+1169410834 /home/lars/development/openanno/src/gui/scrollbar.h
+	<string>
+	<vector>
+	"video/surface.h"
+	"video/videosystem.h"
+	"gui/commandwidget.h"
+	"gui/events/eventmouseclick.h"
+	"gui/events/eventmousemove.h"
+
+1169410776 /home/lars/development/openanno/src/audio/audioSystem.h
+	<iostream>
+	"audio/music.h"
+	"audio/sample.h"
+
+1169410776 /home/lars/development/openanno/src//audio/audioSystem.h
+	<iostream>
+	"audio/music.h"
+	"audio/sample.h"
+
+1157710570 /home/lars/development/openanno/src/audio/sdl/sdlAudioSystem.h
+	"audio/audioSystem.h"
+
+1158068528 /home/lars/development/openanno/src/audio/sdl/sdlAudioSystem.cpp
+	"audio/sdl/sdlAudioSystem.h"
+	"audio/sdl/sdlMusic.h"
+	"audio/sdl/sdlSample.h"
+	"audio/sdl/sdlSampleChunk.h"
+	"io/resourceManager.h"
+	"io/resourceLoader.h"
+	<SDL.h>
+	<SDL_mixer.h>
+	<SDL/SDL.h>
+	<SDL/SDL_mixer.h>
+	<iostream>
+	<string>
+
+1157710570 /home/lars/development/openanno/src//audio/sdl/sdlAudioSystem.h
+	"audio/audioSystem.h"
+
+1158068528 /home/lars/development/openanno/src//audio/sdl/sdlMusic.h
+	"audio/music.h"
+	<windows.h>
+	<SDL_mixer.h>
+	<SDL/SDL_mixer.h>
+
+1169410776 /home/lars/development/openanno/src//audio/music.h
+	"io/resource.h"
+	"io/refptr.h"
+	<windows.h>
+	<SDL_mixer.h>
+	<SDL/SDL_mixer.h>
+
+1156778041 /home/lars/development/openanno/src//audio/sdl/sdlSample.h
+	"audio/sample.h"
+
+1169410776 /home/lars/development/openanno/src//audio/sample.h
+	"io/resource.h"
+	"io/refptr.h"
+	<windows.h>
+	<SDL_mixer.h>
+	<SDL/SDL_mixer.h>
+
+1158068527 /home/lars/development/openanno/src//audio/sdl/sdlSampleChunk.h
+	<windows.h>
+	<SDL_mixer.h>
+	<SDL/SDL_mixer.h>
+	"io/resource.h"
+
+1157655175 /home/lars/development/openanno/src/audio/sdl/sdlMusic.cpp
+	"audio/sdl/sdlMusic.h"
+	"video/sdl/sdlvideosystem.h"
+
+1156778041 /home/lars/development/openanno/src/audio/sdl/sdlSample.cpp
+	"audio/sdl/sdlSample.h"
+	"audio/sdl/sdlSampleChunk.h"
+	"io/resourceManager.h"
+
+1156778041 /home/lars/development/openanno/src/audio/sdl/sdlSampleChunk.cpp
+	"audio/sdl/sdlSampleChunk.h"
+
+1159625396 /home/lars/development/openanno/src/map.cpp
+	<sstream>
+	<math.h>
+	"map.h"
+	"lib/tinyxml/tinyxml.h"
+	"video/videosystem.h"
+	"configuration.h"
+
+1159627972 /home/lars/development/openanno/src/tile.cpp
+	<iostream>
+	"video/videosystem.h"
+	"tile.h"
+	"lib/tinyxml/tinyxml.h"
+
+1158068528 /home/lars/development/openanno/src/audio/sdl/sdlMusic.h
+	"audio/music.h"
+	<windows.h>
+	<SDL_mixer.h>
+	<SDL/SDL_mixer.h>
+
+1156778041 /home/lars/development/openanno/src/audio/audioSystem.cpp
+	"audio/audioSystem.h"
+
+1159699501 /home/lars/development/openanno/src/map.h
+	<string>
+	"tile.h"
+	"gui/widget.h"
+	"video/videosystem.h"
+	"gui/widgetmanager.h"
+	"gui/events/eventmousemove.h"
+	"gui/events/eventmouseclick.h"
+
+1159703035 /home/lars/development/openanno/src/tile.h
+	<string>
+	<map>
+	"video/surface.h"
+	"video/videosystem.h"
+
+1159699501 /home/lars/development/openanno/src//map.h
+	<string>
+	"tile.h"
+	"gui/widget.h"
+	"video/videosystem.h"
+	"gui/widgetmanager.h"
+	"gui/events/eventmousemove.h"
+	"gui/events/eventmouseclick.h"
+
+1159703035 /home/lars/development/openanno/src//tile.h
+	<string>
+	<map>
+	"video/surface.h"
+	"video/videosystem.h"
+
+1159537753 /home/lars/development/openanno/src/gui/multidialog.cpp
+	"gettext.h"
+	"gui/startscreen.h"
+	"gui/multidialog.h"
+	"gui/widgetmanager.h"
+
+1156668931 /home/lars/development/openanno/src/gui/multidialog.h
+	<string>
+	"imagebutton.h"
+	"gui/dialog.h"
+	"gui/events/eventcommand.h"
+	"gui/table.h"
+
+1157889858 /home/lars/development/openanno/src/gui/singledialog.cpp
+	"singledialog.h"
+	"widgetmanager.h"
+	"gettext.h"
+	<sstream>
+	<stdlib.h>
+	<iostream>
+	<physfs.h>
+	"lib/tinyxml/tinyxml.h"
+
+1169410834 /home/lars/development/openanno/src/gui/singledialog.h
+	<string>
+	"imagebutton.h"
+	"gui/dialog.h"
+	"gui/events/eventcommand.h"
+	"gui/selectbox.h"
+
+1170188021 /home/lars/development/openanno/src//gui/widgetmanager.h
+	<map>
+	<list>
+	<assert.h>
+	<SDL.h>
+	<SDL/SDL.h>
+	"events/event.h"
+	"widget.h"
+
+1169410834 /home/lars/development/openanno/src//gui/singledialog.h
+	<string>
+	"imagebutton.h"
+	"gui/dialog.h"
+	"gui/events/eventcommand.h"
+	"gui/selectbox.h"
+
+1169410834 /home/lars/development/openanno/src//gui/imagebutton.h
+	<string>
+	"video/videosystem.h"
+	"video/surface.h"
+	"gui/commandwidget.h"
+	"gui/events/eventmouseclick.h"
+	"gui/events/eventmouseover.h"
+	"gui/events/eventmouseout.h"
+
+1169410834 /home/lars/development/openanno/src//gui/multidialog.h
+	<string>
+	"gui/imagebutton.h"
+	"gui/dialog.h"
+	"gui/events/eventcommand.h"
+
+1170965158 /home/lars/development/openanno/src//gui/configdialog.h
+	<string>
+	"dialog.h"
+	"editbox.h"
+	"slider.h"
+	"checkbox.h"
+	"selector.h"
+	"imagebutton.h"
+	"gui/events/eventcommand.h"
+
+1169410834 /home/lars/development/openanno/src//gui/scrollbar.h
+	<string>
+	<vector>
+	"video/surface.h"
+	"video/videosystem.h"
+	"gui/commandwidget.h"
+	"gui/events/eventmouseclick.h"
+	"gui/events/eventmousemove.h"
+
+1169410828 /home/lars/development/openanno/src//video/videosystem.h
+	"video/surface.h"
+	"video/color.h"
+	"video/font.h"
+	<vector>
+
+1169410828 /home/lars/development/openanno/src/video/videosystem.h
+	"video/surface.h"
+	"video/color.h"
+	"video/font.h"
+	<vector>
+
+1156778045 /home/lars/development/openanno/src/video/opengl/openglvideosystem.h
+	"video/videosystem.h"
+	"video/opengl/openglsurface.h"
+	"video/color.h"
+	"video/opengl/openglfont.h"
+	<vector>
+	<set>
+
+1157122226 /home/lars/development/openanno/src/video/sdl/sdlvideosystem.h
+	"video/videosystem.h"
+	"sdlsurface.h"
+	"video/color.h"
+	"sdlfont.h"
+
+1156778045 /home/lars/development/openanno/src//video/opengl/openglvideosystem.h
+	"video/videosystem.h"
+	"video/opengl/openglsurface.h"
+	"video/color.h"
+	"video/opengl/openglfont.h"
+	<vector>
+	<set>
+
+1158068529 /home/lars/development/openanno/src/video/opengl/openglvideosystem.cpp
+	<windows.h>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<GL/gl.h>
+	<iostream>
+	"video/opengl/openglvideosystem.h"
+	"video/color.h"
+	"video/opengl/openglsurface.h"
+	"io/resourceManager.h"
+	"io/resourceLoader.h"
+
+1169410834 /home/lars/development/openanno/src//gui/selectbox.h
+	<string>
+	<vector>
+	"video/surface.h"
+	"video/videosystem.h"
+	"gui/selector.h"
+	"gui/events/eventmouseclick.h"
+	"gui/scrollbar.h"
+	"gui/events/eventcommand.h"
+
+1158094664 /home/lars/development/openanno/src/video/sdl/sdlvideosystem.cpp
+	<windows.h>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_rotozoom.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_rotozoom.h>
+	<iostream>
+	<physfs.h>
+	"sdlvideosystem.h"
+	"sdlsurface.h"
+	"video/color.h"
+	"io/resourceManager.h"
+	"io/resourceLoader.h"
+
+1156778046 /home/lars/development/openanno/src/video/videosystem.cpp
+	"video/videosystem.h"
+
+1169410834 /home/lars/development/openanno/src//gui/teamdialog.h
+	"gui/dialog.h"
+	<string>
+	"gui/events/eventcommand.h"
+	"gui/imagebutton.h"
+
+1157479505 /home/lars/development/openanno/src/gui/teamdialog.cpp
+	"gui/teamdialog.h"
+	"gui/widgetmanager.h"
+	"gui/statictext.h"
+	<string>
+	<vector>
+
+1169410837 /home/lars/development/openanno/src//gettext.h
+	"configInclude.h"
+	<libintl.h>
+	<locale.h>
+	<cstdlib>
+	<libintl.h>
+
+1169410837 /home/lars/development/openanno/src//configInclude.h
+	"config.h"
+
+1169410837 /home/lars/development/openanno/src//config.h
+
+1157654799 /home/lars/development/openanno/src/sprite/sprite.cpp
+	"sprite.h"
+
+1157654889 /home/lars/development/openanno/src/sprite/spriteanimation.cpp
+	<sstream>
+	"spriteanimation.h"
+	"video/videosystem.h"
+
+1158253867 /home/lars/development/openanno/config.h
+
+1156778047 /home/lars/development/openanno/src/gettext.h
+	"configInclude.h"
+	<libintl.h>
+	<locale.h>
+	<cstdlib>
+	<libintl.h>
+
+1157653072 /home/lars/development/openanno/src/sprite/spriteanimation.h
+	<vector>
+	"lib/tinyxml/tinyxml.h"
+	"video/surface.h"
+
+1156778046 /home/lars/development/openanno/src/sprite/sprite.h
+	<map>
+	<string>
+	"spriteanimation.h"
+
+1156668933 /home/lars/development/openanno/src//physfs.h
+
+1169410834 /home/lars/development/openanno/src//gui/table.h
+	<string>
+	<vector>
+	<list>
+	"video/surface.h"
+	"video/videosystem.h"
+	"gui/selector.h"
+	"gui/events/eventmouseclick.h"
+	"gui/scrollbar.h"
+	"gui/events/eventcommand.h"
+
+1159537753 /home/lars/development/openanno/src/gui/table.cpp
+	"table.h"
+	"scrollbar.h"
+	"gui/widgetmanager.h"
+	<math.h>
+	<stdlib.h>
+	<iostream>
+	<exception>
+	<algorithm>
+
+1169410834 /home/lars/development/openanno/src/gui/table.h
+	<string>
+	<vector>
+	<list>
+	"video/surface.h"
+	"video/videosystem.h"
+	"gui/selector.h"
+	"gui/events/eventmouseclick.h"
+	"gui/scrollbar.h"
+	"gui/events/eventcommand.h"
+
+1169410834 /home/lars/development/openanno/src//gui/searchgames.h
+	<string>
+	"gui/imagebutton.h"
+	"gui/checkbox.h"
+	"gui/dialog.h"
+	"gui/events/eventcommand.h"
+	"gui/table.h"
+
+1157122225 /home/lars/development/openanno/src/gui/searchgames.cpp
+	"gui/searchgames.h"
+	"gui/widgetmanager.h"
+	"gettext.h"
+	<cstdlib>
+	<sstream>
+
+1169410834 /home/lars/development/openanno/src//gui/newgamedialog.h
+	"gui/dialog.h"
+	"gui/imagebutton.h"
+	"gui/events/eventcommand.h"
+	"gui/events/eventkey.h"
+	"gui/textviewer.h"
+
+1157188849 /home/lars/development/openanno/src/gui/newgamedialog.cpp
+	"gui/newgamedialog.h"
+	"gui/widgetmanager.h"
+	"lib/tinyxml/tinyxml.h"
+	"gettext.h"
+
+1169410834 /home/lars/development/openanno/src//gui/textviewer.h
+	<string>
+	<vector>
+	"gui/widget.h"
+	"gui/scrollbar.h"
+	"gui/events/eventcommand.h"
+	"video/videosystem.h"
+
+1157375825 /home/lars/development/openanno/src/gui/textviewer.cpp
+	"gui/textviewer.h"
+	"gui/widgetmanager.h"
+	<iostream>
+
+1157644419 /home/lars/development/openanno/src/gamesession.cpp
+	"gamesession.h"
+	"video/videosystem.h"
+	"gui/widgetmanager.h"
+
+1157189218 /home/lars/development/openanno/src/gamesession.h
+	"gamestate.h"
+	"map.h"
+	"gui/events/eventmousemove.h"
+	"gui/widget.h"
+
+1157649637 /home/lars/development/openanno/src//ingame.h
+	<string>
+	"gamestate.h"
+	"gui/widget.h"
+	"openanno.h"
+	"map.h"
+	"video/videosystem.h"
+	"video/surface.h"
+	"gui/events/eventmousemove.h"
+	"gui/widgetmanager.h"
+
+1158089924 /home/lars/development/openanno/src/ingame.cpp
+	"lib/tinyxml/tinyxml.h"
+	"ingame.h"
+	"configuration.h"
+	<sstream>
+
+1157649637 /home/lars/development/openanno/src/ingame.h
+	<string>
+	"gamestate.h"
+	"gui/widget.h"
+	"openanno.h"
+	"map.h"
+	"video/videosystem.h"
+	"video/surface.h"
+	"gui/events/eventmousemove.h"
+	"gui/widgetmanager.h"
+
+1157122226 /home/lars/development/openanno/src//video/sdl/sdlvideosystem.h
+	"video/videosystem.h"
+	"sdlsurface.h"
+	"video/color.h"
+	"sdlfont.h"
+
+1158068528 /home/lars/development/openanno/src//video/sdl/sdlsurface.h
+	"video/surface.h"
+	<SDL_image.h>
+	<SDL/SDL_image.h>
+
+1158068528 /home/lars/development/openanno/src//video/sdl/sdlfont.h
+	<windows.h>
+	<SDL_ttf.h>
+	<SDL/SDL_ttf.h>
+	<string>
+	"video/font.h"
+
+1169410837 /home/lars/development/openanno/src/jukebox.h
+	<string>
+	<vector>
+	<time.h>
+	"audio/audioSystem.h"
+
+1169410837 /home/lars/development/openanno/src//jukebox.h
+	<string>
+	<vector>
+	<time.h>
+	"audio/audioSystem.h"
+
+1157723949 /home/lars/development/openanno/src/jukebox.cpp
+	<iostream>
+	<stdlib.h>
+	"jukebox.h"
+	"configuration.h"
+	<physfs.h>
+
+1169410834 /home/lars/development/openanno/src//gui/logindialog.h
+	<string>
+	"gettext.h"
+	"gui/statictext.h"
+	"gui/dialog.h"
+	"gui/editbox.h"
+	"gui/slider.h"
+	"gui/checkbox.h"
+	"gui/selector.h"
+	"gui/imagebutton.h"
+	"gui/widgetmanager.h"
+	"gui/events/eventcommand.h"
+
+1169410834 /home/lars/development/openanno/src//gui/registerdialog.h
+	<string>
+	"gui/dialog.h"
+	"gui/editbox.h"
+	"gui/slider.h"
+	"gui/checkbox.h"
+	"gui/selector.h"
+	"gui/imagebutton.h"
+	"gui/events/eventcommand.h"
+
+1159537753 /home/lars/development/openanno/src/gui/logindialog.cpp
+	<string>
+	"gettext.h"
+	"gui/logindialog.h"
+	"configuration.h"
+	"gui/dialog.h"
+	"gui/widgetmanager.h"
+	"gui/statictext.h"
+	"gui/events/eventcommand.h"
+
+1159537753 /home/lars/development/openanno/src/gui/registerdialog.cpp
+	<string>
+	"gettext.h"
+	"gui/registerdialog.h"
+	"configuration.h"
+	"gui/dialog.h"
+	"gui/widgetmanager.h"
+	"gui/statictext.h"
+	"gui/events/eventcommand.h"
+
+1169410776 source:/home/lars/development/openanno/src/audio/audioSystem.cpp
+	"audio/audioSystem.h"
+	"io/resourceManager.h"
+	"io/resourceLoader.h"
+	<SDL.h>
+	<SDL_mixer.h>
+	<SDL/SDL.h>
+	<SDL/SDL_mixer.h>
+
+1158068528 source:/home/lars/development/openanno/src/audio/sdl/sdlAudioSystem.cpp
+	"audio/sdl/sdlAudioSystem.h"
+	"audio/sdl/sdlMusic.h"
+	"audio/sdl/sdlSample.h"
+	"audio/sdl/sdlSampleChunk.h"
+	"io/resourceManager.h"
+	"io/resourceLoader.h"
+	<SDL.h>
+	<SDL_mixer.h>
+	<SDL/SDL.h>
+	<SDL/SDL_mixer.h>
+	<iostream>
+	<string>
+
+1157655175 source:/home/lars/development/openanno/src/audio/sdl/sdlMusic.cpp
+	"audio/sdl/sdlMusic.h"
+	"video/sdl/sdlvideosystem.h"
+
+1156778041 source:/home/lars/development/openanno/src/audio/sdl/sdlSample.cpp
+	"audio/sdl/sdlSample.h"
+	"audio/sdl/sdlSampleChunk.h"
+	"io/resourceManager.h"
+
+1156778041 source:/home/lars/development/openanno/src/audio/sdl/sdlSampleChunk.cpp
+	"audio/sdl/sdlSampleChunk.h"
+
+1169410837 source:/home/lars/development/openanno/src/configuration.cpp
+	"configuration.h"
+	<sstream>
+
+1169410837 source:/home/lars/development/openanno/src/entity.cpp
+	"entity.h"
+	"entityManager.h"
+
+1169410837 source:/home/lars/development/openanno/src/entityManager.cpp
+	"entityManager.h"
+	"entity.h"
+
+1157644419 source:/home/lars/development/openanno/src/gamesession.cpp
+	"gamesession.h"
+	"video/videosystem.h"
+	"gui/widgetmanager.h"
+
+1170169796 source:/home/lars/development/openanno/src/gamestate.cpp
+	"gamestate.h"
+	"openanno.h"
+
+1169410834 source:/home/lars/development/openanno/src/gui/checkbox.cpp
+	"checkbox.h"
+	"widgetmanager.h"
+	"events/eventcommand.h"
+
+1169410834 source:/home/lars/development/openanno/src/gui/commandwidget.cpp
+	"commandwidget.h"
+	"widgetmanager.h"
+	"gui/events/eventcommand.h"
+
+1169410834 source:/home/lars/development/openanno/src/gui/configdialog.cpp
+	"gettext.h"
+	"configdialog.h"
+	"statictext.h"
+	"editbox.h"
+	"checkbox.h"
+	"slider.h"
+	"configuration.h"
+	"widgetmanager.h"
+	<sstream>
+	<stdlib.h>
+	<iostream>
+	<physfs.h>
+	"audio/audioSystem.h"
+
+1170186970 source:/home/lars/development/openanno/src/gui/dialog.cpp
+	"dialog.h"
+
+1169410834 source:/home/lars/development/openanno/src/gui/editbox.cpp
+	"editbox.h"
+	"widgetmanager.h"
+	"gui/events/eventkey.h"
+	<iostream>
+
+1169410831 source:/home/lars/development/openanno/src/gui/events/event.cpp
+	"event.h"
+	"gui/widget.h"
+
+1169410831 source:/home/lars/development/openanno/src/gui/events/eventcommand.cpp
+	"eventcommand.h"
+
+1169410831 source:/home/lars/development/openanno/src/gui/events/eventkey.cpp
+	"eventkey.h"
+	<SDL.h>
+	<SDL/SDL.h>
+
+1169410831 source:/home/lars/development/openanno/src/gui/events/eventmouseclick.cpp
+	"eventmouseclick.h"
+	"../widget.h"
+
+1169410831 source:/home/lars/development/openanno/src/gui/events/eventmousemove.cpp
+	"eventmousemove.h"
+	"../widgetmanager.h"
+	"../widget.h"
+
+1170193581 source:/home/lars/development/openanno/src/gui/imagebutton.cpp
+	"imagebutton.h"
+	"widgetmanager.h"
+
+1169410834 source:/home/lars/development/openanno/src/gui/menu.cpp
+	"menu.h"
+	<assert.h>
+	<iostream>
+	"widgetmanager.h"
+	"events/eventmousemove.h"
+	"events/eventmouseclick.h"
+	"events/eventcommand.h"
+
+1170168360 source:/home/lars/development/openanno/src/gui/multidialog.cpp
+	"gettext.h"
+	"gui/startscreen.h"
+	"gui/multidialog.h"
+	"gui/widgetmanager.h"
+
+1169993313 source:/home/lars/development/openanno/src/gui/newgamedialog.cpp
+	"gui/newgamedialog.h"
+	"gui/widgetmanager.h"
+	"lib/tinyxml/tinyxml.h"
+	"gettext.h"
+
+1169410834 source:/home/lars/development/openanno/src/gui/scrollbar.cpp
+	"scrollbar.h"
+	"widgetmanager.h"
+
+1169410834 source:/home/lars/development/openanno/src/gui/searchgames.cpp
+	"gui/searchgames.h"
+	"gui/widgetmanager.h"
+	"gettext.h"
+	<cstdlib>
+	<sstream>
+
+1169410834 source:/home/lars/development/openanno/src/gui/selectbox.cpp
+	"selectbox.h"
+	"scrollbar.h"
+	"gui/widgetmanager.h"
+	<math.h>
+	<stdlib.h>
+	<iostream>
+
+1169993313 source:/home/lars/development/openanno/src/gui/selector.cpp
+	"selector.h"
+	"widgetmanager.h"
+
+1169993313 source:/home/lars/development/openanno/src/gui/singledialog.cpp
+	"singledialog.h"
+	"widgetmanager.h"
+	"gettext.h"
+	<sstream>
+	<stdlib.h>
+	<iostream>
+	<physfs.h>
+	"lib/tinyxml/tinyxml.h"
+
+1170167599 source:/home/lars/development/openanno/src/gui/slider.cpp
+	"slider.h"
+	"widgetmanager.h"
+
+1170170602 source:/home/lars/development/openanno/src/gui/startscreen.cpp
+	<sstream>
+	"startscreen.h"
+	"events/eventmousemove.h"
+	"gui/widgetmanager.h"
+	"openanno.h"
+	"configuration.h"
+	"gettext.h"
+	"ingame/ingame.h"
+
+1169410834 source:/home/lars/development/openanno/src/gui/statictext.cpp
+	"statictext.h"
+	"widgetmanager.h"
+
+1169410834 source:/home/lars/development/openanno/src/gui/table.cpp
+	"table.h"
+	"scrollbar.h"
+	"gui/widgetmanager.h"
+	<math.h>
+	<stdlib.h>
+	<iostream>
+	<exception>
+	<algorithm>
+
+1169410834 source:/home/lars/development/openanno/src/gui/teamdialog.cpp
+	"gui/teamdialog.h"
+	"gui/widgetmanager.h"
+	"gui/statictext.h"
+	<string>
+	<vector>
+
+1169410834 source:/home/lars/development/openanno/src/gui/textviewer.cpp
+	"gui/textviewer.h"
+	"gui/widgetmanager.h"
+	<iostream>
+
+1169410834 source:/home/lars/development/openanno/src/gui/widget.cpp
+	"widgetmanager.h"
+	"widget.h"
+
+1170194880 source:/home/lars/development/openanno/src/gui/widgetmanager.cpp
+	<assert.h>
+	"widgetmanager.h"
+	"widget.h"
+	"events/eventmousemove.h"
+	"events/eventmouseclick.h"
+	"events/eventmouseover.h"
+	"events/eventmouseout.h"
+	"events/eventkey.h"
+	"events/eventtick.h"
+
+1158089924 source:/home/lars/development/openanno/src/ingame.cpp
+	"lib/tinyxml/tinyxml.h"
+	"ingame.h"
+	"configuration.h"
+	<sstream>
+
+1170000779 source:/home/lars/development/openanno/src/io/resource.cpp
+	"resource.h"
+	<physfs.h>
+	<assert.h>
+	<iostream>
+
+1170000779 source:/home/lars/development/openanno/src/io/resourceManager.cpp
+	<iostream>
+	"resourceManager.h"
+	"resource.h"
+	"resourceLoader.h"
+
+1169410837 source:/home/lars/development/openanno/src/jukebox.cpp
+	<iostream>
+	<stdlib.h>
+	"jukebox.h"
+	"configuration.h"
+	<physfs.h>
+
+1156778045 source:/home/lars/development/openanno/src/lib/tinyxml/tinystr.cpp
+	"tinystr.h"
+
+1159537753 source:/home/lars/development/openanno/src/lib/tinyxml/tinyxml.cpp
+	<ctype.h>
+	"tinyxml.h"
+	<sstream>
+	<iostream>
+
+1156778045 source:/home/lars/development/openanno/src/lib/tinyxml/tinyxmlerror.cpp
+	"tinyxml.h"
+
+1156778045 source:/home/lars/development/openanno/src/lib/tinyxml/tinyxmlparser.cpp
+	"tinyxml.h"
+	<ctype.h>
+	<stddef.h>
+	<windows.h>
+
+1159702232 source:/home/lars/development/openanno/src/map.cpp
+	<sstream>
+	<math.h>
+	"map.h"
+	"lib/tinyxml/tinyxml.h"
+	"video/videosystem.h"
+	"configuration.h"
+
+1159698344 source:/home/lars/development/openanno/src/openanno.cpp
+	"configInclude.h"
+	"gettext.h"
+	<windows.h>
+	<shlobj.h>
+	<tchar.h>
+	"config.h"
+	<SDL.h>
+	<SDL_image.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<iostream>
+	<stdlib.h>
+	"video/opengl/openglvideosystem.h"
+	"video/sdl/sdlvideosystem.h"
+	"openanno.h"
+	"gui/startscreen.h"
+	"io/resourceManager.h"
+	"io/resourceLoader.h"
+	"scripting/scriptBinding.h"
+	"scripting/script.h"
+	"gui/widgetmanager.h"
+	"gui/events/eventmousemove.h"
+	"gui/events/eventmouseclick.h"
+	"configuration.h"
+	"audio/sdl/sdlAudioSystem.h"
+	"audio/sdl/sdlMusic.h"
+	"tile.h"
+	<physfs.h>
+	<exception>
+	"sprite/sprite.h"
+
+1156778042 source:/home/lars/development/openanno/src/scripting/class.cpp
+	"class.h"
+
+1156778042 source:/home/lars/development/openanno/src/scripting/luaScriptSystem.cpp
+	<iostream>
+	"luaScriptSystem.h"
+	"method.h"
+	"methodArguments.h"
+	"scriptingManager.h"
+	"class.h"
+	"../entityManager.h"
+	"../entity.h"
+
+1156778042 source:/home/lars/development/openanno/src/scripting/method.cpp
+	"method.h"
+
+1157649636 source:/home/lars/development/openanno/src/scripting/script.cpp
+	<fstream>
+	"script.h"
+	"scriptingManager.h"
+	"luaScriptSystem.h"
+	<physfs.h>
+
+1156778042 source:/home/lars/development/openanno/src/scripting/scriptingManager.cpp
+	"scriptingManager.h"
+	"class.h"
+	"luaScriptSystem.h"
+
+1157654799 source:/home/lars/development/openanno/src/sprite/sprite.cpp
+	"sprite.h"
+
+1157654889 source:/home/lars/development/openanno/src/sprite/spriteanimation.cpp
+	<sstream>
+	"spriteanimation.h"
+	"video/videosystem.h"
+
+1158173556 source:/home/lars/development/openanno/src/video/opengl/openglfont.cpp
+	<iostream>
+	<string>
+	<SDL_ttf.h>
+	<SDL/SDL_ttf.h>
+	"video/opengl/openglfont.h"
+	"video/sdl/sdlvideosystem.h"
+
+1158068529 source:/home/lars/development/openanno/src/video/opengl/openglsurface.cpp
+	<iostream>
+	<SDL_image.h>
+	<SDL/SDL_image.h>
+	"video/opengl/openglsurface.h"
+	"video/opengl/openglvideosystem.h"
+	"video/sdl/sdlvideosystem.h"
+	"io/resourceManager.h"
+
+1158068529 source:/home/lars/development/openanno/src/video/opengl/openglvideosystem.cpp
+	<windows.h>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<GL/gl.h>
+	<iostream>
+	"video/opengl/openglvideosystem.h"
+	"video/color.h"
+	"video/opengl/openglsurface.h"
+	"io/resourceManager.h"
+	"io/resourceLoader.h"
+
+1158068529 source:/home/lars/development/openanno/src/video/opengl/texture.cpp
+	"texture.h"
+	<assert.h>
+	<GL/gl.h>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<string>
+	<iostream>
+
+1158068529 source:/home/lars/development/openanno/src/video/sdl/sdlfont.cpp
+	<iostream>
+	<string>
+	"video/sdl/sdlfont.h"
+	"video/sdl/sdlvideosystem.h"
+
+1157655175 source:/home/lars/development/openanno/src/video/sdl/sdlsurface.cpp
+	<iostream>
+	"video/sdl/sdlsurface.h"
+	"video/sdl/sdlvideosystem.h"
+	"io/resourceManager.h"
+
+1159704188 source:/home/lars/development/openanno/src/video/sdl/sdlvideosystem.cpp
+	<windows.h>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_rotozoom.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<SDL/SDL_rotozoom.h>
+	<iostream>
+	<physfs.h>
+	"sdlvideosystem.h"
+	"sdlsurface.h"
+	"video/color.h"
+	"io/resourceManager.h"
+	"io/resourceLoader.h"
+
+1156778046 source:/home/lars/development/openanno/src/video/videosystem.cpp
+	"video/videosystem.h"
+
+1169410834 source:/home/lars/development/openanno/src/gui/logindialog.cpp
+	<string>
+	"gettext.h"
+	"gui/logindialog.h"
+	"configuration.h"
+	"gui/dialog.h"
+	"gui/widgetmanager.h"
+	"gui/statictext.h"
+	"gui/events/eventcommand.h"
+
+1169410834 source:/home/lars/development/openanno/src/gui/registerdialog.cpp
+	<string>
+	"gettext.h"
+	"gui/registerdialog.h"
+	"configuration.h"
+	"gui/dialog.h"
+	"gui/widgetmanager.h"
+	"gui/statictext.h"
+	"gui/events/eventcommand.h"
+
+1159703305 source:/home/lars/development/openanno/src/tile.cpp
+	<iostream>
+	"video/videosystem.h"
+	"tile.h"
+	"lib/tinyxml/tinyxml.h"
+	"io/resourceManager.h"
+
+1170000779 /home/lars/development/openanno/src//io/refptr.h
+	<cassert>
+	"io/resource.h"
+
+1169410831 /home/lars/development/openanno/src//gui/events/eventmouseout.h
+	"event.h"
+
+1169410831 /home/lars/development/openanno/src//gui/events/eventmouseover.h
+	"event.h"
+
+1169410831 /home/lars/development/openanno/src//gui/events/eventtick.h
+	"event.h"
+
+1169410776 source:/home/lars/development/openanno/src/audio/music.cpp
+	"audio/music.h"
+
+1170864056 source:/home/lars/development/openanno/src/audio/sample.cpp
+	<SDL.h>
+	<SDL_mixer.h>
+	<SDL/SDL.h>
+	<SDL/SDL_mixer.h>
+	"audio/sample.h"
+	"io/resourceManager.h"
+
+1169410831 source:/home/lars/development/openanno/src/gui/events/eventmouseout.cpp
+	"eventmouseout.h"
+	"../widgetmanager.h"
+	"../widget.h"
+
+1169410831 /home/lars/development/openanno/src/gui/events/eventmouseout.h
+	"event.h"
+
+1169410831 source:/home/lars/development/openanno/src/gui/events/eventmouseover.cpp
+	"eventmouseover.h"
+	"../widgetmanager.h"
+	"../widget.h"
+
+1169410831 /home/lars/development/openanno/src/gui/events/eventmouseover.h
+	"event.h"
+
+1169410831 source:/home/lars/development/openanno/src/gui/events/eventtick.cpp
+	"eventtick.h"
+
+1169410831 /home/lars/development/openanno/src/gui/events/eventtick.h
+	"event.h"
+
+1170195214 source:/home/lars/development/openanno/src/gui/messagebox.cpp
+	"messagebox.h"
+	"gettext.h"
+	"statictext.h"
+	"widgetmanager.h"
+
+1170186118 /home/lars/development/openanno/src/gui/messagebox.h
+	"dialog.h"
+	"imagebutton.h"
+
+1170170564 source:/home/lars/development/openanno/src/ingame/ingame.cpp
+	"lib/tinyxml/tinyxml.h"
+	"ingame.h"
+	"configuration.h"
+	<sstream>
+
+1170170584 /home/lars/development/openanno/src/ingame/ingame.h
+	<string>
+	"gamestate.h"
+	"gui/widget.h"
+	"openanno.h"
+	"map.h"
+	"minimap.h"
+	"mission.h"
+	"video/videosystem.h"
+	"video/surface.h"
+	"gui/events/eventmousemove.h"
+	"gui/widgetmanager.h"
+
+1171197733 /home/lars/development/openanno/src/ingame/map.h
+	<string>
+	"tile.h"
+	"island.h"
+	"gui/widget.h"
+	"video/videosystem.h"
+	"gui/widgetmanager.h"
+	"gui/events/eventmousemove.h"
+	"gui/events/eventmouseclick.h"
+
+1170168377 /home/lars/development/openanno/src/ingame/tile.h
+	<string>
+	<map>
+	"io/refptr.h"
+	"video/surface.h"
+	"video/videosystem.h"
+	"rotation.h"
+	"lib/tinyxml/tinyxml.h"
+
+1169994720 /home/lars/development/openanno/src//rotation.h
+	<string>
+
+1170007649 /home/lars/development/openanno/src/ingame/island.h
+	"tile.h"
+	<string>
+
+1169993317 /home/lars/development/openanno/src/ingame/minimap.h
+	<string>
+	"gui/commandwidget.h"
+	"video/videosystem.h"
+	"map.h"
+	"gui/widgetmanager.h"
+	"gui/events/eventmousemove.h"
+	"gui/events/eventmouseclick.h"
+	"gui/events/eventtick.h"
+
+1169993317 /home/lars/development/openanno/src/ingame/mission.h
+	<string>
+	"map.h"
+	"minimap.h"
+
+1170020305 source:/home/lars/development/openanno/src/ingame/island.cpp
+	"island.h"
+	<physfs.h>
+	"lib/tinyxml/tinyxml.h"
+	<sstream>
+	<iostream>
+	"exception.h"
+
+1169993317 /home/lars/development/openanno/src//exception.h
+	<exception>
+	<string>
+	<sstream>
+
+1170171343 source:/home/lars/development/openanno/src/ingame/map.cpp
+	<sstream>
+	<math.h>
+	"map.h"
+	"lib/tinyxml/tinyxml.h"
+	"video/videosystem.h"
+	"configuration.h"
+
+1169993317 source:/home/lars/development/openanno/src/ingame/minimap.cpp
+	<sstream>
+	<math.h>
+	"minimap.h"
+	"map.h"
+	"video/videosystem.h"
+	"configuration.h"
+
+1169993317 source:/home/lars/development/openanno/src/ingame/mission.cpp
+	"mission.h"
+	"lib/tinyxml/tinyxml.h"
+	<sstream>
+	<iostream>
+	"exception.h"
+
+1170020283 source:/home/lars/development/openanno/src/ingame/tile.cpp
+	<iostream>
+	<sstream>
+	"video/videosystem.h"
+	"tile.h"
+	"lib/tinyxml/tinyxml.h"
+	"io/resourceManager.h"
+
+1170000779 /home/lars/development/openanno/src/io/refptr.h
+	<cassert>
+	"io/resource.h"
+
+1169410817 source:/home/lars/development/openanno/src/lib/raknet/AsynchronousFileIO.cpp
+	"AsynchronousFileIO.h"
+	"ClientContextStruct.h"
+	<process.h>
+	"ExtendedOverlappedPool.h"
+	<stdio.h>
+	<assert.h>
+	"NetworkTypes.h"
+
+1169410817 /home/lars/development/openanno/src/lib/raknet/AsynchronousFileIO.h
+	<WinSock2.h>
+	<WinSock.h>
+	<windows.h>
+	"SimpleMutex.h"
+
+1169410817 /home/lars/development/openanno/src/lib/raknet/SimpleMutex.h
+	<windows.h>
+	<pthread.h>
+	<sys/types.h>
+
+1169410817 /home/lars/development/openanno/src/lib/raknet/ClientContextStruct.h
+	<windows.h>
+	"NetworkTypes.h"
+	"MTUSize.h"
+
+1169410817 /home/lars/development/openanno/src/lib/raknet/NetworkTypes.h
+	"BitStream.h"
+
+1169410817 /home/lars/development/openanno/src/lib/raknet/BitStream.h
+	<stdint.h>
+
+1169410817 /home/lars/development/openanno/src/lib/raknet/MTUSize.h
+
+1169410817 /home/lars/development/openanno/src/lib/raknet/ExtendedOverlappedPool.h
+	"SimpleMutex.h"
+	"ClientContextStruct.h"
+	"RakNetQueue.h"
+
+1169410817 /home/lars/development/openanno/src/lib/raknet/RakNetQueue.h
+	<assert.h>
+
+1170170584 /home/lars/development/openanno/src//ingame/ingame.h
+	<string>
+	"gamestate.h"
+	"gui/widget.h"
+	"openanno.h"
+	"map.h"
+	"minimap.h"
+	"mission.h"
+	"video/videosystem.h"
+	"video/surface.h"
+	"gui/events/eventmousemove.h"
+	"gui/widgetmanager.h"
+
+1169994720 /home/lars/development/openanno/src//ingame/map.h
+	<string>
+	"tile.h"
+	"island.h"
+	"gui/widget.h"
+	"video/videosystem.h"
+	"gui/widgetmanager.h"
+	"gui/events/eventmousemove.h"
+	"gui/events/eventmouseclick.h"
+
+1170168377 /home/lars/development/openanno/src//ingame/tile.h
+	<string>
+	<map>
+	"io/refptr.h"
+	"video/surface.h"
+	"video/videosystem.h"
+	"rotation.h"
+	"lib/tinyxml/tinyxml.h"
+
+1170007649 /home/lars/development/openanno/src//ingame/island.h
+	"tile.h"
+	<string>
+
+1169993317 /home/lars/development/openanno/src//ingame/minimap.h
+	<string>
+	"gui/commandwidget.h"
+	"video/videosystem.h"
+	"map.h"
+	"gui/widgetmanager.h"
+	"gui/events/eventmousemove.h"
+	"gui/events/eventmouseclick.h"
+	"gui/events/eventtick.h"
+
+1169993317 /home/lars/development/openanno/src//ingame/mission.h
+	<string>
+	"map.h"
+	"minimap.h"
+

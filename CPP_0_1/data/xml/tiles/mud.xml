@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<tile fertility="2" type="grassland" name="Mud">
+	<slope type="plane">
+		<rotation angle="all">
+			<frame duration="1" image="mud.png"/>
+		</rotation>
+	</slope>
+</tile>

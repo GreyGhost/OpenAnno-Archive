@@ -1,0 +1,324 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenAnno\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2006-07-04 22:45+0100\n"
+"Last-Translator: Andre Reichelt <andre.angelina@t-online.de>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+##languages
+msgid "lng_german_string"
+msgstr "Deutsch"
+
+msgid "lng_sys_default_string"
+msgstr "Voreinstellung"
+
+msgid "lng_english_string"
+msgstr "English"
+
+##buildings
+msgid "residence"
+msgstr "Stadtzentrum"
+
+msgid "residence_txt"
+msgstr "Mit jedem Upgrade erhöht sich das Bevölkerungslimit"
+
+msgid "tobaccoplantation"
+msgstr "Tabakplantage"
+
+msgid "tower"
+msgstr "Turm"
+
+msgid "tower_txt"
+msgstr "Verteidungsanlage der Insel"
+
+msgid "foundry"
+msgstr "Gießerei"
+
+msgid "tavern"
+msgstr "Taverne"
+
+msgid "tavern_txt"
+msgstr "Hier können Seeleute angeheuert werden"
+
+msgid "hospital"
+msgstr "Krankenhaus"
+
+msgid "court"
+msgstr "Gericht"
+
+msgid "weaponsmith"
+msgstr "Waffenschmiede"
+
+msgid "lumbermill"
+msgstr "Sägewerk"
+
+msgid "militaryacademy"
+msgstr "Militärakademie"
+
+msgid "fortress"
+msgstr "Festung"
+
+msgid "lumberjack"
+msgstr "Holzfäller"
+
+msgid "home"
+msgstr "Wohnhaus"
+
+msgid "home_txt"
+msgstr "Wohnungen für die Bevölkerung"
+
+msgid "academy"
+msgstr "Akademie"
+
+msgid "bakery"
+msgstr "Bäckerei"
+
+msgid "bakery_txt"
+msgstr "Benötigt einen Fluss in der Nähe um die Mühle anzutreiben"
+
+msgid "branchoffice"
+msgstr "Kontor"
+
+msgid "farm"
+msgstr "Hof"
+
+msgid "farm_txt"
+msgstr "Nahrungsproduktion für die Bevölkerung"
+
+msgid "farmpigs"
+msgstr "Schweinefarm"
+
+msgid "farmpigs_txt"
+msgstr "Erweitert die Farm um eine Schweinezucht"
+
+msgid "farmfield1"
+msgstr "Getreidefeld"
+
+msgid "farmfield1_txt"
+msgstr "Erweitert die Farm um Getreidefelder"
+
+msgid "shipyard"
+msgstr "Werft"
+
+msgid "shipyard_txt"
+msgstr "Je höher die Ausbaustufe desto mehr Schiffe stehen zur Verfügung"
+
+msgid "oremine"
+msgstr "Erzmiene"
+
+msgid "quarry"
+msgstr "Bergwerk"
+
+msgid "warehouse"
+msgstr "Warenlager"
+
+msgid "blacksmith"
+msgstr "Schmiede"
+
+msgid "harbour"
+msgstr "Hafen"
+
+msgid "harbour_txt"
+msgstr "Wird u.a. zum Handel gebraucht"
+
+msgid "church"
+msgstr "Kirche"
+
+msgid "church_txt"
+msgstr "Die Kirche schenkt dem Bürger Halt und Zuversicht"
+
+### menu
+msgid "start_new_game"
+msgstr "Neues Spiel starten"
+
+msgid "join_game"
+msgstr "Spiel beitreten"
+
+msgid "options"
+msgstr "Optionen"
+
+msgid "player_menu"
+msgstr "Spielereinstellungen"
+
+msgid "gamma"
+msgstr "Gamma"
+
+msgid "team"
+msgstr "Das Team"
+
+msgid "end_game"
+msgstr "Spiel beenden"
+
+msgid "back"
+msgstr "Zurück"
+
+msgid "pause"
+msgstr "Pause"
+
+msgid "gold"
+msgstr "Gold"
+
+msgid "island"
+msgstr "Insel"
+
+msgid "campaign"
+msgstr "Kampagne"
+
+msgid "nocampaign"
+msgstr "Keine Kampagne"
+
+msgid "start_server"
+msgstr "Server starten"
+
+msgid "ip_address"
+msgstr "IP-Adresse"
+
+msgid "player_count"
+msgstr "Spieler:"
+
+msgid "start_game"
+msgstr "Spiel starten"
+
+msgid "player_name"
+msgstr "Spielername"
+
+msgid "fog_of_war"
+msgstr "Fog of War (*)"
+
+msgid "fps_show"
+msgstr "Frames pro Sekunde anzeigen"
+
+msgid "doublebuffered"
+msgstr "Doublebuffer aktivieren (*)"
+
+msgid "fullscreen"
+msgstr "Vollbild (*)"
+
+msgid "sound_deactivate"
+msgstr "Sound deaktiveren (*)"
+
+msgid "daytime_changes"
+msgstr "Tageszeitwechsel (*)"
+
+msgid "scroll_speed"
+msgstr "Scrollgeschwindigkeit"
+
+msgid "music_volume"
+msgstr "Musiklautstärke"
+
+msgid "sound_volume"
+msgstr "Soundlautstärke"
+
+msgid "language"
+msgstr "Sprache"
+
+msgid "restart_on_change_option_with_asterisk"
+msgstr "(*) Neustart erforderlich"
+
+msgid "researchmenu"
+msgstr "Forschungsmen"
+
+msgid "production"
+msgstr "Produktion"
+
+msgid "assigned_workers"
+msgstr "Zugewiesene Arbeiter"
+
+msgid "storage_capacity"
+msgstr "Lagerkapazitäten"
+
+msgid "resources"
+msgstr "Ressourcen"
+
+msgid "workers_working"
+msgstr "eingestellte Arbeiter"
+
+msgid "available_workers"
+msgstr "freie Arbeiter"
+
+msgid "population_limit"
+msgstr "Bevölkerungslimit"
+
+msgid "population"
+msgstr "Bevölkerung"
+
+msgid "armada"
+msgstr "Flotte"
+
+msgid "press_enter_to_activate_input"
+msgstr "Enter drücken um Kommandozeile zu aktivieren"
+
+msgid "could_not_connect_to_server"
+msgstr "Konnte nicht zum Server verbinden"
+
+msgid "ship"
+msgstr "Schiff"
+
+msgid "techtree"
+msgstr "Technologiebaum"
+
+msgid "project_leader"
+msgstr "Projektleitung:"
+
+msgid "coding"
+msgstr "Programmierung:"
+
+msgid "arts"
+msgstr "Zeichnungen und Bilder:"
+
+msgid "music_and_sounds"
+msgstr "Musik und Sounds:"
+
+msgid "quit_game"
+msgstr "Spiel beenden"
+
+msgid "construction"
+msgstr "Bauen"
+
+msgid "info_island"
+msgstr "Inselinformationen"
+
+msgid "quit"
+msgstr "Beenden"
+
+##techtree
+msgid "sextant"
+msgstr "Sextant"
+
+msgid "big_lumbermill"
+msgstr "Großes Sägewerk"
+
+msgid "biggest_lumbermill"
+msgstr "Großtes Sägewerk"
+
+msgid "three_field_rotation"
+msgstr "Drei-Felder-Wirtschaft"
+
+msgid "ship_construction"
+msgstr "Schiffsbau"
+
+msgid "geology"
+msgstr "Geologie"
+
+msgid "trading"
+msgstr "Handel"
+
+msgid "constitutional_state"
+msgstr "Rechtsstaat"
+
+msgid "diplomacy"
+msgstr "Diplomatie"
+
+msgid "fregatta"
+msgstr "Fregatte"
+
+msgid "trader"
+msgstr "Händler"
+

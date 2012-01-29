@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de">
+	<head>
+		<title>Server-Liste</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<h1>Server-Liste</h1>
+		<table border="1">
+			<tr>
+				<th>Servername</th>
+				<th>IP</th>
+				<th>Standort</th>
+				<th>Ping</th>
+			</tr>
+			<tmpl_loop name="list_loop">
+				<tr>
+					<td><tmpl_var name="name"></td>
+					<td><tmpl_var name="ip"></td>
+					<td><tmpl_var name="location"></td>
+					<td class="<tmpl_var name="pingclass">"><tmpl_var name="ping"></td>
+				</tr>
+			</tmpl_loop>
+		</table>
+		<hr />
+		<p>Stand: <tmpl_var name="time"></p>
+	</body>
+</html>

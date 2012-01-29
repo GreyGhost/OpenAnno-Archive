@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<tile fertility="3" type="grassland" name="Grass">
+	<slope type="plane">
+		<rotation angle="all">
+	     		<frame duration="1" image="dummy_plane.png"/>
+	   	</rotation>
+	</slope>
+	<slope type="flatedge">
+		<rotation angle="0">
+			<frame duration="1" image="dummy_flatedge_0.png"/>
+		</rotation>
+		<rotation angle="90">
+			<frame duration="1" image="dummy_flatedge_90.png"/>
+		</rotation>
+		<rotation angle="180">
+			<frame duration="1" image="dummy_flatedge_180.png"/>
+		</rotation>
+		<rotation angle="270">
+			<frame duration="1" image="dummy_flatedge_270.png"/>
+		</rotation>
+	</slope>
+	<slope type="flatcorner">
+		<rotation angle="0">
+			<frame duration="1" image="dummy_flatcorner_0.png"/>
+		</rotation>
+		<rotation angle="90">
+			<frame duration="1" image="dummy_flatcorner_90.png"/>
+		</rotation>
+		<rotation angle="180">
+			<frame duration="1" image="dummy_flatcorner_180.png"/>
+		</rotation>
+		<rotation angle="270">
+			<frame duration="1" image="dummy_flatcorner_270.png"/>
+		</rotation>
+	</slope>
+	<slope type="flathill">
+		<rotation angle="0">
+			<frame duration="1" image="dummy_flathill_0.png"/>
+		</rotation>
+		<rotation angle="90">
+			<frame duration="1" image="dummy_flathill_90.png"/>
+		</rotation>
+		<rotation angle="180">
+			<frame duration="1" image="dummy_flathill_180.png"/>
+		</rotation>		
+		<rotation angle="270">
+			<frame duration="1" image="dummy_flathill_270.png"/>
+		</rotation>
+	</slope>
+	<slope type="steepedge">
+		<rotation angle="0">
+			<frame duration="1" image="dummy_steepedge_0.png"/>
+		</rotation>
+		<rotation angle="90">
+			<frame duration="1" image="dummy_steepedge_90.png"/>
+		</rotation>
+		<rotation angle="180">
+			<frame duration="1" image="dummy_steepedge_180.png"/>
+		</rotation>
+		<rotation angle="270">
+			<frame duration="1" image="dummy_steepedge_270.png"/>
+		</rotation>
+	</slope>
+	<slope type="steephill">
+		<rotation angle="0">
+			<frame duration="1" image="dummy_steephill_0.png"/>
+		</rotation>
+		<rotation angle="90">
+			<frame duration="1" image="dummy_steephill_90.png"/>
+		</rotation>
+		<rotation angle="180">
+			<frame duration="1" image="dummy_steephill_180.png"/>
+		</rotation>		
+		<rotation angle="270">
+			<frame duration="1" image="dummy_steephill_270.png"/>
+		</rotation>
+	</slope>
+</tile>

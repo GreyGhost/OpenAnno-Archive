@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<tile name="fisher">
+	<image directions="all" variation="0">fisher0.png</image>
+	<image directions="all" variation="1">fisher1.png</image>
+	<image directions="all" variation="2">fisher2.png</image>
+	<image directions="all" variation="3">fisher3.png</image>
+	<image directions="all" variation="4">fisher4.png</image>
+	<image directions="all" variation="5">fisher5.png</image>
+	<image directions="all" variation="6">fisher6.png</image>
+	<image directions="all" variation="7">fisher7.png</image>
+</tile>

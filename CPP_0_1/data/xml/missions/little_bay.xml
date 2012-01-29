@@ -1,0 +1,35 @@
+<mission>
+<info>
+ <level>0</level>
+ <name>Little Bay</name>
+ <description>Diese Map ist eine Demonstration fuer etwas kleinere Maps in OpenAnno!</description>
+</info>
+<resources>
+ <gold>1000</gold>
+ <wood>1000</wood>
+ <stone>1000</stone>
+ <tools>1000</tools>
+ <food>1000</food>
+ <clothes>0</clothes>
+ <wool>0</wool>
+ <tobacco>0</tobacco>
+</resources>
+<misc>
+ <drouth>1</drouth>
+ <plague>1</plague>
+ <pirates>1</pirates>
+ <trader>1</trader>
+</misc>
+<map>
+ <width>10</width>
+ <height>10</height>
+ <startposition x="0" y="0"/>
+ <orientation>north</orientation> 
+ <island start_col="2" start_row="2">very_little_bay.xml</island>
+</map>
+<objective>
+ <towns>2</towns>
+ <inhabitants>12000</inhabitants>
+ <society>0</society>
+</objective>
+</mission>

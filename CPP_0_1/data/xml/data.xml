@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+
+    type:
+    T_NOT = 0,
+    T_WATER = 1,
+    T_LAND = 2,
+    T_WATER_L = 3,
+    T_WATER_R = 4,
+    T_WATER_T = 5,
+    T_WATER_B = 6,
+    T_WATER_RB = 7,
+    T_WATER_RT = 8,
+    T_WATER_LB = 9,
+    T_WATER_LT = 10,
+    T_RIVER_LB_RT = 11,
+    T_RIVER_RB_LT = 12,
+    T_RIVER_M_RB = 13,
+    T_RIVER_M_RT = 14,
+    T_RIVER_M_LB = 15,
+    T_RIVER_M_LT = 16,
+    T_RIVER_LB_RB = 17,
+    T_RIVER_LT_RT = 18,
+    T_RIVER_LT_LB = 19,
+    T_RIVER_RT_RB = 20,
+    T_BEACH_T = 21,
+    T_BEACH_B = 22,
+    T_BEACH_L = 23,
+    T_BEACH_R = 24,
+    T_RIVER_TR = 25,
+    T_RIVER_TL = 26,
+    T_ROCK = 27,
+    T_NOT_FREE = 100
+
+    size:
+    BS_ONE = 0,
+    BS_TWO_LEFT = 1,
+    BS_TWO_RIGHT = 2,
+    BS_FOUR = 3,
+    BS_THREE_LEFT = 4,
+    BS_THREE_RIGHT = 5
+
+-->
+
+<data>
+<terrains>
+  <terrain id="sea">
+    <image>sea</image>
+    <name>See</name>
+    <type>0</type>
+  </terrain>
+  <terrain id="water">
+    <image>water</image>
+    <name>Wasser</name>
+    <type>1</type>
+  </terrain>
+  <terrain id="water_t">
+    <image>water_t</image>
+    <name>Strand</name>
+    <type>5</type>
+  </terrain>
+  <terrain id="water_r">
+    <image>water_r</image>
+    <name>Strand</name>
+    <type>4</type>
+  </terrain>
+  <terrain id="water_b">
+    <image>water_b</image>
+    <name>Strand</name>
+    <type>6</type>
+  </terrain>
+  <terrain id="water_l">
+    <image>water_l</image>
+    <name>Strand</name>
+    <type>3</type>
+  </terrain>
+  <terrain id="gras">
+    <image>gras</image>
+    <name>Weideland</name>
+    <type>2</type>
+  </terrain>
+  <terrain id="grasrock"><!-- gras where a rock is up on -->
+    <image>grasrock</image>
+    <name>Weideland</name>
+    <type>27</type>
+  </terrain>
+  <terrain id="gras2">
+    <image>gras_2</image>
+    <name>Weideland</name>
+    <type>2</type>
+  </terrain>
+  <terrain id="gras5">
+    <image>gras_5</image>
+    <name>Weideland</name>
+    <type>2</type>
+  </terrain>
+  <terrain id="gras6">
+    <image>gras_6</image>
+    <name>Weideland</name>
+    <type>2</type>
+  </terrain>
+  <terrain id="gras_ruin">
+    <image>gras_ruin</image>
+    <name>Ruine</name>
+    <type>0</type>
+  </terrain>
+  <terrain id="mud">
+    <image>mud</image>
+    <name>Dreck</name>
+    <type>2</type>
+  </terrain>
+  <terrain id="mud_1">
+    <image>mud_1</image>
+    <name>Dreck</name>
+    <type>2</type>
+  </terrain>
+  <terrain id="mud_2">
+    <image>mud_2</image>
+    <name>Dreck</name>
+    <type>2</type>
+  </terrain>
+  <terrain id="mud_3">
+    <image>mud_3</image>
+    <name>Dreck</name>
+    <type>2</type>
+  </terrain>
+  <terrain id="mud_4">
+    <image>mud_4</image>
+    <name>Dreck</name>
+    <type>2</type>
+  </terrain>
+  <terrain id="mud_5">
+    <image>mud_5</image>
+    <name>Dreck</name>
+    <type>2</type>
+  </terrain>
+  <terrain id="mud_6">
+    <image>mud_6</image>
+    <name>Dreck</name>
+    <type>2</type>
+  </terrain>
+  <terrain id="mud_7">
+    <image>mud_7</image>
+    <name>Dreck</name>
+    <type>2</type>
+  </terrain>
+  <terrain id="mud_8">
+    <image>mud_8</image>
+    <name>Dreck</name>
+    <type>2</type>
+  </terrain>
+  <terrain id="mud_9">
+    <image>mud_9</image>
+    <name>Dreck</name>
+    <type>2</type>
+  </terrain>
+  <terrain id="beach_b">
+    <image>beach_b</image>
+    <name>Strand</name>
+    <type>22</type>
+  </terrain>
+  <terrain id="beach_rb">
+    <image>beach_rb</image>
+    <name>Strand</name>
+    <type>7</type>
+  </terrain>
+  <terrain id="beach_lb">
+    <image>beach_lb</image>
+    <name>Strand</name>
+    <type>9</type>
+  </terrain>
+  <terrain id="beach_t">
+    <image>beach_t</image>
+    <name>Strand</name>
+    <type>21</type>
+  </terrain>
+  <terrain id="beach_r">
+    <image>beach_r</image>
+    <name>Strand</name>
+    <type>24</type>
+  </terrain>
+  <terrain id="beach_lt">
+    <image>beach_lt</image>
+    <name>Strand</name>
+    <type>10</type>
+  </terrain>
+  <terrain id="beach_rt">
+    <image>beach_rt</image>
+    <name>Strand</name>
+    <type>8</type>
+  </terrain>
+  <terrain id="beach_l">
+    <image>beach_l</image>
+    <name>Strand</name>
+    <type>23</type>
+  </terrain>
+  <terrain id="ford_lt_rb">
+    <image>ford_lt_rb</image>
+    <name>Furt</name>
+    <type>2</type>
+  </terrain>
+  <terrain id="ford_rt_lb">
+    <image>ford_rt_lb</image>
+    <name>Furt</name>
+    <type>2</type>
+  </terrain>
+  <terrain id="river_m_rb">
+    <image>river_m_rb</image>
+    <name>Mndung</name>
+    <type>13</type>
+  </terrain>
+  <terrain id="river_m_rt">
+    <image>river_m_rt</image>
+    <name>Mndung</name>
+    <type>14</type>
+  </terrain>
+  <terrain id="river_m_lb">
+    <image>river_m_lb</image>
+    <name>Mndung</name>
+    <type>15</type>
+  </terrain>
+  <terrain id="river_m_lt">
+    <image>river_m_lt</image>
+    <name>Mndung</name>
+    <type>16</type>
+  </terrain>
+  <terrain id="river_lb_rt">
+    <image>river_lb_rt</image>
+    <name>Fluss</name>
+    <type>11</type>
+  </terrain>
+  <terrain id="river_lt_rb">
+    <image>river_lt_rb</image>
+    <name>Fluss</name>
+    <type>12</type>
+  </terrain>
+  <terrain id="river_rt_rb">
+    <image>river_rt_rb</image>
+    <name>Fluss</name>
+    <type>20</type>
+  </terrain>
+  <terrain id="river_lb_rb">
+    <image>river_lb_rb</image>
+    <name>Fluss</name>
+    <type>17</type>
+  </terrain>
+  <terrain id="river_lt_rt">
+    <image>river_lt_rt</image>
+    <name>Fluss</name>
+    <type>18</type>
+  </terrain>
+  <terrain id="river_lt_lb">
+    <image>river_lt_lb</image>
+    <name>Fluss</name>
+    <type>19</type>
+  </terrain>
+  <terrain id="river_tr">
+    <image>river_tr</image>
+    <name>Flusskreuzung</name>
+    <type>25</type>
+  </terrain>
+  <terrain id="river_tl">
+    <image>river_tl</image>
+    <name>Flusskreuzung</name>
+    <type>26</type>
+  </terrain>
+</terrains>
+<vegetations>
+  <vegetation id="palms1">
+    <alpha>1</alpha>
+    <image>palms1</image>
+    <name>Palmen</name>
+  </vegetation>
+  <vegetation id="palms2">
+    <alpha>1</alpha>
+    <image>palms2</image>
+    <name>Palmen</name>
+  </vegetation>
+  <vegetation id="palms3">
+    <alpha>1</alpha>
+    <image>palms3</image>
+    <name>Palmen</name>
+  </vegetation>
+  <vegetation id="palms4">
+    <alpha>1</alpha>
+    <image>palms4</image>
+    <name>Palmen</name>
+  </vegetation>
+  <vegetation id="palms5">
+    <alpha>1</alpha>
+    <image>palms5</image>
+    <name>Palmen</name>
+  </vegetation>
+  <vegetation id="palms6">
+    <alpha>1</alpha>
+    <image>palms6</image>
+    <name>Palmen</name>
+  </vegetation>
+  <vegetation id="tree1">
+    <alpha>1</alpha>
+    <image>tree_1</image>
+    <name>Baeume</name>
+  </vegetation>
+  <vegetation id="tree2">
+    <alpha>1</alpha>
+    <image>tree_2</image>
+    <name>Baeume</name>
+  </vegetation>
+  <vegetation id="tree3">
+    <alpha>1</alpha>
+    <image>tree_3</image>
+    <name>Baeume</name>
+  </vegetation>
+  <vegetation id="tree4">
+    <alpha>1</alpha>
+    <image>tree_4</image>
+    <name>Baeume</name>
+  </vegetation>
+  <vegetation id="tree5">
+    <alpha>1</alpha>
+    <image>tree_5</image>
+    <name>Baeume</name>
+  </vegetation>
+  <vegetation id="rock">
+    <alpha>1</alpha>
+    <image>rock</image>
+    <name>Felsen</name>
+    <blit_on_ground>1</blit_on_ground>
+    <need_biggest>27</need_biggest>
+    <need_lowest>27</need_lowest>
+  </vegetation>
+  <vegetation id="rocks_l">
+    <alpha>1</alpha>
+    <image>rock_l</image>
+    <name>Rocks</name>
+    <blit_on_ground>1</blit_on_ground>
+    <type>1</type>
+  </vegetation>
+  <vegetation id="rock_snow">
+    <alpha>1</alpha>
+    <image>rock_snow</image>
+    <name>Rocks</name>
+    <blit_on_ground>1</blit_on_ground>
+    <type>1</type>
+  </vegetation>
+  <vegetation id="rocks_lb">
+    <alpha>1</alpha>
+    <image>rock_lb</image>
+    <name>Rocks</name>
+    <blit_on_ground>1</blit_on_ground>
+    <type>1</type>
+  </vegetation>
+  <vegetation id="rocks_lt">
+    <alpha>1</alpha>
+    <image>rock_lt</image>
+    <name>Rocks</name>
+    <blit_on_ground>1</blit_on_ground>
+    <type>1</type>
+  </vegetation>
+  <vegetation id="rocks_m_l">
+    <alpha>1</alpha>
+    <image>rock_m_l</image>
+    <name>Rocks</name>
+    <blit_on_ground>1</blit_on_ground>
+    <type>1</type>
+  </vegetation>
+  <vegetation id="rocks_m_lb">
+    <alpha>1</alpha>
+    <image>rock_m_lb</image>
+    <name>Rocks</name>
+    <blit_on_ground>1</blit_on_ground>
+    <type>1</type>
+  </vegetation>
+  <vegetation id="rocks_m_lt">
+    <alpha>1</alpha>
+    <image>rock_m_lt</image>
+    <name>Rocks</name>
+    <blit_on_ground>1</blit_on_ground>
+    <type>1</type>
+  </vegetation>
+  <vegetation id="rocks_m_r">
+    <alpha>1</alpha>
+    <image>rock_m_r</image>
+    <name>Rocks</name>
+    <blit_on_ground>1</blit_on_ground>
+    <type>1</type>
+  </vegetation>
+  <vegetation id="rocks_m_rt">
+    <alpha>1</alpha>
+    <image>rock_m_rt</image>
+    <name>Rocks</name>
+    <blit_on_ground>1</blit_on_ground>
+    <type>1</type>
+  </vegetation>
+  <vegetation id="rocks_m_rb">
+    <alpha>1</alpha>
+    <image>rock_m_rb</image>
+    <name>Rocks</name>
+    <blit_on_ground>1</blit_on_ground>
+    <type>1</type>
+  </vegetation>
+  <vegetation id="rocks_r">
+    <alpha>1</alpha>
+    <image>rock_r</image>
+    <name>Rocks</name>
+    <blit_on_ground>1</blit_on_ground>
+    <type>1</type>
+  </vegetation>
+  <vegetation id="rocks_rt">
+    <alpha>1</alpha>
+    <image>rock_rt</image>
+    <name>Rocks</name>
+    <blit_on_ground>1</blit_on_ground>
+    <type>1</type>
+  </vegetation>
+  <vegetation id="rocks_rb">
+    <alpha>1</alpha>
+    <image>rock_rb</image>
+    <name>Rocks</name>
+    <blit_on_ground>1</blit_on_ground>
+    <type>1</type>
+  </vegetation>
+</vegetations>
+</data>

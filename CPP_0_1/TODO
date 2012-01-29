@@ -1,0 +1,14 @@
+global TODO @ http://openanno.org/wiki/index.php/Todoliste#Programmierung
+s
+coder todo : 
+Bugs
+-remove lua warnings about unfree...
+-FPS display over bool
+-fix map load bug ala:
+Physfs couldn't open file "images/terrain/day/gras;palms2.png".
+Couldn't open texture "images/terrain/day/gras;palms2.png":
+palms2.png is in images/vegetaion/day/
+New
+-create a gui for the ingame gamestate
+-implement to the gui our map renderer
+-fix warnings

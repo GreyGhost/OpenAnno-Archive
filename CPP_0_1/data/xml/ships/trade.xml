@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<tile name="trade">
+	<image directions="all" variation="0">trade0.png</image>
+	<image directions="all" variation="1">trade1.png</image>
+	<image directions="all" variation="2">trade2.png</image>
+	<image directions="all" variation="3">trade3.png</image>
+	<image directions="all" variation="4">trade4.png</image>
+	<image directions="all" variation="5">trade5.png</image>
+	<image directions="all" variation="6">trade6.png</image>
+	<image directions="all" variation="7">trade7.png</image>
+</tile>

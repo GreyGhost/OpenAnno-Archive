@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<tile fertility="0" type="obstacle" name="Gras_Ruin">
+	<slope type="plane" >
+		<rotation type="plane" angle="all">
+			<frame duration="1" image="gras_ruin.png"/>
+		</rotation>
+	</slope>
+</tile>

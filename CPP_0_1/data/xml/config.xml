@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <!-- Don't change resolution right now -->
+    <resolution_x>640</resolution_x>
+    <resolution_y>480</resolution_y>
+    <samples>4096</samples>
+    <!-- increase this to 4096 if the sound is bad -->
+    <channels>2</channels>
+    <freq>44100</freq>
+    <playername>Newbie</playername>
+    <fullscreen>0</fullscreen>
+    <sound>1</sound>
+    <!-- set this to 1 to deactivate the sound -->
+    <musicvol>0</musicvol>
+    <!-- 0.0-1.0 -->
+    <soundvol>0</soundvol>
+    <!-- 0.0-1.0 -->
+    <showfps>1</showfps>
+    <resizable>0</resizable>
+    <!-- settings this to 1 will maybe influence performance -->
+    <depth>32</depth>
+    <!-- colordepth -->
+    <start_gold>5000</start_gold>
+    <start_food>1000</start_food>
+    <start_stone>10000</start_stone>
+    <start_iron>1000</start_iron>
+    <start_wood>10000</start_wood>
+    <start_ore>0</start_ore>
+    <start_sheep>0</start_sheep>
+    <start_cattle>0</start_cattle>
+    <start_clothes>0</start_clothes>
+    <start_woll>0</start_woll>
+    <start_tools>100</start_tools>
+    <start_population>50</start_population>
+    <start_level>1</start_level>
+    <!-- player level (character) not used right now -->
+    <scroll_speed>15</scroll_speed>
+    <maxfps>60</maxfps>
+    <!-- more than maxfps-frames? then wait and make cpu happy -->
+    <daytimes>0</daytimes>
+    <!-- change the daytimes? -->
+    <font_size_small>17</font_size_small>
+    <font_size_normal>19</font_size_normal>
+    <font_size_big>21</font_size_big>
+    <fog>0</fog>
+    <!-- enables/disables the fog of war -->
+    <renderer>opengl</renderer>
+    <!-- which render library should be used? -->
+    <hardwaresurface>0</hardwaresurface>
+    <!-- put data in videomemory (1) or in mainmemory (0) -->
+    <grabmouse>-1</grabmouse>
+    <!-- 1=grab, -1=not grab, 0=toggle - only useful if in windowed-mode -->
+    <language>en_GB</language>
+    <doublebuffered>0</doublebuffered>
+    <bgmusic>music.ogg</bgmusic>
+    <use_system_locale_dir>0</use_system_locale_dir>
+    <!-- for windows this is not needed -->
+    <gamma>0.5</gamma>
+</config>

@@ -1,0 +1,151 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Editor\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2006-07-04 23:03+0100\n"
+"Last-Translator: Andre Reichelt <andre.angelina@t-online.de>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+##buildings
+msgid "residence"
+msgstr "Stadtzentrum"
+
+msgid "residence_txt"
+msgstr "Mit jedem Upgrade erhöht sich das Bevölkerungslimit"
+
+msgid "tobaccoplantation"
+msgstr "Tabakplantage"
+
+msgid "tower"
+msgstr "Turm"
+
+msgid "tower_txt"
+msgstr "Verteidigungsanlage der Insel"
+
+msgid "foundry"
+msgstr "Gießerei"
+
+msgid "tavern"
+msgstr "Taverne"
+
+msgid "tavern_txt"
+msgstr "Hier können Seeleute angeheuert werden"
+
+msgid "hospital"
+msgstr "Krankenhaus"
+
+msgid "court"
+msgstr "Gericht"
+
+msgid "weaponsmith"
+msgstr "Waffenschmiede"
+
+msgid "lumbermill"
+msgstr "Sägewerk"
+
+msgid "militaryacademy"
+msgstr "Militärakademie"
+
+msgid "fortress"
+msgstr "Festung"
+
+msgid "lumberjack"
+msgstr "Holzfäller"
+
+msgid "home"
+msgstr "Wohnhaus"
+
+msgid "home_txt"
+msgstr "Wohnungen für die Bevölkerung"
+
+msgid "academy"
+msgstr "Akademie"
+
+msgid "bakery"
+msgstr "Bäckerei"
+
+msgid "bakery_txt"
+msgstr "Benötigt einen Fluss in der Nähe um die Mühle anzutreiben"
+
+msgid "branchoffice"
+msgstr "Kontor"
+
+msgid "farm"
+msgstr "Hof"
+
+msgid "farm_txt"
+msgstr "Nahrungsproduktion fr die Bevölkerung"
+
+msgid "farmpigs"
+msgstr "Schweinefarm"
+
+msgid "farmpigs_txt"
+msgstr "Erweitert die Farm um Schweinehaltung"
+
+msgid "farmfield1"
+msgstr "Getreidefeld"
+
+msgid "farmfield1_txt"
+msgstr "Erweitert die Farm um Getreidefelder"
+
+msgid "shipyard"
+msgstr "Werft"
+
+msgid "shipyard_txt"
+msgstr "Je höher die Ausbaustufe desto mehr Schiffe stehen zur Verfügung"
+
+msgid "oremine"
+msgstr "Erzmiene"
+
+msgid "quarry"
+msgstr "Bergwerk"
+
+msgid "warehouse"
+msgstr "Warenlager"
+
+msgid "blacksmith"
+msgstr "Schmiede"
+
+msgid "harbour"
+msgstr "Hafen"
+
+msgid "harbour_txt"
+msgstr "Wird u.a. zum Handel gebraucht"
+
+msgid "church"
+msgstr "Kirche"
+
+msgid "church_txt"
+msgstr "Die Kirche schenkt dem Bürger Halt und Zuversicht"
+
+### menu
+msgid "quit"
+msgstr "Beenden"
+
+msgid "back"
+msgstr "Zurück"
+
+msgid "trader"
+msgstr "Händler"
+
+msgid "pirates"
+msgstr "Piraten"
+
+msgid "drouth"
+msgstr "Dürre"
+
+msgid "plague"
+msgstr "Pest"
+
+msgid "islandname"
+msgstr "Inselname"
+
+msgid "placingstartpos"
+msgstr "Startposition festlegen"
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<tile name="lumberjack">
+	<image directions="all" variation="0">u_lumberjack.png</image>
+</tile>

@@ -1,0 +1,148 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2006-07-04 23:03+0100\n"
+"Last-Translator: Andre Reichelt <andre.angelina@t-online.de>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+##buildings
+msgid "residence"
+msgstr "Residence"
+
+msgid "residence_txt"
+msgstr "Increase your populationlimit with every update"
+
+msgid "tobaccoplantation"
+msgstr "Tabacco plantation"
+
+msgid "tower"
+msgstr "Tower"
+
+msgid "tower_txt"
+msgstr "Defense of the island"
+
+msgid "foundry"
+msgstr "Foundry"
+
+msgid "tavern"
+msgstr "Tavern"
+
+msgid "tavern_txt"
+msgstr "Hire"
+
+msgid "hospital"
+msgstr "Hospital"
+
+msgid "court"
+msgstr "Court"
+
+msgid "weaponsmith"
+msgstr "Weaponsmith"
+
+msgid "lumbermill"
+msgstr "Lumbermill"
+
+msgid "militaryacademy"
+msgstr "Militaryacademy"
+
+msgid "fortress"
+msgstr "Fortress"
+
+msgid "lumberjack"
+msgstr "Lumberjack"
+
+msgid "home"
+msgstr "Home"
+
+msgid "home_txt"
+msgstr "Homes for the people"
+
+msgid "academy"
+msgstr "Academy"
+
+msgid "bakery"
+msgstr "Bakery"
+
+msgid "bakery_txt"
+msgstr "BNeeds a river to handle the mill"
+
+msgid "branchoffice"
+msgstr "Branchoffice"
+
+msgid "farm"
+msgstr "Farm"
+
+msgid "farm_txt"
+msgstr "Food production for the population"
+
+msgid "farmpigs"
+msgstr "Schweinefarm"
+
+msgid "farmpigs_txt"
+msgstr "Extends the farm by a pig breed"
+
+msgid "farmfield1"
+msgstr "Getreidefeld"
+
+msgid "farmfield1_txt"
+msgstr "Extends the farm by grain fields"
+
+msgid "shipyard"
+msgstr "Shipyard"
+
+msgid "shipyard_txt"
+msgstr "The more highly the stage of development the more ships are available"
+
+msgid "oremine"
+msgstr "Oremine"
+
+msgid "quarry"
+msgstr "Quarry"
+
+msgid "warehouse"
+msgstr "Warehouse"
+
+msgid "blacksmith"
+msgstr "Blacksmith"
+
+msgid "harbour"
+msgstr "Harbour"
+
+msgid "harbour_txt"
+msgstr "It's needed for e.g. trading"
+
+msgid "church"
+msgstr "Church"
+
+msgid "church_txt"
+msgstr "he church keep the population grounded and gives confidence"
+
+### menu
+msgid "quit"
+msgstr "Quit"
+
+msgid "back"
+msgstr "Back"
+
+msgid "trader"
+msgstr "Trader"
+
+msgid "pirates"
+msgstr "Pirates"
+
+msgid "drouth"
+msgstr "Drouth"
+
+msgid "plague"
+msgstr "Plague"
+
+msgid "islandname"
+msgstr "Islandname"
+
+msgid "placingstartpos"
+msgstr "Placing start position"

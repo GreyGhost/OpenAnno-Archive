@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<tile name="miner">
+	<image directions="all" variation="0">u_miner.png</image>
+</tile>

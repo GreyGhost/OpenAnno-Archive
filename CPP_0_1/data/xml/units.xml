@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+     type:
+
+     0 = U_CIVILIAN,
+     1 = U_SOLDIER,
+     2 = U_WORKER,
+     3 = U_SHIP
+
+     ship_type:
+
+     0 = S_MAIN,
+     1 = S_TRADE,
+     2 = S_WAR,
+     3 = S_CIVILIAN,
+     4 = S_PASSENGER
+     5 = S_PIRATES
+
+     flags:
+     int type
+     int ship_type
+     int hitpoints
+     int damage
+
+     /* movement speed */
+     int speed
+
+     /* needed for building */
+     int need_food
+     int need_stone
+     int need_iron
+     int need_wood
+     int need_gold
+     int need_home
+
+     /* transport or owns */
+     int food
+     int stone
+     int iron
+     int wood
+     int gold
+
+     /* dependencies */
+     char* need_building
+     int need_building_level
+
+     -->
+
+<units>
+	<unit id="mainship">
+		<image>mainship</image>
+		<speed>1</speed>
+		<name>fregatta</name>
+		<no_construct>1</no_construct>
+		<type>3</type>
+		<ship_type>0</ship_type>
+		<workers>10</workers>
+		<soldiers>0</soldiers>
+		<canons>0</canons>
+		<food>0</food>
+		<worker_limit>40</worker_limit>
+		<canon_limit>2</canon_limit>
+		<soldier_limit>10</soldier_limit>
+		<food_limit>0</food_limit>
+		<sound>ship.wav</sound>
+		<explorer>1</explorer>
+	</unit>
+	<unit id="tradeship">
+		<image>trade</image>
+		<speed>1</speed>
+		<name>trader</name>
+		<type>3</type>
+		<ship_type>1</ship_type>
+		<tobacco>1</tobacco>
+		<iron>0</iron>
+		<stone>0</stone>
+		<wood>0</wood>
+		<gold>100000</gold>
+		<canons>0</canons>
+		<sound>ship.wav</sound>
+		<food>0</food>
+	</unit>
+	<unit id="pirateship">
+		<image>pirates</image>
+		<speed>2</speed>
+		<name>pirates</name>
+		<type>3</type>
+		<ship_type>5</ship_type>
+		<canons>10</canons>
+		<sound>ship.wav</sound>
+		<food>0</food>
+	</unit>
+	<unit id="fisher">
+		<image>fisher</image>
+		<speed>1</speed>
+		<name>fisher</name>
+		<type>3</type>
+		<ship_type>3</ship_type>
+		<canons>0</canons>
+		<sound>ship.wav</sound>
+		<food>10</food>
+	</unit>
+</units>

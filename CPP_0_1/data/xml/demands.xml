@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    see demand.h for further flags
+    priority:   0 = low 1 = normal 2 = high
+    building:   need this building to satisfy the demand
+    technology: need this technology to satisfy the demand
+    amount:     how much for each citizen - 0 if only needed once per island
+    society:    0 = worker, 1 = citizen, 2 = aristocrat
+                all demands for lower societylevel needs to become satisfied for the higher, too
+-->
+<demands>
+    <demand id="food">
+	<text>food_demand</text>
+	<name>food</name>
+	<priority>2</priority>
+	<building>farm</building> 
+	<technology></technology>
+	<society>0</society>
+	<amount>1.0</amount>
+	<people>1</people>
+    </demand>
+    <demand id="tobacco">
+	<text>tobacco_demand</text>
+	<name>tobacco</name>
+	<priority>0</priority>
+	<building>tobaccoplantation</building> 
+	<technology></technology>
+	<society>2</society>
+	<amount>0.2</amount>
+	<people>120</people>
+    </demand>
+    <demand id="church">
+	<text>church_demand</text>
+	<name>church</name>
+	<priority>2</priority>
+	<building>church</building> 
+	<technology></technology>
+	<society>0</society>
+	<amount>0</amount>
+	<people>120</people>
+    </demand>
+</demands>
+

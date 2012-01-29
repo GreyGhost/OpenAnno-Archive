@@ -1,0 +1,7 @@
+As of now, there aren't any binary builds of OpenAnno. If you want to help to create one, please contact us. The only possibility to try out OpenAnno at the moment is compiling the sources from our Subversion repository. To do so, follow these instructions in the README.
+
+If you have any problems compiling the sources or you have found any bugs, please feel free to ask in our forum (http://openanno.org/forum/) and post any error messages in order to fix the error.
+
+Installing OpenAnno to a global location is not supported yet.
+
+See README for compiling details and how to run OpenAnno.

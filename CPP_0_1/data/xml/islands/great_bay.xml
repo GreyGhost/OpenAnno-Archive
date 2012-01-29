@@ -1,0 +1,1066 @@
+<?xml version="1.0" encoding="utf-8"?>
+<island cols="40" rows="90" clime="a">
+	<start_col>10</start_col>
+	<start_row>10</start_row>
+	<name>GreatBay</name> 
+	<trader>1</trader>
+	<pirates>0</pirates>
+	<drouth>0</drouth>
+	<plague>0</plague>
+	
+	<terrain>
+		<row value="4">
+			<col value="7"><tile height="1" angle="0" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="24"><tile height="1" angle="0" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="25"><tile height="1" angle="0" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="26"><tile height="1" angle="0" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="27"><tile height="1" angle="0" slope="plane" texture="beach2" type="grassland"/></col>
+		</row>
+		<row value="5">
+			<col value="5"><tile height="1" angle="0" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="6"><tile height="1" angle="270" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="7"><tile height="1" angle="0" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="23"><tile height="1" angle="270" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="24"><tile height="1" angle="180" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="25"><tile height="1" angle="180" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="26"><tile height="1" angle="180" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="27"><tile height="1" angle="0" slope="plane" texture="beach-water" type="grassland"/></col>
+		</row>
+		<row value="6">
+			<col value="3"><tile height="1" angle="0" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="5"><tile height="1" angle="270" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="6"><tile height="1" angle="180" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="7"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="8"><tile height="1" angle="0" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="23"><tile height="1" angle="270" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="24"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="25"><tile height="1" angle="0" slope="plane" texture="grasrock" type="grassland"/></col>
+			<col value="26"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="27"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="28"><tile height="1" angle="90" slope="plane" texture="beach2" type="grassland"/></col>
+		</row>
+		<row value="7">
+			<col value="2"><tile height="1" angle="270" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="3"><tile height="1" angle="90" slope="plane" texture="river-sea" type="grassland"/></col>
+			<col value="4"><tile height="1" angle="270" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="5"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="6"><tile height="1" angle="0" slope="plane" texture="gras_ruin" type="grassland"/></col>
+			<col value="7"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="8"><tile height="1" angle="90" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="22"><tile height="1" angle="270" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="23"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="24"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="25"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="26"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="27"><tile height="1" angle="90" slope="plane" texture="beach-water" type="grassland"/></col>
+		</row>
+		<row value="8">
+			<col value="2"><tile height="1" angle="270" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="3"><tile height="1" angle="90" slope="plane" texture="river-gras2" type="grassland"/></col>
+			<col value="4"><tile height="1" angle="180" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="5"><tile height="0" angle="90" slope="flatcorner" texture="dummy" type="grassland"/></col>
+			<col value="6"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="7"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="8"><tile height="1" angle="270" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="22"><tile height="1" angle="270" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="23"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="24"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="25"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="26"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="27"><tile height="1" angle="270" slope="plane" texture="water-beach" type="grassland"/></col>
+		</row>
+		<row value="9">
+			<col value="2"><tile height="1" angle="270" slope="plane" texture="river-sea" type="grassland"/></col>
+			<col value="3"><tile height="1" angle="0" slope="plane" texture="gras_2" type="grassland"/></col>
+			<col value="4"><tile height="0" angle="180" slope="flathill" texture="dummy" type="grassland"/></col>
+			<col value="5"><tile height="0" angle="270" slope="flathill" texture="dummy" type="grassland"/></col>
+			<col value="6"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="7"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="8"><tile height="1" angle="90" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="22"><tile height="1" angle="90" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="23"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="24"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="25"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="26"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="27"><tile height="1" angle="90" slope="plane" texture="beach2" type="grassland"/></col>
+		</row>
+		<row value="10">
+			<col value="3"><tile height="1" angle="180" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="4"><tile height="0" angle="0" slope="flatcorner" texture="dummy" type="grassland"/></col>
+			<col value="5"><tile height="0" angle="0" slope="plane" texture="dummy" type="grassland"/></col>
+			<col value="6"><tile height="0" angle="180" slope="flatcorner" texture="dummy" type="grassland"/></col>
+			<col value="7"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="8"><tile height="1" angle="90" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="22"><tile height="1" angle="270" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="23"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="24"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="25"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="26"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="27"><tile height="1" angle="270" slope="plane" texture="water-beach" type="grassland"/></col>
+		</row>
+		<row value="11">
+			<col value="3"><tile height="1" angle="90" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="4"><tile height="0" angle="90" slope="flathill" texture="dummy" type="grassland"/></col>
+			<col value="5"><tile height="0" angle="0" slope="flathill" texture="dummy" type="grassland"/></col>
+			<col value="6"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="7"><tile height="1" angle="90" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="22"><tile height="1" angle="180" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="23"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="24"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="25"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="26"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="27"><tile height="1" angle="0" slope="plane" texture="beach-water" type="grassland"/></col>
+		</row>
+		<row value="12">
+			<col value="3"><tile height="1" angle="270" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="4"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="5"><tile height="0" angle="270" slope="flatcorner" texture="dummy" type="grassland"/></col>
+			<col value="6"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="7"><tile height="1" angle="90" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="23"><tile height="1" angle="180" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="24"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="25"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="26"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="27"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="28"><tile height="1" angle="0" slope="plane" texture="beach-water" type="grassland"/></col>
+		</row>
+		<row value="13">
+			<col value="2"><tile height="1" angle="270" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="3"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="4"><tile height="1" angle="0" slope="plane" texture="grasrock" type="grassland"/></col>
+			<col value="5"><tile height="1" angle="0" slope="plane" texture="gras_2" type="grassland"/></col>
+			<col value="6"><tile height="1" angle="270" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="23"><tile height="1" angle="90" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="24"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="25"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="26"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="27"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="28"><tile height="1" angle="90" slope="plane" texture="beach2" type="grassland"/></col>
+		</row>
+		<row value="14">
+			<col value="2"><tile height="1" angle="270" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="3"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="4"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="5"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="6"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="7"><tile height="1" angle="0" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="23"><tile height="1" angle="270" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="24"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="25"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="26"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="27"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="28"><tile height="1" angle="90" slope="plane" texture="beach-water" type="grassland"/></col>
+		</row>
+		<row value="15">
+			<col value="1"><tile height="1" angle="270" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="2"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="3"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="4"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="5"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="6"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="7"><tile height="1" angle="0" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="23"><tile height="1" angle="180" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="24"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="25"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="26"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="27"><tile height="1" angle="90" slope="plane" texture="beach-water" type="grassland"/></col>
+		</row>
+		<row value="16">
+			<col value="2"><tile height="1" angle="90" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="3"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="4"><tile height="1" angle="0" slope="plane" texture="gras_2" type="grassland"/></col>
+			<col value="5"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="6"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="7"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="8"><tile height="1" angle="0" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="24"><tile height="1" angle="180" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="25"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="26"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="27"><tile height="1" angle="90" slope="plane" texture="beach-water" type="grassland"/></col>
+		</row>
+		<row value="17">
+			<col value="1"><tile height="1" angle="270" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="2"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="3"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="4"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="5"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="6"><tile height="1" angle="0" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="7"><tile height="1" angle="0" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="8"><tile height="1" angle="90" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="24"><tile height="1" angle="180" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="25"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="26"><tile height="1" angle="90" slope="plane" texture="beach-water" type="grassland"/></col>
+		</row>
+		<row value="18">
+			<col value="2"><tile height="1" angle="90" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="3"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="4"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="5"><tile height="1" angle="0" slope="plane" texture="gras_2" type="grassland"/></col>
+			<col value="6"><tile height="1" angle="90" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="7"><tile height="1" angle="180" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="8"><tile height="1" angle="180" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="25"><tile height="1" angle="180" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="26"><tile height="1" angle="90" slope="plane" texture="beach-water" type="grassland"/></col>
+		</row>
+		<row value="19">
+			<col value="1"><tile height="1" angle="270" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="2"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="3"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="4"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="5"><tile height="1" angle="90" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="25"><tile height="1" angle="180" slope="plane" texture="beach2" type="grassland"/></col>
+		</row>
+		<row value="20">
+			<col value="2"><tile height="1" angle="180" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="3"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="4"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="5"><tile height="1" angle="90" slope="plane" texture="beach-water" type="grassland"/></col>
+		</row>
+		<row value="21">
+			<col value="2"><tile height="1" angle="180" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="3"><tile height="1" angle="0" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="4"><tile height="1" angle="90" slope="plane" texture="beach-water" type="grassland"/></col>
+		</row>
+		<row value="22">
+			<col value="3"><tile height="1" angle="180" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="4"><tile height="1" angle="180" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="11"><tile height="1" angle="0" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="12"><tile height="1" angle="0" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="13"><tile height="1" angle="0" slope="plane" texture="beach2" type="grassland"/></col>
+		</row>
+		<row value="23">
+			<col value="9"><tile height="1" angle="0" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="10"><tile height="1" angle="270" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="11"><tile height="1" angle="180" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="12"><tile height="1" angle="180" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="13"><tile height="1" angle="0" slope="plane" texture="beach-water" type="grassland"/></col>
+		</row>
+		<row value="24">
+			<col value="6"><tile height="1" angle="0" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="7"><tile height="1" angle="0" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="8"><tile height="1" angle="0" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="9"><tile height="1" angle="270" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="10"><tile height="1" angle="180" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="11"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="12"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="13"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="14"><tile height="1" angle="0" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="15"><tile height="1" angle="0" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="16"><tile height="1" angle="0" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="17"><tile height="1" angle="0" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="18"><tile height="1" angle="0" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="19"><tile height="1" angle="0" slope="plane" texture="beach2" type="grassland"/></col>
+		</row>
+		<row value="25">
+			<col value="5"><tile height="1" angle="270" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="6"><tile height="1" angle="180" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="7"><tile height="1" angle="180" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="8"><tile height="1" angle="180" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="9"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="10"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="11"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="12"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="13"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="14"><tile height="1" angle="180" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="15"><tile height="1" angle="180" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="16"><tile height="1" angle="180" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="17"><tile height="1" angle="180" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="18"><tile height="1" angle="180" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="19"><tile height="1" angle="0" slope="plane" texture="beach-water" type="grassland"/></col>
+		</row>
+		<row value="26">
+			<col value="5"><tile height="1" angle="270" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="6"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="7"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="8"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="9"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="10"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="11"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="12"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="13"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="14"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="15"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="16"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="17"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="18"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="19"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="20"><tile height="1" angle="0" slope="plane" texture="beach-water" type="grassland"/></col>
+		</row>
+		<row value="27">
+			<col value="4"><tile height="1" angle="270" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="5"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="6"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="7"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="8"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="9"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="10"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="11"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="12"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="13"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="14"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="15"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="16"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="17"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="18"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="19"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="20"><tile height="1" angle="90" slope="plane" texture="beach2" type="grassland"/></col>
+		</row>
+		<row value="28">
+			<col value="5"><tile height="1" angle="180" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="6"><tile height="1" angle="0" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="7"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="8"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="9"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="10"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="11"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="12"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="13"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="14"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="15"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="16"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="17"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="18"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="19"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="20"><tile height="1" angle="90" slope="plane" texture="beach-water" type="grassland"/></col>
+		</row>
+		<row value="29">
+			<col value="5"><tile height="1" angle="180" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="6"><tile height="1" angle="180" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="7"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="8"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="9"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="10"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="11"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="12"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="13"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="14"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="15"><tile height="1" angle="0" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="16"><tile height="1" angle="0" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="17"><tile height="1" angle="0" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="18"><tile height="1" angle="0" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="19"><tile height="1" angle="90" slope="plane" texture="beach-water" type="grassland"/></col>
+		</row>
+		<row value="30">
+			<col value="7"><tile height="1" angle="180" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="8"><tile height="1" angle="0" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="9"><tile height="1" angle="0" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="10"><tile height="1" angle="0" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="11"><tile height="1" angle="0" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="12"><tile height="1" angle="0" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="13"><tile height="1" angle="0" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="14"><tile height="1" angle="0" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="15"><tile height="1" angle="90" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="16"><tile height="1" angle="180" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="17"><tile height="1" angle="180" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="18"><tile height="1" angle="180" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="19"><tile height="1" angle="180" slope="plane" texture="beach2" type="grassland"/></col>
+		</row>
+		<row value="31">
+			<col value="7"><tile height="1" angle="180" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="8"><tile height="1" angle="180" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="9"><tile height="1" angle="180" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="10"><tile height="1" angle="180" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="11"><tile height="1" angle="180" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="12"><tile height="1" angle="180" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="13"><tile height="1" angle="180" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="14"><tile height="1" angle="180" slope="plane" texture="beach2" type="grassland"/></col>
+		</row>
+		<row value="38">
+			<col value="18"><tile height="1" angle="0" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="19"><tile height="1" angle="0" slope="plane" texture="beach2" type="grassland"/></col>
+		</row>
+		<row value="39">
+			<col value="17"><tile height="1" angle="270" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="18"><tile height="1" angle="180" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="19"><tile height="1" angle="0" slope="plane" texture="beach-water" type="grassland"/></col>
+		</row>
+		<row value="40">
+			<col value="17"><tile height="1" angle="270" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="18"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="19"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="20"><tile height="1" angle="0" slope="plane" texture="beach-water" type="grassland"/></col>
+		</row>
+		<row value="41">
+			<col value="16"><tile height="1" angle="270" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="17"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="18"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="19"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="20"><tile height="1" angle="0" slope="plane" texture="beach-water" type="grassland"/></col>
+		</row>
+		<row value="42">
+			<col value="16"><tile height="1" angle="270" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="17"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="18"><tile height="1" angle="0" slope="plane" texture="gras_6" type="grassland"/></col>
+			<col value="19"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="20"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="21"><tile height="1" angle="0" slope="plane" texture="beach-water" type="grassland"/></col>
+		</row>
+		<row value="43">
+			<col value="15"><tile height="1" angle="270" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="16"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="17"><tile height="1" angle="0" slope="plane" texture="gras_ruin" type="grassland"/></col>
+			<col value="18"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="19"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="20"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="21"><tile height="1" angle="90" slope="plane" texture="beach2" type="grassland"/></col>
+		</row>
+		<row value="44">
+			<col value="16"><tile height="1" angle="90" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="17"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="18"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="19"><tile height="1" angle="0" slope="plane" texture="grasrock" type="grassland"/></col>
+			<col value="20"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="21"><tile height="1" angle="270" slope="plane" texture="water-beach" type="grassland"/></col>
+		</row>
+		<row value="45">
+			<col value="15"><tile height="1" angle="270" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="16"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="17"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="18"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="19"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="20"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="21"><tile height="1" angle="90" slope="plane" texture="beach2" type="grassland"/></col>
+		</row>
+		<row value="46">
+			<col value="16"><tile height="1" angle="180" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="17"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="18"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="19"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="20"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="21"><tile height="1" angle="270" slope="plane" texture="water-beach" type="grassland"/></col>
+		</row>
+		<row value="47">
+			<col value="9"><tile height="1" angle="0" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="10"><tile height="1" angle="0" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="11"><tile height="1" angle="0" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="12"><tile height="1" angle="0" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="13"><tile height="1" angle="0" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="14"><tile height="1" angle="0" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="15"><tile height="1" angle="0" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="16"><tile height="1" angle="90" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="17"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="18"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="19"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="20"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="21"><tile height="1" angle="90" slope="plane" texture="beach2" type="grassland"/></col>
+		</row>
+		<row value="48">
+			<col value="9"><tile height="1" angle="270" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="10"><tile height="1" angle="180" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="11"><tile height="1" angle="180" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="12"><tile height="1" angle="180" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="13"><tile height="1" angle="180" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="14"><tile height="1" angle="180" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="15"><tile height="1" angle="180" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="16"><tile height="1" angle="180" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="17"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="18"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="19"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="20"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="21"><tile height="1" angle="270" slope="plane" texture="water-beach" type="grassland"/></col>
+		</row>
+		<row value="49">
+			<col value="8"><tile height="1" angle="270" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="9"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="10"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="11"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="12"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="13"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="14"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="15"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="16"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="17"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="18"><tile height="1" angle="0" slope="plane" texture="grasrock" type="grassland"/></col>
+			<col value="19"><tile height="1" angle="0" slope="plane" texture="gras_2" type="grassland"/></col>
+			<col value="20"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="21"><tile height="1" angle="0" slope="plane" texture="beach-water" type="grassland"/></col>
+		</row>
+		<row value="50">
+			<col value="9"><tile height="1" angle="180" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="10"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="11"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="12"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="13"><tile height="1" angle="0" slope="plane" texture="grasrock" type="grassland"/></col>
+			<col value="14"><tile height="1" angle="0" slope="plane" texture="grasrock" type="grassland"/></col>
+			<col value="15"><tile height="1" angle="0" slope="plane" texture="gras_2" type="grassland"/></col>
+			<col value="16"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="17"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="18"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="19"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="20"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="21"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="22"><tile height="1" angle="90" slope="plane" texture="beach2" type="grassland"/></col>
+		</row>
+		<row value="51">
+			<col value="9"><tile height="1" angle="90" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="10"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="11"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="12"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="13"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="14"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="15"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="16"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="17"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="18"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="19"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="20"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="21"><tile height="1" angle="270" slope="plane" texture="water-beach" type="grassland"/></col>
+		</row>
+		<row value="52">
+			<col value="9"><tile height="1" angle="270" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="10"><tile height="1" angle="0" slope="plane" texture="gras_2" type="grassland"/></col>
+			<col value="11"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="12"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="13"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="14"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="15"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="16"><tile height="1" angle="0" slope="plane" texture="gras_2" type="grassland"/></col>
+			<col value="17"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="18"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="19"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="20"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="21"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="22"><tile height="1" angle="90" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="27"><tile height="1" angle="0" slope="plane" texture="beach2" type="grassland"/></col>
+		</row>
+		<row value="53">
+			<col value="8"><tile height="1" angle="0" slope="plane" texture="river-sea" type="grassland"/></col>
+			<col value="9"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="10"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="11"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="12"><tile height="1" angle="0" slope="plane" texture="mud2" type="grassland"/></col>
+			<col value="13"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="14"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="15"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="16"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="17"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="18"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="19"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="20"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="21"><tile height="1" angle="90" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="26"><tile height="1" angle="270" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="27"><tile height="1" angle="0" slope="plane" texture="beach-water" type="grassland"/></col>
+		</row>
+		<row value="54">
+			<col value="8"><tile height="1" angle="270" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="9"><tile height="1" angle="0" slope="plane" texture="river-gras2" type="grassland"/></col>
+			<col value="10"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="11"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="12"><tile height="1" angle="90" slope="plane" texture="mud3" type="grassland"/></col>
+			<col value="13"><tile height="1" angle="0" slope="plane" texture="mud3" type="grassland"/></col>
+			<col value="14"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="15"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="16"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="17"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="18"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="19"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="20"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="21"><tile height="1" angle="270" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="26"><tile height="1" angle="270" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="27"><tile height="1" angle="0" slope="plane" texture="grasrock" type="grassland"/></col>
+			<col value="28"><tile height="1" angle="90" slope="plane" texture="beach2" type="grassland"/></col>
+		</row>
+		<row value="55">
+			<col value="7"><tile height="1" angle="270" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="8"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="9"><tile height="1" angle="0" slope="plane" texture="river-gras2" type="grassland"/></col>
+			<col value="10"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="11"><tile height="1" angle="270" slope="plane" texture="mud2" type="grassland"/></col>
+			<col value="12"><tile height="1" angle="0" slope="plane" texture="mud" type="grassland"/></col>
+			<col value="13"><tile height="1" angle="90" slope="plane" texture="mud2" type="grassland"/></col>
+			<col value="14"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="15"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="16"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="17"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="18"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="19"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="20"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="21"><tile height="1" angle="90" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="25"><tile height="1" angle="270" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="26"><tile height="1" angle="0" slope="plane" texture="gras_2" type="grassland"/></col>
+			<col value="27"><tile height="1" angle="90" slope="plane" texture="beach-water" type="grassland"/></col>
+		</row>
+		<row value="56">
+			<col value="8"><tile height="1" angle="180" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="9"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="10"><tile height="1" angle="0" slope="plane" texture="river-gras2" type="grassland"/></col>
+			<col value="11"><tile height="1" angle="0" slope="plane" texture="river-gras" type="grassland"/></col>
+			<col value="12"><tile height="1" angle="270" slope="plane" texture="mud3" type="grassland"/></col>
+			<col value="13"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="14"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="15"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="16"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="17"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="18"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="19"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="20"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="21"><tile height="1" angle="270" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="25"><tile height="1" angle="270" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="26"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="27"><tile height="1" angle="90" slope="plane" texture="beach-water" type="grassland"/></col>
+		</row>
+		<row value="57">
+			<col value="8"><tile height="1" angle="90" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="9"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="10"><tile height="1" angle="180" slope="plane" texture="river-gras" type="grassland"/></col>
+			<col value="11"><tile height="1" angle="0" slope="plane" texture="river-gras2" type="grassland"/></col>
+			<col value="12"><tile height="1" angle="270" slope="plane" texture="mud3" type="grassland"/></col>
+			<col value="13"><tile height="1" angle="90" slope="plane" texture="mud2" type="grassland"/></col>
+			<col value="14"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="15"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="16"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="17"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="18"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="19"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="20"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="21"><tile height="1" angle="90" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="24"><tile height="1" angle="270" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="25"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="26"><tile height="1" angle="270" slope="plane" texture="water-beach" type="grassland"/></col>
+		</row>
+		<row value="58">
+			<col value="8"><tile height="1" angle="270" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="9"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="10"><tile height="1" angle="0" slope="plane" texture="gras_2" type="grassland"/></col>
+			<col value="11"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="12"><tile height="1" angle="0" slope="plane" texture="river-gras2" type="grassland"/></col>
+			<col value="13"><tile height="1" angle="180" slope="plane" texture="mud2" type="grassland"/></col>
+			<col value="14"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="15"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="16"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="17"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="18"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="19"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="20"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="21"><tile height="1" angle="90" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="24"><tile height="1" angle="270" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="25"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="26"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="27"><tile height="1" angle="90" slope="plane" texture="beach2" type="grassland"/></col>
+		</row>
+		<row value="59">
+			<col value="8"><tile height="1" angle="180" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="9"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="10"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="11"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="12"><tile height="1" angle="0" slope="plane" texture="river-gras2" type="grassland"/></col>
+			<col value="13"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="14"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="15"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="16"><tile height="1" angle="0" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="17"><tile height="1" angle="0" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="18"><tile height="1" angle="0" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="19"><tile height="1" angle="0" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="20"><tile height="1" angle="90" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="24"><tile height="1" angle="90" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="25"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="26"><tile height="1" angle="270" slope="plane" texture="water-beach" type="grassland"/></col>
+		</row>
+		<row value="60">
+			<col value="9"><tile height="1" angle="180" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="10"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="11"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="12"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="13"><tile height="1" angle="0" slope="plane" texture="river-gras2" type="grassland"/></col>
+			<col value="14"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="15"><tile height="1" angle="0" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="16"><tile height="1" angle="90" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="17"><tile height="1" angle="180" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="18"><tile height="1" angle="180" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="19"><tile height="1" angle="180" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="20"><tile height="1" angle="180" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="24"><tile height="1" angle="270" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="25"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="26"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="27"><tile height="1" angle="0" slope="plane" texture="beach-water" type="grassland"/></col>
+		</row>
+		<row value="61">
+			<col value="9"><tile height="1" angle="180" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="10"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="11"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="12"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="13"><tile height="1" angle="0" slope="plane" texture="river-gras2" type="grassland"/></col>
+			<col value="14"><tile height="1" angle="90" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="15"><tile height="1" angle="180" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="23"><tile height="1" angle="270" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="24"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="25"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="26"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="27"><tile height="1" angle="0" slope="plane" texture="beach-water" type="grassland"/></col>
+		</row>
+		<row value="62">
+			<col value="10"><tile height="1" angle="180" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="11"><tile height="1" angle="0" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="12"><tile height="1" angle="0" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="13"><tile height="1" angle="0" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="14"><tile height="1" angle="180" slope="plane" texture="river-sea" type="grassland"/></col>
+			<col value="23"><tile height="1" angle="270" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="24"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="25"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="26"><tile height="1" angle="0" slope="plane" texture="grasrock" type="grassland"/></col>
+			<col value="27"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="28"><tile height="1" angle="0" slope="plane" texture="beach-water" type="grassland"/></col>
+		</row>
+		<row value="63">
+			<col value="10"><tile height="1" angle="180" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="11"><tile height="1" angle="180" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="12"><tile height="1" angle="180" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="13"><tile height="1" angle="180" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="21"><tile height="1" angle="0" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="22"><tile height="1" angle="270" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="23"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="24"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="25"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="26"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="27"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="28"><tile height="1" angle="0" slope="plane" texture="beach-water" type="grassland"/></col>
+		</row>
+		<row value="64">
+			<col value="21"><tile height="1" angle="270" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="22"><tile height="1" angle="180" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="23"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="24"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="25"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="26"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="27"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="28"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="29"><tile height="1" angle="90" slope="plane" texture="beach2" type="grassland"/></col>
+		</row>
+		<row value="65">
+			<col value="21"><tile height="1" angle="180" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="22"><tile height="1" angle="0" slope="plane" texture="grasrock" type="grassland"/></col>
+			<col value="23"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="24"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="25"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="26"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="27"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="28"><tile height="1" angle="90" slope="plane" texture="beach-water" type="grassland"/></col>
+		</row>
+		<row value="66">
+			<col value="22"><tile height="1" angle="180" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="23"><tile height="1" angle="0" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="24"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="25"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="26"><tile height="1" angle="0" slope="plane" texture="gras_2" type="grassland"/></col>
+			<col value="27"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="28"><tile height="1" angle="90" slope="plane" texture="beach-water" type="grassland"/></col>
+		</row>
+		<row value="67">
+			<col value="22"><tile height="1" angle="180" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="23"><tile height="1" angle="180" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="24"><tile height="1" angle="0" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="25"><tile height="1" angle="0" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="26"><tile height="1" angle="0" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="27"><tile height="1" angle="90" slope="plane" texture="beach-water" type="grassland"/></col>
+		</row>
+		<row value="68">
+			<col value="13"><tile height="1" angle="0" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="14"><tile height="1" angle="0" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="15"><tile height="1" angle="0" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="16"><tile height="1" angle="0" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="17"><tile height="1" angle="0" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="24"><tile height="1" angle="180" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="25"><tile height="1" angle="180" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="26"><tile height="1" angle="180" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="27"><tile height="1" angle="180" slope="plane" texture="beach2" type="grassland"/></col>
+		</row>
+		<row value="69">
+			<col value="12"><tile height="1" angle="270" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="13"><tile height="1" angle="180" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="14"><tile height="1" angle="180" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="15"><tile height="1" angle="180" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="16"><tile height="1" angle="180" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="17"><tile height="1" angle="90" slope="plane" texture="beach2" type="grassland"/></col>
+		</row>
+		<row value="70">
+			<col value="13"><tile height="1" angle="90" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="14"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="15"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="16"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="17"><tile height="1" angle="270" slope="plane" texture="water-beach" type="grassland"/></col>
+		</row>
+		<row value="71">
+			<col value="12"><tile height="1" angle="270" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="13"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="14"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="15"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="16"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="17"><tile height="1" angle="0" slope="plane" texture="beach-water" type="grassland"/></col>
+		</row>
+		<row value="72">
+			<col value="13"><tile height="1" angle="90" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="14"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="15"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="16"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="17"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="18"><tile height="1" angle="90" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="30"><tile height="1" angle="0" slope="plane" texture="beach2" type="grassland"/></col>
+		</row>
+		<row value="73">
+			<col value="12"><tile height="1" angle="270" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="13"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="14"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="15"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="16"><tile height="1" angle="0" slope="plane" texture="grasrock" type="grassland"/></col>
+			<col value="17"><tile height="1" angle="270" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="29"><tile height="1" angle="270" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="30"><tile height="1" angle="0" slope="plane" texture="beach-water" type="grassland"/></col>
+		</row>
+		<row value="74">
+			<col value="12"><tile height="1" angle="270" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="13"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="14"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="15"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="16"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="17"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="18"><tile height="1" angle="90" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="28"><tile height="1" angle="0" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="29"><tile height="1" angle="270" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="30"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="31"><tile height="1" angle="0" slope="plane" texture="beach-water" type="grassland"/></col>
+		</row>
+		<row value="75">
+			<col value="12"><tile height="1" angle="90" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="13"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="14"><tile height="1" angle="0" slope="plane" texture="grasrock" type="grassland"/></col>
+			<col value="15"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="16"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="17"><tile height="1" angle="270" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="27"><tile height="1" angle="270" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="28"><tile height="1" angle="180" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="29"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="30"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="31"><tile height="1" angle="90" slope="plane" texture="beach2" type="grassland"/></col>
+		</row>
+		<row value="76">
+			<col value="12"><tile height="1" angle="270" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="13"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="14"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="15"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="16"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="17"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="18"><tile height="1" angle="90" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="27"><tile height="1" angle="270" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="28"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="29"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="30"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="31"><tile height="1" angle="90" slope="plane" texture="beach-water" type="grassland"/></col>
+		</row>
+		<row value="77">
+			<col value="11"><tile height="1" angle="270" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="12"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="13"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="14"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="15"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="16"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="17"><tile height="1" angle="270" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="26"><tile height="1" angle="270" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="27"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="28"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="29"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="30"><tile height="1" angle="90" slope="plane" texture="beach-water" type="grassland"/></col>
+		</row>
+		<row value="78">
+			<col value="12"><tile height="1" angle="90" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="13"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="14"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="15"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="16"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="17"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="18"><tile height="1" angle="90" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="26"><tile height="1" angle="270" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="27"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="28"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="29"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="30"><tile height="1" angle="90" slope="plane" texture="beach-water" type="grassland"/></col>
+		</row>
+		<row value="79">
+			<col value="11"><tile height="1" angle="270" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="12"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="13"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="14"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="15"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="16"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="17"><tile height="1" angle="270" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="25"><tile height="1" angle="270" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="26"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="27"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="28"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="29"><tile height="1" angle="90" slope="plane" texture="beach-water" type="grassland"/></col>
+		</row>
+		<row value="80">
+			<col value="12"><tile height="1" angle="90" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="13"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="14"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="15"><tile height="1" angle="0" slope="plane" texture="river-gras" type="grassland"/></col>
+			<col value="16"><tile height="1" angle="0" slope="plane" texture="river-gras" type="grassland"/></col>
+			<col value="17"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="18"><tile height="1" angle="90" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="25"><tile height="1" angle="270" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="26"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="27"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="28"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="29"><tile height="1" angle="270" slope="plane" texture="water-beach" type="grassland"/></col>
+		</row>
+		<row value="81">
+			<col value="11"><tile height="1" angle="270" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="12"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="13"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="14"><tile height="1" angle="90" slope="plane" texture="river-gras2" type="grassland"/></col>
+			<col value="15"><tile height="1" angle="180" slope="plane" texture="river-gras" type="grassland"/></col>
+			<col value="16"><tile height="1" angle="0" slope="plane" texture="river-gras2" type="grassland"/></col>
+			<col value="17"><tile height="1" angle="270" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="24"><tile height="1" angle="270" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="25"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="26"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="27"><tile height="1" angle="0" slope="plane" texture="gras_2" type="grassland"/></col>
+			<col value="28"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="29"><tile height="1" angle="0" slope="plane" texture="beach-water" type="grassland"/></col>
+		</row>
+		<row value="82">
+			<col value="12"><tile height="1" angle="90" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="13"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="14"><tile height="1" angle="90" slope="plane" texture="river-gras2" type="grassland"/></col>
+			<col value="15"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="16"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="17"><tile height="1" angle="0" slope="plane" texture="river-gras2" type="grassland"/></col>
+			<col value="18"><tile height="1" angle="90" slope="plane" texture="river-sea" type="grassland"/></col>
+			<col value="24"><tile height="1" angle="270" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="25"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="26"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="27"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="28"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="29"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="30"><tile height="1" angle="0" slope="plane" texture="beach-water" type="grassland"/></col>
+		</row>
+		<row value="83">
+			<col value="11"><tile height="1" angle="270" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="12"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="13"><tile height="1" angle="90" slope="plane" texture="river-gras2" type="grassland"/></col>
+			<col value="14"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="15"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="16"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="17"><tile height="1" angle="180" slope="plane" texture="river-gras" type="grassland"/></col>
+			<col value="18"><tile height="1" angle="90" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="23"><tile height="1" angle="270" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="24"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="25"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="26"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="27"><tile height="1" angle="0" slope="plane" texture="gras_2" type="grassland"/></col>
+			<col value="28"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="29"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="30"><tile height="1" angle="0" slope="plane" texture="beach-water" type="grassland"/></col>
+		</row>
+		<row value="84">
+			<col value="12"><tile height="1" angle="180" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="13"><tile height="1" angle="90" slope="plane" texture="river-gras2" type="grassland"/></col>
+			<col value="14"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="15"><tile height="1" angle="0" slope="plane" texture="grasrock" type="grassland"/></col>
+			<col value="16"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="17"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="18"><tile height="1" angle="90" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="23"><tile height="1" angle="270" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="24"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="25"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="26"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="27"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="28"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="29"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="30"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="31"><tile height="1" angle="0" slope="plane" texture="beach-water" type="grassland"/></col>
+		</row>
+		<row value="85">
+			<col value="12"><tile height="1" angle="270" slope="plane" texture="river-sea" type="grassland"/></col>
+			<col value="13"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="14"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="15"><tile height="1" angle="0" slope="plane" texture="grasrock" type="grassland"/></col>
+			<col value="16"><tile height="1" angle="0" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="17"><tile height="1" angle="90" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="22"><tile height="1" angle="270" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="23"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="24"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="25"><tile height="1" angle="0" slope="plane" texture="grasrock" type="grassland"/></col>
+			<col value="26"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="27"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="28"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="29"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="30"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="31"><tile height="1" angle="0" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="32"><tile height="1" angle="0" slope="plane" texture="beach2" type="grassland"/></col>
+		</row>
+		<row value="86">
+			<col value="13"><tile height="1" angle="180" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="14"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="15"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="16"><tile height="1" angle="90" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="17"><tile height="1" angle="180" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="22"><tile height="1" angle="270" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="23"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="24"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="25"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="26"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="27"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="28"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="29"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="30"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="31"><tile height="1" angle="0" slope="plane" texture="gras_2" type="grassland"/></col>
+			<col value="32"><tile height="1" angle="180" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="33"><tile height="1" angle="90" slope="plane" texture="beach2" type="grassland"/></col>
+		</row>
+		<row value="87">
+			<col value="13"><tile height="1" angle="180" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="14"><tile height="1" angle="0" slope="plane" texture="water-beach" type="grassland"/></col>
+			<col value="15"><tile height="1" angle="90" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="21"><tile height="1" angle="270" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="22"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="23"><tile height="1" angle="0" slope="plane" texture="grasrock" type="grassland"/></col>
+			<col value="24"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="25"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="26"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="27"><tile height="1" angle="0" slope="plane" texture="gras_2" type="grassland"/></col>
+			<col value="28"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="29"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="30"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="31"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="32"><tile height="1" angle="90" slope="plane" texture="beach-water" type="grassland"/></col>
+		</row>
+		<row value="88">
+			<col value="14"><tile height="1" angle="180" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="15"><tile height="1" angle="180" slope="plane" texture="beach2" type="grassland"/></col>
+			<col value="22"><tile height="1" angle="180" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="23"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="24"><tile height="1" angle="0" slope="plane" texture="grasrock" type="grassland"/></col>
+			<col value="25"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="26"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="27"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="28"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="29"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="30"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="31"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="32"><tile height="1" angle="90" slope="plane" texture="beach-water" type="grassland"/></col>
+		</row>
+		<row value="89">
+			<col value="22"><tile height="1" angle="180" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="23"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="24"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="25"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="26"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="27"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="28"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="29"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="30"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="31"><tile height="1" angle="90" slope="plane" texture="beach-water" type="grassland"/></col>
+		</row>
+		<row value="90">
+			<col value="23"><tile height="1" angle="180" slope="plane" texture="beach-water" type="grassland"/></col>
+			<col value="24"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="25"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="26"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="27"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="28"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="29"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="30"><tile height="1" angle="0" slope="plane" texture="gras" type="grassland"/></col>
+			<col value="31"><tile height="1" angle="90" slope="plane" texture="beach-water" type="grassland"/></col>
+		</row>
+	</terrain>
+</island>

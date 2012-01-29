@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    great_bay-campaign-file
+    see campaign.h for further flags
+    flags: 
+    level:   0 = beginner, 1 = intermediate, 2 = expert
+    island:  island id    
+-->
+<campaign>
+    <level>0</level> <!-- experience level for players -->
+    <name>Great Bay</name> <!-- campaign-name -->
+	<info>Diese Map ist eine Demonstration fuer etwas groessere Maps in OpenAnno!</info>
+    <endless_ressources>1</endless_ressources> <!-- ore, stone... -->
+    <drouth>1</drouth> <!-- is bad harvest possible -->
+    <plague>1</plague> <!-- e.g. pest -->
+    <scenario> <!-- to win you need... -->
+	<towns>2</towns> <!-- how many towns -->
+	<inhabitants>12000</inhabitants> <!-- how many inhabitants -->
+	<society>0</society> <!-- society: 0 = worker, 1 = citizen, 2 = aristocrat -->
+    </scenario>
+    <pirates>1</pirates> <!-- will there be pirates -->
+    <trader>1</trader> <!-- is the trader available -->
+    <island>great_bay.xml</island> <!-- island-ID -->
+    <resources> <!-- starting ressources -->
+	<gold>1000</gold>
+	<wood>1000</wood>
+	<stone>1000</stone>
+	<tools>1000</tools>
+	<food>1000</food>
+	<clothes>0</clothes>
+	<wool>0</wool>
+	<tobacco>0</tobacco>
+	<soldiers>0</soldiers>
+    </resources>
+</campaign>
+

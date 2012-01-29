@@ -1,0 +1,8 @@
+Jede Hilfe ist willkommen: Bug-Reports und anderes Feedback sowie Patches, Dokumentation, Grafiken, Sounds/Musik und - später - Level- und Kampagnendateien. Falls Sie dergleichen zum Projekt beitragen möchten, stellen Sie ihren Content in unser Forum:
+http://www.openanno.org/forum
+oder laden Sie den Patch direkt auf unseren Sourceforge-Tracker:
+http://sourceforge.net/tracker/?group_id=143268&atid=755359
+
+Bitte benutzen Sie stets die aktuellste SVN-Version, um Patches zu erstellen. Versuchen Sie, sich so weit wie möglich an unseren Coding-Style zu halten und kommentieren Sie ihren Code ausführlich. Falls Sie Fragen haben, können Sie sich jederzeit an unser Forum oder direkt an unsere Entwickler wenden.
+
+Falls Sie unserem Projekt beitreten möchten, schreiben Sie bitte direkt in den dafür vorgesehenen Bereich in unserem Forum oder schreiben Sie uns eine E-Mail. neue Entwickler aller Bereiche sind jederzeit willkommen!

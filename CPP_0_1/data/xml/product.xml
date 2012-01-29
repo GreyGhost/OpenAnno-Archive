@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<product id="bread">
+  <image="bread.png"/>
+  <price>....</price>
+  <text>....</text>
+</product>
+
+<product id="boards">
+  <image="boards.png"/>
+  <price>....</price>
+  <text>....</text>
+</product>
+
+<product id="flour">
+  <image="flour.png"/>
+  <price>....</price>
+  <text>....</text>
+</product>
+
+<product id="wine">
+  <image="wine.png"/>
+  <price>....</price>
+  <text>....</text>
+</product>
+
+

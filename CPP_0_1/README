@@ -1,0 +1,26 @@
+Linux:
+=======================
+You need at least the following dev-packages installed on your box:
+SDL, SDL_ttf, SDL_image, SDL_gfx, SDL_mixer, gettext
+In addition, you need CMake.
+To compile and start OpenAnno type the following commands:
+--------
+ cmake .
+ make
+ ln -s src/openanno openanno
+ ./openanno
+--------
+or use the kde based installer:
+--------
+ sh openanno-installer.sh
+--------
+or the text mode installer
+--------
+ sh openanno-text-installer.sh
+--------
+See config.xml for settings - after starting the first time there is ~/.openanno/config.xml for your personal settings - keep this in mind on svn updates.
+
+Windows:
+=======================
+You need MinGW and CMake installed.
+For details, see http://openanno.org/wiki/index.php/En/Compiling

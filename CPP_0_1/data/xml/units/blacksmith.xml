@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<tile name="blacksmith">
+	<image directions="all" variation="0">u_blacksmith.png</image>
+</tile>

@@ -1,0 +1,42 @@
+Bis jetzt gibt es keine binären Builds von OpenAnno. Falls Sie helfen wollen, binäre Builds zu erstellen, so kontaktieren Sie uns bitte. Die einzige möglichkeit, OpenAnno zum jetzigen Zeitpunkt zu Testen ist das Compilieren der Quellcodes von unserem Subversion-Repository (SVN). Befolgen Sie dafür folgende Instruktionen:
+
+Falls Sie Probleme beim Compilieren haben sollten oder Bugs (Fehler) finden, nehmen Sie sich bitte die Zeit, um in unserem Forum (http://www.openanno.org/forum) um Hilfe zu bitten. Bitte posten Sie sämtliche Fehlermeldungen!
+
+Linux:
+=======================
+
+1. Herunterladen der Quelldateien, Dev-Packs und cmake
+Öffnen Sie eine Konsole und tippen Sie Folgendes ein:
+-------
+ svn co svn://openanno.org/main/trunk openanno
+-------
+Um diesen Vorgang durchzuführen, benötigen Sie einen SVN-Clienten. Die Meisten Linux-Distributionen haben bereits einen installiert. Zusätzlich benötigen Sie eine Reihe von Dev-Packs, die installiert sein müssen:
+   - SDL
+   - SDL_ttf
+   - SDL_image
+   - SDL_gfx
+   - SDL_mixer
+   - gettext
+   - libphysfs
+Zusätzlich benötigen Sie einen C++-Compiler.
+
+2. Kompilieren
+Tippen Sie folgendes ein:
+-------
+cmake .
+make
+-------
+
+Dann sollten Sie einen Link vom OpenAnno-Hauptverzeichniss zur Binärdatei im src-Verzeichniss erstellen:
+-------
+ln -s src/openanno openanno
+-------
+
+Nun sind Sie fertig und können OpenAnno starten, indem Sie Folgendes eingeben:
+ ./openanno
+
+======================
+Windows
+======================
+Windows wird im Detail im Wiki behandelt:
+http://openanno.org/wiki/index.php/Kompilieren

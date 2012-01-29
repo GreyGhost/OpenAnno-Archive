@@ -1,0 +1,870 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <PersonalityInfo>
+    <Option>
+      <Option Name="Personality">CPlusPlusBuilder.Personality</Option>
+      <Option Name="ProjectType">CppGuiApplication</Option>
+      <Option Name="Version">1.0</Option>
+      <Option Name="GUID">{1F3B0295-A4D7-481D-8338-C093698A1867}</Option>
+    </Option>
+  </PersonalityInfo>
+  <CPlusPlusBuilder.Personality>
+    <Source>
+      <Source Name="MainSource">OpenAnno_Projekt.bpf</Source>
+    </Source>
+    <BCBPROJECT>
+      <project version="10.0">
+        <property category="build.config" name="active" value="0"/>
+        <property category="build.config" name="count" value="1"/>
+        <property category="build.config" name="excludedefaultforzero" value="0"/>
+        <property category="build.config.0" name="builddir" value="Debug"/>
+        <property category="build.config.0" name="key" value="Debug_Build"/>
+        <property category="build.config.0" name="name" value="Debug-Build"/>
+        <property category="build.config.0" name="settings.win32b" value="default"/>
+        <property category="build.config.0" name="type" value="Toolset"/>
+        <property category="build.config.0" name="win32.win32b.builddir" value="Debug_Build"/>
+        <property category="build.config.1" name="key" value="Release_Build"/>
+        <property category="build.config.1" name="name" value="Release-Build"/>
+        <property category="build.config.1" name="settings.win32b" value="default"/>
+        <property category="build.config.1" name="type" value="Toolset"/>
+        <property category="build.config.1" name="win32.win32b.builddir" value="Release_Build"/>
+        <property category="build.node" name="name" value="OpenAnno_Projekt.exe"/>
+        <property category="build.node" name="packages" value="vclx;vcl;rtl;dbrtl;vcldb;adortl;dbxcds;dbexpress;xmlrtl;vclie;inet;inetdbbde;inetdbxpress;soaprtl;dsnap;bdertl;vcldbx"/>
+        <property category="build.node" name="sparelibs" value="rtl.lib"/>
+        <property category="build.node" name="use_packages" value="1"/>
+        <property category="build.platform" name="active" value="win32"/>
+        <property category="build.platform" name="win32.Debug_Build.toolset" value="win32b"/>
+        <property category="build.platform" name="win32.Release_Build.toolset" value="win32b"/>
+        <property category="build.platform" name="win32.default" value="win32b"/>
+        <property category="build.platform" name="win32.enabled" value="1"/>
+        <property category="build.platform" name="win32.win32b.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.D.arg.1" value="_DEBUG"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.D.arg.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.D.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.Od.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.k.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.r.enabled" value="0"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.v.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.vi.enabled" value="0"/>
+        <property category="win32.Debug_Build.win32b.bcc32" name="option.y.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.$D.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.$O.enabled" value="0"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.D.arg.1" value="DEBUG"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.D.arg.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.D.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.dcc32" name="option.V.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.L.arg.1" value="$(BDS)\lib\debug"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.L.arg.merge" value="1"/>
+        <property category="win32.Debug_Build.win32b.ilink32" name="option.L.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.tasm32" name="option.z.enabled" value="1"/>
+        <property category="win32.Debug_Build.win32b.tasm32" name="option.zd.enabled" value="0"/>
+        <property category="win32.Debug_Build.win32b.tasm32" name="option.zi.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.D.arg.1" value="NDEBUG"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.D.arg.merge" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.D.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.O2.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.k.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.r.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.bcc32" name="option.vi.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.dcc32" name="option.$D.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.dcc32" name="option.$O.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.dcc32" name="option.V.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.L.arg.1" value="$(BDS)\lib\release"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.L.arg.merge" value="1"/>
+        <property category="win32.Release_Build.win32b.ilink32" name="option.L.enabled" value="1"/>
+        <property category="win32.Release_Build.win32b.tasm32" name="option.z.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.tasm32" name="option.zd.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.tasm32" name="option.zi.enabled" value="0"/>
+        <property category="win32.Release_Build.win32b.tasm32" name="option.zn.enabled" value="1"/>
+        <optionset name="all_configurations">
+          <property category="node" name="displayname" value="Alle Konfigurationen"/>
+          <property category="win32.*.win32b.bcc32" name="option.H=.arg.1" value="$(BDS)\lib\vcl100.csm"/>
+          <property category="win32.*.win32b.bcc32" name="option.H=.arg.merge" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.H=.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.Hc.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.1" value="..\OpenAnno\SVN\src"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.10" value="..\OpenAnno\SVN\src\sprite"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.11" value="..\OpenAnno\SVN\src\video"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.12" value="..\OpenAnno\SVN\src\video\opengl"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.13" value="..\OpenAnno\SVN\src\video\sdl"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.14" value="..\OpenAnno\physfs"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.15" value="..\OpenAnno\physfs\archivers"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.16" value="..\OpenAnno\physfs\extras"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.17" value="..\OpenAnno\physfs\platform"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.18" value="..\OpenAnno\physfs\zlib123"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.19" value="..\..\..\..\physfs\zlib123"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.2" value="..\OpenAnno\SVN\src\audio"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.20" value="..\..\..\..\physfs\platform"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.21" value="..\..\..\..\physfs\extras"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.22" value="..\..\..\..\physfs\archivers"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.23" value="..\..\..\..\physfs"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.24" value="..\..\video\sdl"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.25" value="..\..\video\opengl"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.26" value="..\..\video"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.27" value="..\..\sprite"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.28" value="..\..\scripting"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.29" value="..\raknet"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.3" value="..\OpenAnno\SVN\src\gui"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.30" value="..\lua"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.31" value="..\..\io"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.32" value="..\..\gui\events"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.33" value="..\..\gui"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.34" value="..\..\audio"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.35" value="..\.."/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.36" value="$(BDS)\include"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.37" value="$(BDS)\include\dinkumware"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.38" value="$(BDS)\include\vcl"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.4" value="..\OpenAnno\SVN\src\gui\events"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.5" value="..\OpenAnno\SVN\src\io"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.6" value="..\OpenAnno\SVN\src\lib\lua"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.7" value="..\OpenAnno\SVN\src\lib\raknet"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.8" value="..\OpenAnno\SVN\src\lib\tinyxml"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.9" value="..\OpenAnno\SVN\src\scripting"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.arg.merge" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.I.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.Ve.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.b.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.1" value="_RTLDLL"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.2" value="USEPACKAGES"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.3" value="NO_STRICT"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.4" value="_NO_VCL"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.arg.merge" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.sysdefines.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.tW.enabled" value="1"/>
+          <property category="win32.*.win32b.bcc32" name="option.tWC.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.tWD.enabled" value="0"/>
+          <property category="win32.*.win32b.bcc32" name="option.tWM.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.1" value="..\OpenAnno\SVN\src"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.10" value="..\OpenAnno\SVN\src\sprite"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.11" value="..\OpenAnno\SVN\src\video"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.12" value="..\OpenAnno\SVN\src\video\opengl"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.13" value="..\OpenAnno\SVN\src\video\sdl"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.14" value="..\OpenAnno\physfs"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.15" value="..\OpenAnno\physfs\archivers"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.16" value="..\OpenAnno\physfs\extras"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.17" value="..\OpenAnno\physfs\platform"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.18" value="..\OpenAnno\physfs\zlib123"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.19" value="..\..\..\..\physfs\zlib123"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.2" value="..\OpenAnno\SVN\src\audio"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.20" value="..\..\..\..\physfs\platform"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.21" value="..\..\..\..\physfs\extras"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.22" value="..\..\..\..\physfs\archivers"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.23" value="..\..\..\..\physfs"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.24" value="..\..\video\sdl"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.25" value="..\..\video\opengl"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.26" value="..\..\video"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.27" value="..\..\sprite"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.28" value="..\..\scripting"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.29" value="..\raknet"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.3" value="..\OpenAnno\SVN\src\gui"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.30" value="..\lua"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.31" value="..\..\io"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.32" value="..\..\gui\events"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.33" value="..\..\gui"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.34" value="..\..\audio"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.35" value="..\.."/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.4" value="..\OpenAnno\SVN\src\gui\events"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.5" value="..\OpenAnno\SVN\src\io"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.6" value="..\OpenAnno\SVN\src\lib\lua"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.7" value="..\OpenAnno\SVN\src\lib\raknet"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.8" value="..\OpenAnno\SVN\src\lib\tinyxml"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.9" value="..\OpenAnno\SVN\src\scripting"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.I.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.1" value="..\OpenAnno\SVN\src"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.10" value="..\OpenAnno\SVN\src\sprite"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.11" value="..\OpenAnno\SVN\src\video"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.12" value="..\OpenAnno\SVN\src\video\opengl"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.13" value="..\OpenAnno\SVN\src\video\sdl"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.14" value="..\OpenAnno\physfs"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.15" value="..\OpenAnno\physfs\archivers"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.16" value="..\OpenAnno\physfs\extras"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.17" value="..\OpenAnno\physfs\platform"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.18" value="..\OpenAnno\physfs\zlib123"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.19" value="..\..\..\..\physfs\zlib123"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.2" value="..\OpenAnno\SVN\src\audio"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.20" value="..\..\..\..\physfs\platform"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.21" value="..\..\..\..\physfs\extras"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.22" value="..\..\..\..\physfs\archivers"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.23" value="..\..\..\..\physfs"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.24" value="..\..\video\sdl"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.25" value="..\..\video\opengl"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.26" value="..\..\video"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.27" value="..\..\sprite"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.28" value="..\..\scripting"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.29" value="..\raknet"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.3" value="..\OpenAnno\SVN\src\gui"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.30" value="..\lua"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.31" value="..\..\io"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.32" value="..\..\gui\events"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.33" value="..\..\gui"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.34" value="..\..\audio"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.35" value="..\.."/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.4" value="..\OpenAnno\SVN\src\gui\events"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.5" value="..\OpenAnno\SVN\src\io"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.6" value="..\OpenAnno\SVN\src\lib\lua"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.7" value="..\OpenAnno\SVN\src\lib\raknet"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.8" value="..\OpenAnno\SVN\src\lib\tinyxml"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.9" value="..\OpenAnno\SVN\src\scripting"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.O.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.1" value="..\OpenAnno\SVN\src"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.10" value="..\OpenAnno\SVN\src\sprite"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.11" value="..\OpenAnno\SVN\src\video"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.12" value="..\OpenAnno\SVN\src\video\opengl"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.13" value="..\OpenAnno\SVN\src\video\sdl"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.14" value="..\OpenAnno\physfs"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.15" value="..\OpenAnno\physfs\archivers"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.16" value="..\OpenAnno\physfs\extras"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.17" value="..\OpenAnno\physfs\platform"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.18" value="..\OpenAnno\physfs\zlib123"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.19" value="..\..\..\..\physfs\zlib123"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.2" value="..\OpenAnno\SVN\src\audio"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.20" value="..\..\..\..\physfs\platform"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.21" value="..\..\..\..\physfs\extras"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.22" value="..\..\..\..\physfs\archivers"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.23" value="..\..\..\..\physfs"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.24" value="..\..\video\sdl"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.25" value="..\..\video\opengl"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.26" value="..\..\video"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.27" value="..\..\sprite"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.28" value="..\..\scripting"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.29" value="..\raknet"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.3" value="..\OpenAnno\SVN\src\gui"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.30" value="..\lua"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.31" value="..\..\io"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.32" value="..\..\gui\events"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.33" value="..\..\gui"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.34" value="..\..\audio"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.35" value="..\.."/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.4" value="..\OpenAnno\SVN\src\gui\events"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.5" value="..\OpenAnno\SVN\src\io"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.6" value="..\OpenAnno\SVN\src\lib\lua"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.7" value="..\OpenAnno\SVN\src\lib\raknet"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.8" value="..\OpenAnno\SVN\src\lib\tinyxml"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.9" value="..\OpenAnno\SVN\src\scripting"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.R.enabled" value="0"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.1" value="..\OpenAnno\SVN\src"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.10" value="..\OpenAnno\SVN\src\sprite"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.11" value="..\OpenAnno\SVN\src\video"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.12" value="..\OpenAnno\SVN\src\video\opengl"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.13" value="..\OpenAnno\SVN\src\video\sdl"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.14" value="..\OpenAnno\physfs"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.15" value="..\OpenAnno\physfs\archivers"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.16" value="..\OpenAnno\physfs\extras"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.17" value="..\OpenAnno\physfs\platform"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.18" value="..\OpenAnno\physfs\zlib123"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.19" value="..\..\..\..\physfs\zlib123"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.2" value="..\OpenAnno\SVN\src\audio"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.20" value="..\..\..\..\physfs\platform"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.21" value="..\..\..\..\physfs\extras"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.22" value="..\..\..\..\physfs\archivers"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.23" value="..\..\..\..\physfs"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.24" value="..\..\video\sdl"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.25" value="..\..\video\opengl"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.26" value="..\..\video"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.27" value="..\..\sprite"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.28" value="..\..\scripting"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.29" value="..\raknet"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.3" value="..\OpenAnno\SVN\src\gui"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.30" value="..\lua"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.31" value="..\..\io"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.32" value="..\..\gui\events"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.33" value="..\..\gui"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.34" value="..\..\audio"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.35" value="..\.."/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.36" value="..\..\..\..\..\Borland Studio-Projekte"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.37" value="$(BDS)\lib"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.38" value="$(BDS)\lib\obj"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.4" value="..\OpenAnno\SVN\src\gui\events"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.5" value="..\OpenAnno\SVN\src\io"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.6" value="..\OpenAnno\SVN\src\lib\lua"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.7" value="..\OpenAnno\SVN\src\lib\raknet"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.8" value="..\OpenAnno\SVN\src\lib\tinyxml"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.9" value="..\OpenAnno\SVN\src\scripting"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.arg.merge" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="option.U.enabled" value="1"/>
+          <property category="win32.*.win32b.dcc32" name="param.filenames.merge" value="1"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.1" value="..\.."/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.10" value="..\..\video"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.11" value="..\..\video\opengl"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.12" value="..\..\video\sdl"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.13" value="..\..\..\..\physfs"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.14" value="..\..\..\..\physfs\archivers"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.15" value="..\..\..\..\physfs\extras"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.16" value="..\..\..\..\physfs\platform"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.17" value="..\..\..\..\physfs\zlib123"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.18" value="..\OpenAnno\SVN\src"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.19" value="..\OpenAnno\SVN\src\audio"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.2" value="..\..\audio"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.20" value="..\OpenAnno\SVN\src\gui"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.21" value="..\OpenAnno\SVN\src\gui\events"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.22" value="..\OpenAnno\SVN\src\io"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.23" value="..\OpenAnno\SVN\src\lib\lua"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.24" value="..\OpenAnno\SVN\src\lib\raknet"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.25" value="..\OpenAnno\SVN\src\lib\tinyxml"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.26" value="..\OpenAnno\SVN\src\scripting"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.27" value="..\OpenAnno\SVN\src\sprite"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.28" value="..\OpenAnno\SVN\src\video"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.29" value="..\OpenAnno\SVN\src\video\opengl"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.3" value="..\..\gui"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.30" value="..\OpenAnno\SVN\src\video\sdl"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.31" value="..\OpenAnno\physfs"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.32" value="..\OpenAnno\physfs\archivers"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.33" value="..\OpenAnno\physfs\extras"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.34" value="..\OpenAnno\physfs\platform"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.35" value="..\OpenAnno\physfs\zlib123"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.36" value="C:"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.4" value="..\..\gui\events"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.5" value="..\..\io"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.6" value="..\lua"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.7" value="..\raknet"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.8" value="..\..\scripting"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.9" value="..\..\sprite"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.arg.merge" value="1"/>
+          <property category="win32.*.win32b.idl2cpp" name="option.I.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.Gi.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.1" value="..\OpenAnno\SVN\src"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.10" value="..\OpenAnno\SVN\src\sprite"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.11" value="..\OpenAnno\SVN\src\video"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.12" value="..\OpenAnno\SVN\src\video\opengl"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.13" value="..\OpenAnno\SVN\src\video\sdl"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.14" value="..\OpenAnno\physfs"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.15" value="..\OpenAnno\physfs\archivers"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.16" value="..\OpenAnno\physfs\extras"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.17" value="..\OpenAnno\physfs\platform"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.18" value="..\OpenAnno\physfs\zlib123"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.19" value="..\..\..\..\physfs\zlib123"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.2" value="..\OpenAnno\SVN\src\audio"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.20" value="..\..\..\..\physfs\platform"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.21" value="..\..\..\..\physfs\extras"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.22" value="..\..\..\..\physfs\archivers"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.23" value="..\..\..\..\physfs"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.24" value="..\..\video\sdl"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.25" value="..\..\video\opengl"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.26" value="..\..\video"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.27" value="..\..\sprite"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.28" value="..\..\scripting"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.29" value="..\raknet"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.3" value="..\OpenAnno\SVN\src\gui"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.30" value="..\lua"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.31" value="..\..\io"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.32" value="..\..\gui\events"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.33" value="..\..\gui"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.34" value="..\..\audio"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.35" value="..\.."/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.36" value="$(BDS)\lib"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.37" value="$(BDS)\lib\obj"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.38" value="$(BDS)\lib\psdk"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.4" value="..\OpenAnno\SVN\src\gui\events"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.5" value="..\OpenAnno\SVN\src\io"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.6" value="..\OpenAnno\SVN\src\lib\lua"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.7" value="..\OpenAnno\SVN\src\lib\raknet"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.8" value="..\OpenAnno\SVN\src\lib\tinyxml"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.9" value="..\OpenAnno\SVN\src\scripting"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.arg.merge" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.L.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.Tpd.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.Tpe.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.Tpp.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.aa.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.ap.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="option.dynamicrtl.enabled" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.1" value="..\OpenAnno\SVN\src"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.10" value="..\OpenAnno\SVN\src\sprite"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.11" value="..\OpenAnno\SVN\src\video"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.12" value="..\OpenAnno\SVN\src\video\opengl"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.13" value="..\OpenAnno\SVN\src\video\sdl"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.14" value="..\OpenAnno\physfs"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.15" value="..\OpenAnno\physfs\archivers"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.16" value="..\OpenAnno\physfs\extras"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.17" value="..\OpenAnno\physfs\platform"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.18" value="..\OpenAnno\physfs\zlib123"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.19" value="..\..\..\..\physfs\zlib123"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.2" value="..\OpenAnno\SVN\src\audio"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.20" value="..\..\..\..\physfs\platform"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.21" value="..\..\..\..\physfs\extras"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.22" value="..\..\..\..\physfs\archivers"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.23" value="..\..\..\..\physfs"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.24" value="..\..\video\sdl"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.25" value="..\..\video\opengl"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.26" value="..\..\video"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.27" value="..\..\sprite"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.28" value="..\..\scripting"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.29" value="..\raknet"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.3" value="..\OpenAnno\SVN\src\gui"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.30" value="..\lua"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.31" value="..\..\io"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.32" value="..\..\gui\events"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.33" value="..\..\gui"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.34" value="..\..\audio"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.35" value="..\.."/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.4" value="..\OpenAnno\SVN\src\gui\events"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.5" value="..\OpenAnno\SVN\src\io"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.6" value="..\OpenAnno\SVN\src\lib\lua"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.7" value="..\OpenAnno\SVN\src\lib\raknet"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.8" value="..\OpenAnno\SVN\src\lib\tinyxml"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.9" value="..\OpenAnno\SVN\src\scripting"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.arg.merge" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="option.j.enabled" value="0"/>
+          <property category="win32.*.win32b.ilink32" name="param.libfiles.1" value="import32.lib"/>
+          <property category="win32.*.win32b.ilink32" name="param.libfiles.2" value="cw32i.lib"/>
+          <property category="win32.*.win32b.ilink32" name="param.libfiles.merge" value="1"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.1" value="c0w32.obj"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.2" value="$(PACKAGES)"/>
+          <property category="win32.*.win32b.ilink32" name="param.objfiles.merge" value="1"/>
+        </optionset>
+      </project>
+      <FILELIST>
+        <FILE FILENAME="OpenAnno_Projekt.bpf" CONTAINERID="BPF" LOCALCOMMAND="" UNITNAME="OpenAnno_Projekt" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="OpenAnno_Projekt.res" CONTAINERID="ResTool" LOCALCOMMAND="" UNITNAME="OpenAnno_Projekt.res" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\openanno.ico" CONTAINERID="Icon" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\rect.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\tile.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="tile" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\tile.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\configInclude.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\configuration.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="configuration" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\configuration.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\entity.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="entity" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\entity.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\entityManager.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="entityManager" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\entityManager.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\gamestate.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="gamestate" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\gamestate.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\gettext.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\ingame.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ingame" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\ingame.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\map.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="map" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\map.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\openanno.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="openanno" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\openanno.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\audio\sample.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\audio\audioSystem.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\audio\music.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\audio\audioSystem.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="audioSystem" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\gui\widgetmanager.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\gui\checkbox.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="checkbox" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\gui\checkbox.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\gui\commandwidget.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="commandwidget" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\gui\commandwidget.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\gui\configdialog.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="configdialog" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\gui\configdialog.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\gui\dialog.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="dialog" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\gui\dialog.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\gui\editbox.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="editbox" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\gui\editbox.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\gui\imagebutton.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="imagebutton" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\gui\imagebutton.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\gui\menu.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="menu" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\gui\menu.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\gui\multidialog.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="multidialog" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\gui\multidialog.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\gui\newgamedialog.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="newgamedialog" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\gui\newgamedialog.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\gui\scrollbar.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="scrollbar" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\gui\scrollbar.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\gui\searchgames.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="searchgames" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\gui\searchgames.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\gui\selectbox.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="selectbox" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\gui\selectbox.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\gui\selector.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="selector" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\gui\selector.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\gui\singledialog.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="singledialog" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\gui\singledialog.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\gui\slider.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="slider" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\gui\slider.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\gui\startscreen.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="startscreen" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\gui\startscreen.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\gui\statictext.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="statictext" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\gui\statictext.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\gui\table.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="table" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\gui\table.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\gui\teamdialog.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="teamdialog" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\gui\teamdialog.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\gui\textviewer.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="textviewer" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\gui\textviewer.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\gui\widget.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="widget" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\gui\widget.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\gui\widgetmanager.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="widgetmanager" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\gui\events\eventmousemove.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\gui\events\event.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="event" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\gui\events\event.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\gui\events\eventcommand.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="eventcommand" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\gui\events\eventcommand.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\gui\events\eventkey.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="eventkey" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\gui\events\eventkey.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\gui\events\eventmouseclick.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="eventmouseclick" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\gui\events\eventmouseclick.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\gui\events\eventmousemove.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="eventmousemove" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\io\resourceManager.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\io\resource.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="resource" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\io\resource.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\io\resourceLoader.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\io\resourceManager.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="resourceManager" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\lua\print.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="print" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\lua\lapi.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="lapi" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\lua\lapi.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\lua\lauxlib.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="lauxlib" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\lua\lauxlib.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\lua\lbaselib.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="lbaselib" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\lua\lcode.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="lcode" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\lua\lcode.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\lua\ldblib.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ldblib" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\lua\ldebug.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ldebug" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\lua\ldebug.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\lua\ldo.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ldo" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\lua\ldo.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\lua\ldump.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ldump" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\lua\lfunc.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="lfunc" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\lua\lfunc.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\lua\lgc.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="lgc" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\lua\lgc.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\lua\linit.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="linit" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\lua\liolib.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="liolib" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\lua\llex.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="llex" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\lua\llex.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\lua\llimits.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\lua\lmathlib.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="lmathlib" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\lua\lmem.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="lmem" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\lua\lmem.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\lua\loadlib.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="loadlib" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\lua\lobject.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="lobject" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\lua\lobject.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\lua\lopcodes.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="lopcodes" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\lua\lopcodes.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\lua\loslib.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="loslib" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\lua\lparser.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="lparser" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\lua\lparser.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\lua\lstate.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="lstate" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\lua\lstate.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\lua\lstring.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="lstring" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\lua\lstring.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\lua\lstrlib.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="lstrlib" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\lua\ltable.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ltable" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\lua\ltable.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\lua\ltablib.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ltablib" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\lua\ltm.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ltm" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\lua\ltm.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\lua\lua.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="lua" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\lua\lua.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\lua\luac.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="luac" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\lua\luaconf.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\lua\lualib.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\lua\lundump.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="lundump" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\lua\lundump.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\lua\lvm.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="lvm" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\lua\lvm.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\lua\lzio.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="lzio" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\lua\lzio.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\lua\Makefile.am" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\Types.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\ArrayList.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\AsynchronousFileIO.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="AsynchronousFileIO" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\raknet\AsynchronousFileIO.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\Autopatcher.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="Autopatcher" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\raknet\Autopatcher.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\BigTypes.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\BinarySearchTree.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\BitStream.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="BitStream" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\raknet\BitStream.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\CheckSum.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="CheckSum" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\raknet\CheckSum.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\ClientContextStruct.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\DataBlockEncryptor.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="DataBlockEncryptor" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\raknet\DataBlockEncryptor.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\DataReplicator.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="DataReplicator" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\raknet\DataReplicator.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\DistributedNetworkObject.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="DistributedNetworkObject" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\raknet\DistributedNetworkObject.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\DistributedNetworkObjectHeader.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\DistributedNetworkObjectManager.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="DistributedNetworkObjectManager" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\raknet\DistributedNetworkObjectManager.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\DistributedNetworkObjectStub.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="DistributedNetworkObjectStub" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\raknet\DistributedNetworkObjectStub.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\DownloadableFileDescriptor.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="DownloadableFileDescriptor" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\raknet\DownloadableFileDescriptor.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\EncodeClassName.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="EncodeClassName" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\raknet\EncodeClassName.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\ExtendedOverlappedPool.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ExtendedOverlappedPool" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\raknet\ExtendedOverlappedPool.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\FullyConnectedMesh.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="FullyConnectedMesh" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\raknet\FullyConnectedMesh.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\GetTime.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="GetTime" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\raknet\GetTime.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\HuffmanEncodingTree.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="HuffmanEncodingTree" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\raknet\HuffmanEncodingTree.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\HuffmanEncodingTreeFactory.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="HuffmanEncodingTreeFactory" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\raknet\HuffmanEncodingTreeFactory.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\HuffmanEncodingTreeNode.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\InternalPacket.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\InternalPacketPool.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="InternalPacketPool" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\raknet\InternalPacketPool.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\LinkedList.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\Makefile.am" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\MessageHandlerInterface.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="MessageHandlerInterface" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\raknet\MessageHandlerInterface.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\MTUSize.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\Multiplayer.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\NetworkIDGenerator.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="NetworkIDGenerator" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\raknet\NetworkIDGenerator.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\NetworkObject.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="NetworkObject" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\raknet\NetworkObject.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\NetworkTypes.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="NetworkTypes" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\raknet\NetworkTypes.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\OrderedList.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="OrderedList" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\raknet\OrderedList.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\PacketEnumerations.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\PacketPool.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="PacketPool" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\raknet\PacketPool.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\PacketPriority.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\Queue.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\QueueLinkedList.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\RakClient.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="RakClient" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\raknet\RakClient.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\RakClientInterface.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\RakNetQueue.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\RakNetStatistics.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="RakNetStatistics" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\raknet\RakNetStatistics.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\RakNetworkFactory.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="RakNetworkFactory" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\raknet\RakNetworkFactory.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\RakPeer.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="RakPeer" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\raknet\RakPeer.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\RakPeerInterface.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\RakServer.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="RakServer" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\raknet\RakServer.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\RakServerInterface.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\Rand.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="Rand" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\raknet\Rand.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\ReliabilityLayer.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ReliabilityLayer" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\raknet\ReliabilityLayer.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\rijndael.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="rijndael" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\raknet\rijndael.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\rijndael-boxes.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\RPCMap.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="RPCMap" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\raknet\RPCMap.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\RPCNode.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="RPCNode" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\raknet\RPCNode.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\RSACrypt.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\SHA1.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="SHA1" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\raknet\SHA1.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\SimpleMutex.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="SimpleMutex" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\raknet\SimpleMutex.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\SingleProducerConsumer.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\SocketLayer.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="SocketLayer" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\raknet\SocketLayer.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\StringCompressor.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="StringCompressor" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\raknet\StringCompressor.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\Types.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\ArrayList.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\AsynchronousFileIO.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\BigTypes.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\BinarySearchTree.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\BitStream.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\CheckSum.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\ClientContextStruct.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\DataBlockEncryptor.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\DataReplicator.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\DistributedNetworkObject.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\DistributedNetworkObjectHeader.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\DistributedNetworkObjectManager.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\DistributedNetworkObjectStub.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\EncodeClassName.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\ExtendedOverlappedPool.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\FullyConnectedMesh.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\GetTime.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\HuffmanEncodingTree.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\HuffmanEncodingTreeFactory.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\HuffmanEncodingTreeNode.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\InternalPacket.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\InternalPacketPool.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\LinkedList.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\MessageHandlerInterface.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\MTUSize.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\Multiplayer.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\NetworkIDGenerator.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\NetworkObject.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\NetworkTypes.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\OrderedList.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\PacketEnumerations.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\PacketPool.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\PacketPriority.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\Queue.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\QueueLinkedList.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\RakClient.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\RakClientInterface.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\RakNetQueue.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\RakNetStatistics.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\RakNetworkFactory.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\RakPeer.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\RakPeerInterface.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\RakServer.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\RakServerInterface.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\Rand.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\ReliabilityLayer.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\rijndael.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\rijndael-boxes.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\RPCMap.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\RPCNode.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\RSACrypt.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\SHA1.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\SimpleMutex.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\SingleProducerConsumer.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\SocketLayer.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\StringCompressor.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\Autopatcher\DownloadableFileDescriptor.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\raknet\raknet\Autopatcher\Autopatcher.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="xmltest.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="xmltest" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="tinystr.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="tinystr" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="tinystr.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="tinyxml.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="tinyxml" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="tinyxml.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="tinyxmlerror.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="tinyxmlerror" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="tinyxmlparser.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="tinyxmlparser" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\scripting\value.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\scripting\class.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="class" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\scripting\class.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\scripting\luaScriptSystem.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="luaScriptSystem" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\scripting\luaScriptSystem.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\scripting\method.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="method" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\scripting\method.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\scripting\methodArguments.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\scripting\script.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="script" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\scripting\script.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\scripting\scriptBinding.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\scripting\scriptingManager.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="scriptingManager" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\scripting\scriptingManager.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\sprite\spriteanimation.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\sprite\sprite.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="sprite" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\sprite\sprite.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\sprite\spriteanimation.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="spriteanimation" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\video\videosystem.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\video\color.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\video\font.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\video\surface.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\video\videosystem.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="videosystem" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\video\opengl\texture.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\video\opengl\openglfont.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="openglfont" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\video\opengl\openglfont.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\video\opengl\openglsurface.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="openglsurface" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\video\opengl\openglsurface.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\video\opengl\openglvideosystem.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="openglvideosystem" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\video\opengl\openglvideosystem.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\video\opengl\texture.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="texture" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\video\sdl\sdlvideosystem.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\video\sdl\sdlfont.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="sdlfont" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\video\sdl\sdlfont.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\video\sdl\sdlsurface.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="sdlsurface" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\video\sdl\sdlsurface.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\video\sdl\sdlvideosystem.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="sdlvideosystem" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\..\..\physfs\physfs.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="physfs" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\..\..\physfs\physfs.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\..\..\physfs\physfs_byteorder.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="physfs_byteorder" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\..\..\physfs\physfs_internal.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\..\..\physfs\acconfig.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\..\..\physfs\archivers\zip.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="zip" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\..\..\physfs\archivers\dir.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="dir" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\..\..\physfs\archivers\grp.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="grp" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\..\..\physfs\archivers\hog.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="hog" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\..\..\physfs\archivers\mvl.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="mvl" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\..\..\physfs\archivers\qpak.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="qpak" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\..\..\physfs\archivers\wad.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="wad" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\..\..\physfs\extras\physfsrwops.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\..\..\physfs\extras\abs-file.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\..\..\physfs\extras\globbing.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="globbing" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\..\..\physfs\extras\globbing.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\..\..\physfs\extras\ignorecase.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="ignorecase" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\..\..\physfs\extras\ignorecase.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\..\..\physfs\extras\physfshttpd.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="physfshttpd" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\..\..\physfs\extras\physfsrwops.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="physfsrwops" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\..\..\physfs\platform\win32.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="win32" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\..\..\physfs\platform\beos.cpp" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="beos" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\..\..\physfs\platform\macclassic.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="macclassic" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\..\..\physfs\platform\Makefile.am" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\..\..\physfs\platform\os2.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="os2" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\..\..\physfs\platform\pocketpc.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="pocketpc" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\..\..\physfs\platform\posix.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="posix" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\..\..\physfs\platform\skeleton.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="skeleton" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\..\..\physfs\platform\unix.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="unix" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\..\..\physfs\zlib123\zutil.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\..\..\physfs\zlib123\adler32.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="adler32" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\..\..\physfs\zlib123\compress.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="compress" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\..\..\physfs\zlib123\crc32.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="crc32" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\..\..\physfs\zlib123\crc32.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\..\..\physfs\zlib123\deflate.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="deflate" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\..\..\physfs\zlib123\deflate.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\..\..\physfs\zlib123\gzio.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="gzio" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\..\..\physfs\zlib123\infback.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="infback" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\..\..\physfs\zlib123\inffast.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="inffast" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\..\..\physfs\zlib123\inffast.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\..\..\physfs\zlib123\inffixed.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\..\..\physfs\zlib123\inflate.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="inflate" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\..\..\physfs\zlib123\inflate.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\..\..\physfs\zlib123\inftrees.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="inftrees" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\..\..\physfs\zlib123\inftrees.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\..\..\physfs\zlib123\Makefile.am" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\..\..\physfs\zlib123\trees.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="trees" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\..\..\physfs\zlib123\trees.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\..\..\physfs\zlib123\uncompr.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="uncompr" FORMNAME="" DESIGNCLASS=""/>
+        <FILE FILENAME="..\..\..\..\physfs\zlib123\zconf.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\..\..\physfs\zlib123\zlib.h" CONTAINERID="" LOCALCOMMAND=""/>
+        <FILE FILENAME="..\..\..\..\physfs\zlib123\zutil.c" CONTAINERID="CCompiler" LOCALCOMMAND="" UNITNAME="zutil" FORMNAME="" DESIGNCLASS=""/>
+      </FILELIST>
+      <IDEOPTIONS>
+        <VersionInfo>
+          <VersionInfo Name="IncludeVerInfo">False</VersionInfo>
+          <VersionInfo Name="AutoIncBuild">False</VersionInfo>
+          <VersionInfo Name="MajorVer">1</VersionInfo>
+          <VersionInfo Name="MinorVer">0</VersionInfo>
+          <VersionInfo Name="Release">0</VersionInfo>
+          <VersionInfo Name="Build">0</VersionInfo>
+          <VersionInfo Name="Debug">False</VersionInfo>
+          <VersionInfo Name="PreRelease">False</VersionInfo>
+          <VersionInfo Name="Special">False</VersionInfo>
+          <VersionInfo Name="Private">False</VersionInfo>
+          <VersionInfo Name="DLL">False</VersionInfo>
+          <VersionInfo Name="Locale">1031</VersionInfo>
+          <VersionInfo Name="CodePage">1252</VersionInfo>
+        </VersionInfo>
+        <VersionInfoKeys>
+          <VersionInfoKeys Name="CompanyName"></VersionInfoKeys>
+          <VersionInfoKeys Name="FileDescription"></VersionInfoKeys>
+          <VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys>
+          <VersionInfoKeys Name="InternalName"></VersionInfoKeys>
+          <VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys>
+          <VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys>
+          <VersionInfoKeys Name="OriginalFilename"></VersionInfoKeys>
+          <VersionInfoKeys Name="ProductName"></VersionInfoKeys>
+          <VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys>
+          <VersionInfoKeys Name="Comments"></VersionInfoKeys>
+        </VersionInfoKeys>
+        <Debugging>
+          <Debugging Name="DebugSourceDirs"></Debugging>
+        </Debugging>
+        <Parameters>
+          <Parameters Name="RunParams"></Parameters>
+          <Parameters Name="Launcher"></Parameters>
+          <Parameters Name="UseLauncher">False</Parameters>
+          <Parameters Name="DebugCWD"></Parameters>
+          <Parameters Name="HostApplication"></Parameters>
+          <Parameters Name="RemoteHost"></Parameters>
+          <Parameters Name="RemotePath"></Parameters>
+          <Parameters Name="RemoteParams"></Parameters>
+          <Parameters Name="RemoteLauncher"></Parameters>
+          <Parameters Name="UseRemoteLauncher">False</Parameters>
+          <Parameters Name="RemoteCWD"></Parameters>
+          <Parameters Name="RemoteDebug">False</Parameters>
+          <Parameters Name="Debug Symbols Search Path"></Parameters>
+          <Parameters Name="LoadAllSymbols">True</Parameters>
+          <Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+        </Parameters>
+        <Linker>
+          <Linker Name="LibPrefix"></Linker>
+          <Linker Name="LibSuffix"></Linker>
+          <Linker Name="LibVersion"></Linker>
+        </Linker>
+      </IDEOPTIONS>
+    </BCBPROJECT>
+    <buildevents/>
+  </CPlusPlusBuilder.Personality>
+</BorlandProject>

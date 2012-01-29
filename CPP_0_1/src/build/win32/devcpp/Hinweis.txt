@@ -1,0 +1,3 @@
+Das Projektfile sollte in moment funktionieren. Es ist evtl. nötig, einige Includepfade hinzuzufügen und sich einige DLLs zu besorgen.
+
+Dte projectfile should work at the moment. Probably you have to add any include-paths and download some DLLs.

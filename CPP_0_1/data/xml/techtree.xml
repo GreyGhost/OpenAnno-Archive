@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<techtree>
+  <object id="sextant">
+   <name>sextant</name>
+   <image>sextant</image>
+   <needbuilding>residence</needbuilding>
+   <needbuilding_level>1</needbuilding_level>
+   <mini_map>1</mini_map>
+   <research_time>2</research_time>
+   <costs_wood>0</costs_wood>
+   <costs_stone>0</costs_stone>
+   <costs_iron>0</costs_iron>
+   <costs_gold>100</costs_gold>
+  </object>
+  <object id="biglumbermill">
+   <name>big_lumbermill</name>
+   <needbuilding>lumbermill</needbuilding>
+   <needbuilding_level>1</needbuilding_level>
+   <image>lumbermill1</image>
+   <costs_wood>250</costs_wood>
+   <costs_stone>0</costs_stone>
+   <costs_iron>100</costs_iron>
+   <costs_gold>300</costs_gold>
+   <produce_wood>2</produce_wood>
+   <population>80</population>
+  </object>
+  <object id="biggestlumbermill">
+   <name>biggest_lumbermill</name>
+   <needtech>biglumbermill</needtech>
+   <needbuilding>lumbermill</needbuilding>
+   <needbuilding_level>2</needbuilding_level>
+   <image>lumbermill2</image>
+   <produce_wood>3</produce_wood>
+   <costs_wood>550</costs_wood>
+   <costs_stone>0</costs_stone>
+   <costs_iron>500</costs_iron>
+   <costs_gold>800</costs_gold>
+   <population>120</population>
+  </object>
+  <object id="threefieldrotation">
+   <name>three_field_rotation</name>
+   <needbuilding>farm</needbuilding>
+   <needbuilding_level>1</needbuilding_level>
+   <image>threefield</image>
+   <produce_food>2</produce_food>
+   <costs_wood>500</costs_wood>
+   <costs_gold>100</costs_gold>
+   <population>120</population>
+  </object>
+  <object id="shipbuilding">
+   <name>ship_construction</name>
+   <needbuilding>harbour</needbuilding>
+   <needbuilding_level>1</needbuilding_level>
+   <image>shipbuilding</image>
+   <costs_wood>500</costs_wood>
+   <costs_gold>1000</costs_gold>
+   <population>1000</population>
+  </object>
+  <object id="geology">
+   <name>geology</name>
+   <needbuilding>academy</needbuilding>
+   <needbuilding_level>2</needbuilding_level>
+   <image>geology</image>
+   <costs_wood>600</costs_wood>
+   <costs_stone>600</costs_stone>
+   <costs_iron>600</costs_iron>
+   <costs_gold>3500</costs_gold>
+   <produce_iron>2</produce_iron>
+   <produce_stone>2</produce_stone>
+  </object>
+  <object id="trading">
+   <name>trading</name>
+   <needbuilding>academy</needbuilding>
+   <needbuilding_level>1</needbuilding_level>
+   <image>trading</image>
+   <costs_gold>2500</costs_gold>
+  </object>
+  <object id="constitutional_state">
+   <name>constitutional_state</name>
+   <needbuilding>academy</needbuilding>
+   <needbuilding_level>6</needbuilding_level>
+   <image>conststate</image>
+   <costs_gold>1500</costs_gold>
+  </object>
+  <object id="diplomacy">
+   <name>diplomacy</name>
+   <needbuilding>residence</needbuilding>
+   <needbuilding_level>3</needbuilding_level>
+   <image>diplomacy</image>
+   <costs_gold>2500</costs_gold>
+  </object>
+</techtree>

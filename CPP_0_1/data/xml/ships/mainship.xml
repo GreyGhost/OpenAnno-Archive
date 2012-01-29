@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<tile name="mainship.png">
+	<image directions="all" variation="0">mainship0.png</image>
+	<image directions="all" variation="1">mainship1.png</image>
+	<image directions="all" variation="2">mainship2.png</image>
+	<image directions="all" variation="3">mainship3.png</image>
+	<image directions="all" variation="4">mainship4.png</image>
+	<image directions="all" variation="5">mainship5.png</image>
+	<image directions="all" variation="6">mainship6.png</image>
+	<image directions="all" variation="7">mainship7.png</image>
+</tile>

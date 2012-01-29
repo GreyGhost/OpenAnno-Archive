@@ -1,0 +1,17 @@
+OpenAnno is an attempt to create an open source clone of the well known strategy game "Anno 1602" by Max Design/Sunflowers. Important goals are a free license, portability (support for Linux and Windows as well as other - more exotic - platforms like X-Box 360 or GP2X), network support and a modern technical design (especially an efficient but good-looking graphic engine).
+
+For detailed instructions regarding compiling and installation see README-INSTALL. For contributions to OpenAnno see README-CONTRIBUTING. You can find further information about this project on our website www.openanno.org.
+
+If you experience any problems with running OpenAnno, please report them to our Bug Tracker
+https://sourceforge.net/tracker/?group_id=143268&atid=755357
+or our forum
+http://openanno.org/forum/
+or contact a developer (see AUTHORS).
+
+Also you should try to play around with the values saved in data/xml/config.xml.
+
+A look in our Wiki
+http://www.openanno.org/wiki/index.php/En/Main_Page
+could also be useful.
+
+Please consider that OpenAnno is in a very early state of development and is absolutly unplayable as of now.

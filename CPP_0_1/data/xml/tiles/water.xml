@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tile fertility="5" type="sea" name="Water">
+	<slope type="plane">
+		<rotation angle="all">
+			<frame duration="1" image="water.png"/>
+		</rotation>
+	</slope>
+<!--   <rotation type="plane" angle="0" >
+     water.png
+     water2.png
+     water3.png
+     water4.png
+     water5.png
+     water6.png
+     water7.png
+     water8.png
+   </rotation>-->
+</tile>

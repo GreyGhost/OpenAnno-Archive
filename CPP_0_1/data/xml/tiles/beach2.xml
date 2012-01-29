@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<tile fertility="5" type="beach" name="Beach">
+	<slope type="plane">
+   		<rotation type="plane" angle="0">
+			<frame duration="1" image="beach_b.png"/>
+   		</rotation>
+   		<rotation type="plane" angle="90">
+			<frame duration="1" image="beach_l.png"/>
+   		</rotation>
+   		<rotation type="plane" angle="180">
+			<frame duration="1" image="beach_t.png"/>
+   		</rotation>
+   		<rotation type="plane" angle="270">
+			<frame duration="1" image="beach_r.png"/>
+   		</rotation>
+	</slope>
+</tile>

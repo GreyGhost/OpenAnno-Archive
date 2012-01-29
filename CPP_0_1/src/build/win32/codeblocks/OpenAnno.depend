@@ -1,0 +1,791 @@
+# depslib dependency file v1.0
+1153672446 d:\sources\openanno\trunk\src\entity.cpp
+	"entity.h"
+	"entityManager.h"
+
+1153672446 d:\sources\openanno\trunk\src\entity.h
+	<string>
+
+1153672446 d:\sources\openanno\trunk\src\entitymanager.h
+	<hash_map>
+	<ext/hash_map>
+	<map>
+	<vector>
+	<string>
+
+1153672446 d:\sources\openanno\trunk\src\entitymanager.cpp
+	"entityManager.h"
+	"entity.h"
+
+1153853532 d:\sources\openanno\trunk\src\font.cpp
+	"font.h"
+	<SDL_ttf.h>
+	<iostream>
+	<string>
+
+1153853516 d:\sources\openanno\trunk\src\font.h
+	<windows.h>
+	<SDL_ttf.h>
+	<string>
+	"texture.h"
+	"color.h"
+
+1153784771 d:\sources\openanno\trunk\src\build\win32\include\sdl\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1153784772 d:\sources\openanno\trunk\src\build\win32\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1153784771 d:\sources\openanno\trunk\src\build\win32\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1153784771 d:\sources\openanno\trunk\src\build\win32\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1153784772 d:\sources\openanno\trunk\src\build\win32\include\sdl\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_amiga.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1153784772 d:\sources\openanno\trunk\src\build\win32\include\sdl\sdl_platform.h
+
+1153784772 d:\sources\openanno\trunk\src\build\win32\include\sdl\sdl_config_amiga.h
+	"SDL_platform.h"
+
+1153784771 d:\sources\openanno\trunk\src\build\win32\include\sdl\sdl_config_dreamcast.h
+	"SDL_platform.h"
+
+1153784771 d:\sources\openanno\trunk\src\build\win32\include\sdl\sdl_config_macos.h
+	"SDL_platform.h"
+	<MacTypes.h>
+
+1153784772 d:\sources\openanno\trunk\src\build\win32\include\sdl\sdl_config_macosx.h
+	"SDL_platform.h"
+
+1153784771 d:\sources\openanno\trunk\src\build\win32\include\sdl\sdl_config_win32.h
+	"SDL_platform.h"
+
+1153784771 d:\sources\openanno\trunk\src\build\win32\include\sdl\sdl_config_os2.h
+	"SDL_platform.h"
+
+1153784772 d:\sources\openanno\trunk\src\build\win32\include\sdl\sdl_config_minimal.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1153784771 d:\sources\openanno\trunk\src\build\win32\include\sdl\begin_code.h
+
+1153784771 d:\sources\openanno\trunk\src\build\win32\include\sdl\close_code.h
+
+1153784771 d:\sources\openanno\trunk\src\build\win32\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1153784771 d:\sources\openanno\trunk\src\build\win32\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1153784772 d:\sources\openanno\trunk\src\build\win32\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1153784772 d:\sources\openanno\trunk\src\build\win32\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1153784771 d:\sources\openanno\trunk\src\build\win32\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1153784771 d:\sources\openanno\trunk\src\build\win32\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1153784772 d:\sources\openanno\trunk\src\build\win32\include\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1153784771 d:\sources\openanno\trunk\src\build\win32\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1153784771 d:\sources\openanno\trunk\src\build\win32\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1153784771 d:\sources\openanno\trunk\src\build\win32\include\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1153784772 d:\sources\openanno\trunk\src\build\win32\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1153784772 d:\sources\openanno\trunk\src\build\win32\include\sdl\sdl_keysym.h
+
+1153784771 d:\sources\openanno\trunk\src\build\win32\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1153784771 d:\sources\openanno\trunk\src\build\win32\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1153784772 d:\sources\openanno\trunk\src\build\win32\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1153784772 d:\sources\openanno\trunk\src\build\win32\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1153784772 d:\sources\openanno\trunk\src\build\win32\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1153784771 d:\sources\openanno\trunk\src\build\win32\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1153784771 d:\sources\openanno\trunk\src\build\win32\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1153853524 d:\sources\openanno\trunk\src\texture.h
+	<windows.h>
+	<SDL.h>
+	<GL/gl.h>
+	<string>
+	"io/resource.h"
+
+1154200489 d:\sources\openanno\trunk\src\io\resource.h
+	"../entity.h"
+
+1153672446 d:\sources\openanno\trunk\src\color.h
+
+1154383289 d:\sources\openanno\trunk\src\gui\checkbox.cpp
+	"checkbox.h"
+	"eventmanager.h"
+	"events/eventcommand.h"
+
+1154383289 d:\sources\openanno\trunk\src\gui\checkbox.h
+	<string>
+	"video/screen.h"
+	"video/surface.h"
+	"gui/events/eventmouseclick.h"
+	"commandwidget.h"
+
+1154383289 d:\sources\openanno\trunk\src\gui\widget.h
+	<list>
+	<map>
+	"video/screen.h"
+	"events/event.h"
+
+1153672446 d:\sources\openanno\trunk\src\screen.h
+	"surface.h"
+	"color.h"
+	"font.h"
+
+1153693037 d:\sources\openanno\trunk\src\surface.h
+	"texture.h"
+
+1153693037 d:\sources\openanno\trunk\src\gui\event.h
+
+1153672397 d:\sources\openanno\trunk\src\gui\eventmouseclick.h
+	"event.h"
+
+1153874867 d:\sources\openanno\trunk\src\gui\eventmanager.h
+	<map>
+	<list>
+	"events/event.h"
+	<assert.h>
+	"widget.h"
+
+1153672398 d:\sources\openanno\trunk\src\gui\eventcommand.h
+	"event.h"
+
+1153693037 d:\sources\openanno\trunk\src\gui\event.cpp
+	"event.h"
+	"widget.h"
+
+1153672397 d:\sources\openanno\trunk\src\gui\eventcommand.cpp
+	"eventcommand.h"
+
+1154118037 d:\sources\openanno\trunk\src\gui\eventmanager.cpp
+	<assert.h>
+	"eventmanager.h"
+	"widget.h"
+	"events/eventmousemove.h"
+	"events/eventmouseclick.h"
+	"events/eventkey.h"
+
+1153672397 d:\sources\openanno\trunk\src\gui\eventmouseclick.cpp
+	"eventmouseclick.h"
+	"widget.h"
+
+1153693037 d:\sources\openanno\trunk\src\gui\eventmousemove.cpp
+	"eventmousemove.h"
+	"eventmanager.h"
+	"widget.h"
+	"iostream"
+
+1153693037 d:\sources\openanno\trunk\src\gui\eventmousemove.h
+	"event.h"
+
+1154468888 d:\sources\openanno\trunk\src\gui\menu.cpp
+	"menu.h"
+	<assert.h>
+	<iostream>
+	"eventmanager.h"
+	"events/eventmousemove.h"
+	"events/eventmouseclick.h"
+	"events/eventcommand.h"
+
+1154383289 d:\sources\openanno\trunk\src\gui\menu.h
+	<string>
+	"video/screen.h"
+	"video/surface.h"
+	"gui/widget.h"
+	"gui/events/eventmousemove.h"
+	"gui/events/eventmouseclick.h"
+	"dialog.h"
+
+1154383289 d:\sources\openanno\trunk\src\gui\slider.cpp
+	"slider.h"
+	"eventmanager.h"
+
+1154383289 d:\sources\openanno\trunk\src\gui\slider.h
+	<string>
+	"video/screen.h"
+	"video/surface.h"
+	"gui/commandwidget.h"
+	"gui/events/eventmouseclick.h"
+	"gui/events/eventmousemove.h"
+
+1154472716 d:\sources\openanno\trunk\src\gui\startscreen.cpp
+	<sstream>
+	<iostream.>
+	"startscreen.h"
+	"events/eventmousemove.h"
+	"eventmanager.h"
+	"openanno.h"
+	"configuration.h"
+	"configdialog.h"
+
+1154383289 d:\sources\openanno\trunk\src\gui\startscreen.h
+	<stack>
+	"video/screen.h"
+	"video/surface.h"
+	"gui/widget.h"
+	"gui/menu.h"
+	"gui/events/eventcommand.h"
+	"gui/checkbox.h"
+	"gui/slider.h"
+	"gui/statictext.h"
+	"gui/selector.h"
+	"gui/editbox.h"
+	"dialog.h"
+	"gamestate.h"
+
+1154200489 d:\sources\openanno\trunk\src\openanno.h
+	<stack>
+	"video/screen.h"
+	"gui/startscreen.h"
+	"entity.h"
+	"gamestate.h"
+
+1154383677 d:\sources\openanno\trunk\src\gui\widget.cpp
+	"eventmanager.h"
+	"widget.h"
+
+1153847626 d:\sources\openanno\trunk\src\io\resource.cpp
+	"resource.h"
+	<assert.h>
+	<iostream>
+
+1153693037 d:\sources\openanno\trunk\src\io\resourcemanager.cpp
+	"resourceManager.h"
+	"resource.h"
+	"resourceLoader.h"
+
+1153672446 d:\sources\openanno\trunk\src\io\resourcemanager.h
+	<map>
+	<vector>
+	"resource.h"
+
+1153672446 d:\sources\openanno\trunk\src\io\resourceloader.h
+	"resource.h"
+
+1153853804 d:\sources\openanno\trunk\src\openanno.cpp
+	"configInclude.h"
+	<windows.h>
+	<SDL.h>
+	<SDL_image.h>
+	<GL/gl.h>
+	<iostream>
+	<stdlib.h>
+	"screen.h"
+	"openanno.h"
+	"gui/startscreen.h"
+	"scripting/scriptBinding.h"
+	"scripting/script.h"
+	"io/resourceManager.h"
+	"io/resourceLoader.h"
+	"gui/eventmanager.h"
+	"gui/eventmousemove.h"
+	"gui/eventmouseclick.h"
+
+1153847626 d:\sources\openanno\trunk\src\configinclude.h
+	"config.h"
+
+1153690291 d:\sources\openanno\trunk\src\config.h
+
+1153784772 d:\sources\openanno\trunk\src\build\win32\include\sdl\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1153672446 d:\sources\openanno\trunk\src\scripting\scriptbinding.h
+	"scriptingManager.h"
+	"methodArguments.h"
+	"class.h"
+	"luaScriptSystem.h"
+	"openanno.h"
+
+1154301533 d:\sources\openanno\trunk\src\scripting\scriptingmanager.h
+	<map>
+	<string>
+
+1154301533 d:\sources\openanno\trunk\src\scripting\methodarguments.h
+	"method.h"
+	"value.h"
+
+1154301533 d:\sources\openanno\trunk\src\scripting\method.h
+	"value.h"
+
+1154301533 d:\sources\openanno\trunk\src\scripting\value.h
+
+1154301533 d:\sources\openanno\trunk\src\scripting\class.h
+	<map>
+	<string>
+	"method.h"
+
+1154301533 d:\sources\openanno\trunk\src\scripting\luascriptsystem.h
+	<vector>
+	<lua/lua.h>
+	<lua/lauxlib.h>
+	<lua/lualib.h>
+	<lua.h>
+	<lauxlib.h>
+	<lualib.h>
+
+1153784768 d:\sources\openanno\trunk\src\build\win32\include\lua\lua.h
+	<stdarg.h>
+	<stddef.h>
+	"luaconf.h"
+
+1153784768 d:\sources\openanno\trunk\src\build\win32\include\lua\luaconf.h
+	<limits.h>
+	<stddef.h>
+	<unistd.h>
+	<io.h>
+	<stdio.h>
+	<stdio.h>
+	<readline/readline.h>
+	<readline/history.h>
+	<assert.h>
+	<math.h>
+	<unistd.h>
+
+1153784768 d:\sources\openanno\trunk\src\build\win32\include\lua\lauxlib.h
+	<stddef.h>
+	<stdio.h>
+	"lua.h"
+
+1153784768 d:\sources\openanno\trunk\src\build\win32\include\lua\lualib.h
+	"lua.h"
+
+1154301533 d:\sources\openanno\trunk\src\scripting\script.h
+	"../io/resource.h"
+
+1153853882 d:\sources\openanno\trunk\src\screen.cpp
+	<windows.h>
+	<SDL.h>
+	<GL/gl.h>
+	<iostream>
+	"screen.h"
+	"color.h"
+
+1154301533 d:\sources\openanno\trunk\src\scripting\class.cpp
+	"class.h"
+
+1154301533 d:\sources\openanno\trunk\src\scripting\luascriptsystem.cpp
+	<iostream>
+	"luaScriptSystem.h"
+	"method.h"
+	"methodArguments.h"
+	"scriptingManager.h"
+	"class.h"
+	"../entityManager.h"
+	"../entity.h"
+
+1154301533 d:\sources\openanno\trunk\src\scripting\method.cpp
+	"method.h"
+
+1154301533 d:\sources\openanno\trunk\src\scripting\script.cpp
+	<fstream>
+	"script.h"
+	"scriptingManager.h"
+	"luaScriptSystem.h"
+
+1154301533 d:\sources\openanno\trunk\src\scripting\scriptingmanager.cpp
+	"scriptingManager.h"
+	"class.h"
+	"luaScriptSystem.h"
+
+1153672446 d:\sources\openanno\trunk\src\surface.cpp
+	"surface.h"
+	"screen.h"
+	"io/resourceManager.h"
+
+1153853894 d:\sources\openanno\trunk\src\texture.cpp
+	"texture.h"
+	<assert.h>
+	<GL/gl.h>
+	<SDL.h>
+	<SDL_image.h>
+	<string>
+	<iostream>
+
+1154468889 d:\sources\openanno\trunk\src\video\screen.h
+	"video/surface.h"
+	"video/color.h"
+	"video/font.h"
+	<vector>
+
+1154200489 d:\sources\openanno\trunk\src\video\surface.h
+	"io/resource.h"
+
+1154300901 d:\sources\openanno\trunk\src\video\color.h
+
+1154300901 d:\sources\openanno\trunk\src\video\font.h
+	<windows.h>
+	<SDL/SDL_ttf.h>
+	<string>
+	"video/color.h"
+	"rect.h"
+
+1153875286 d:\sources\openanno\trunk\src\rect.h
+
+1153874867 d:\sources\openanno\trunk\src\gui\events\eventmouseclick.h
+	"event.h"
+
+1153874867 d:\sources\openanno\trunk\src\gui\events\event.h
+
+1154383289 d:\sources\openanno\trunk\src\gui\commandwidget.h
+	<string>
+	"video/screen.h"
+	"video/surface.h"
+	"gui/widget.h"
+
+1153874867 d:\sources\openanno\trunk\src\gui\events\eventcommand.h
+	"event.h"
+
+1154383289 d:\sources\openanno\trunk\src\gui\commandwidget.cpp
+	"commandwidget.h"
+	"eventmanager.h"
+	"gui/events/eventcommand.h"
+
+1154470154 d:\sources\openanno\trunk\src\gui\configdialog.cpp
+	"configdialog.h"
+	"statictext.h"
+	"editbox.h"
+	"checkbox.h"
+	"slider.h"
+	"configuration.h"
+	"eventmanager.h"
+	<sstream>
+
+1154468889 d:\sources\openanno\trunk\src\gui\configdialog.h
+	<string>
+	"dialog.h"
+	"editbox.h"
+	"slider.h"
+	"checkbox.h"
+	"selector.h"
+	"imagebutton.h"
+	"gui/events/eventcommand.h"
+
+1154468888 d:\sources\openanno\trunk\src\gui\dialog.h
+	<string>
+	"video/screen.h"
+	"video/surface.h"
+	"gui/commandwidget.h"
+
+1154383289 d:\sources\openanno\trunk\src\gui\editbox.h
+	<string>
+	"video/screen.h"
+	"gui/commandwidget.h"
+	"gui/events/eventkey.h"
+
+1153874867 d:\sources\openanno\trunk\src\gui\events\eventkey.h
+	"event.h"
+
+1153874867 d:\sources\openanno\trunk\src\gui\events\eventmousemove.h
+	"event.h"
+
+1154468889 d:\sources\openanno\trunk\src\gui\selector.h
+	<string>
+	<vector>
+	"video/surface.h"
+	"video/screen.h"
+	"gui/commandwidget.h"
+	"gui/events/eventmouseclick.h"
+
+1154469244 d:\sources\openanno\trunk\src\gui\imagebutton.h
+	<string>
+	"video/screen.h"
+	"video/surface.h"
+	"gui/commandwidget.h"
+	"gui/events/eventmousemove.h"
+	"gui/events/eventmouseclick.h"
+
+1154200486 d:\sources\openanno\trunk\src\gui\statictext.h
+	<string>
+	"gui/widget.h"
+	"video/screen.h"
+
+1154118042 d:\sources\openanno\trunk\src\configuration.h
+	<string>
+	"lib/tinyxml/tinyxml.h"
+
+1154118042 d:\sources\openanno\trunk\src\lib\tinyxml\tinyxml.h
+	<ctype.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<string>
+	<iostream>
+	"tinystr.h"
+
+1154118042 d:\sources\openanno\trunk\src\lib\tinyxml\tinystr.h
+	<assert.h>
+	<string.h>
+
+1154468888 d:\sources\openanno\trunk\src\gui\dialog.cpp
+	"dialog.h"
+
+1154383289 d:\sources\openanno\trunk\src\gui\editbox.cpp
+	"editbox.h"
+	"eventmanager.h"
+	"gui/events/eventkey.h"
+	<iostream>
+
+1154300900 d:\sources\openanno\trunk\src\gui\events\event.cpp
+	"event.h"
+	"gui/widget.h"
+
+1153874867 d:\sources\openanno\trunk\src\gui\events\eventcommand.cpp
+	"eventcommand.h"
+
+1153874867 d:\sources\openanno\trunk\src\gui\events\eventkey.cpp
+	"eventkey.h"
+	<SDL/SDL.h>
+
+1153874867 d:\sources\openanno\trunk\src\gui\events\eventmouseclick.cpp
+	"eventmouseclick.h"
+	"../widget.h"
+
+1153874867 d:\sources\openanno\trunk\src\gui\events\eventmousemove.cpp
+	"eventmousemove.h"
+	"../eventmanager.h"
+	"../widget.h"
+
+1154469244 d:\sources\openanno\trunk\src\gui\imagebutton.cpp
+	"imagebutton.h"
+	"eventmanager.h"
+	<iostream>
+
+1154468889 d:\sources\openanno\trunk\src\gui\selector.cpp
+	"selector.h"
+	"eventmanager.h"
+
+1154118042 d:\sources\openanno\trunk\src\gamestate.h
+
+1154300901 d:\sources\openanno\trunk\src\gui\statictext.cpp
+	"statictext.h"
+	"eventmanager.h"
+
+1154118042 d:\sources\openanno\trunk\src\lib\tinyxml\tinystr.cpp
+	"tinystr.h"
+
+1154118042 d:\sources\openanno\trunk\src\lib\tinyxml\tinyxml.cpp
+	<ctype.h>
+	"tinyxml.h"
+	<sstream>
+	<iostream>
+
+1154118042 d:\sources\openanno\trunk\src\lib\tinyxml\tinyxmlerror.cpp
+	"tinyxml.h"
+
+1154118042 d:\sources\openanno\trunk\src\lib\tinyxml\tinyxmlparser.cpp
+	"tinyxml.h"
+	<ctype.h>
+	<stddef.h>
+	<windows.h>
+
+1154301793 d:\sources\openanno\trunk\src\video\opengl\openglfont.cpp
+	<SDL/SDL_ttf.h>
+	<iostream>
+	<string>
+	"openglfont.h"
+
+1154301793 d:\sources\openanno\trunk\src\video\opengl\openglfont.h
+	<windows.h>
+	<SDL/SDL_ttf.h>
+	<string>
+	"texture.h"
+	"video/font.h"
+
+1154454754 d:\sources\openanno\trunk\src\video\opengl\texture.h
+	<windows.h>
+	<SDL/SDL.h>
+	<GL/gl.h>
+	<string>
+	"io/resource.h"
+
+1154468889 d:\sources\openanno\trunk\src\video\opengl\openglscreen.cpp
+	<windows.h>
+	<SDL/SDL.h>
+	<GL/gl.h>
+	<iostream>
+	"video/opengl/openglscreen.h"
+	"video/color.h"
+	"video/opengl/openglsurface.h"
+	"io/resourceManager.h"
+
+1154470154 d:\sources\openanno\trunk\src\video\opengl\openglscreen.h
+	"video/screen.h"
+	"video/opengl/openglsurface.h"
+	"video/color.h"
+	"video/opengl/openglfont.h"
+	<vector>
+	<set>
+
+1154387800 d:\sources\openanno\trunk\src\video\opengl\openglsurface.h
+	"video/opengl/texture.h"
+	"video/surface.h"
+
+1154454754 d:\sources\openanno\trunk\src\video\opengl\openglsurface.cpp
+	<iostream>
+	<SDL/SDL_image.h>
+	"video/opengl/openglsurface.h"
+	"video/opengl/openglscreen.h"
+	"io/resourceManager.h"
+
+1154454754 d:\sources\openanno\trunk\src\video\opengl\texture.cpp
+	"texture.h"
+	<assert.h>
+	<GL/gl.h>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	<string>
+	<iostream>
+
+1154200489 d:\sources\openanno\trunk\src\video\screen.cpp
+	"video/screen.h"
+
