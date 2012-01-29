@@ -24,6 +24,7 @@
 // Standard C++ library includes
 #include <cmath>
 #include <iostream>
+#include <stdint.h>
 
 /** A Point
  *

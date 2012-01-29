@@ -19,6 +19,7 @@
  ***************************************************************************/
 
 #include <iostream>
+#include <cstring>
 #include "luaScriptSystem.h"
 #include "method.h"
 #include "methodArguments.h"
